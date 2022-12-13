@@ -4,7 +4,9 @@
 
   In this challenge we prepare the development environment.
 
-### **In these Challenges we use the Windows Subsystem for Linux together with VS Code.**
+### **Challenge 1: Deploy the lab environment.**
+
+  In this challenge we are going to use VS Code with WSL to create a react web app. Since Node is used as a programming language, having a full stack linux subsystem for Open Source components is advantageous.
 
   [How to setup this scenario](https://learn.microsoft.com/en-us/windows/wsl/install)
 
@@ -19,6 +21,8 @@
   ![image](./.images/02-bicep-extension.png)
 
 ### **Install node in WSL:**
+  
+  We are goint to install node as described [here](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl).
 
   `sudo apt-get install curl`
 
@@ -40,7 +44,7 @@
 
   ![image](./.images/03-node-installation.png)
 
-## **Challenge 1: Adding a Bicep deployment to the project**
+## **Challenge 2: Adding a Bicep deployment to the project**
 
   In this challenge we add the Bicep deployment to the project.
   
@@ -63,20 +67,53 @@
 
   ![image](./.images/05-carml-structure.png)
 
-  
+  Now we are going to write the modules that are called from the main.bicep later. We need a module for the resource group creation in a subscription, and a module for setting up the static web app.
+  So we create two files in the folder bicep-modules:
 
-## **Challenge 2: Create a React Web App**
+  - deploy-resourcegroup.bicep
+  - deploy-webapp.bicep
 
-To create a React Web App, run the following commands from the root folder of the project:
+  The result should look like this:
+
+  ![image](./.images/06-bicep-module-files.png)
+
+## **Challenge 3: Create a React Web App**
+
+To create a React Web App, run the following commands from the [root](./) folder of the project.
+Open the terminal in VS Code using the WSL distribution of your choice. from the project root folder type:
 
 `npx create-react-app cloudastro-react-app`
 
 The following output is shown:
 
-## **Challenge 3: Commit to git and setup GitHub Action**
+![image](./.images/11-react-app-creation.png)
 
-In this Challenge
+This can take a minute or two.
+When the setup of react web app is finished, the following output is shown:
 
-`npx create-react-app cloudastro-react-app`
+## **Challenge 4: Commit to git and setup GitHub Action**
 
-The following output is shown:
+In this Challenge we are checking in the code to git and use GitHub to create a deployment action.
+
+![image](./.images/12-react-app-result.png)
+
+So we can now change into cloudastro-react-app and start a pre-build version of this app locally.
+
+`cd cloudastro-react-app`
+
+`npm start`
+
+This brings up the React Web App to your default browser on [http://localhost:3000](http://localhost:3000)
+
+![image](./.images/13-react-app-starting.png)
+
+![image](./.images/14-react-app-running.png)
+
+Now we can make some changes to the React Web App to align with the MicroHack.
+For that we are going to change the file App.js in the created folder "cloudastro-react-app/src/".
+
+The result is shown like this:
+
+![image](./.images/15-react-web-app-customized.png)
+
+We are ready for a deployment, sice this web page only exist for demonstration of the possibilities.
