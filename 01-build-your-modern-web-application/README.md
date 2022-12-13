@@ -20,19 +20,25 @@
     Install node in WSL:
 
     `sudo apt-get install curl`
+
     `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
+    
     `command -v nvm`
+    
     This should return `nvm`
 
     `nvm -v`
+
     This should return the version >= 0.39.2
 
     To install node enter the following:
+
     `nvm install node`
+    
     `nvm ls`
 
     ![image](./.images/03-node-installation.png)
-    
+
     
 - **Challenge 2: Adding a Bicep deployment to the project**
 In this challenge we add the Bicep deployment to the project.
