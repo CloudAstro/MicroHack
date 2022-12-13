@@ -42,14 +42,21 @@ module deployappserviceplan 'carml/0.8.0/Microsoft.Web/serverfarms/deploy.bicep'
   }
 }
 
-module deployappservice 'carml/0.8.0/Microsoft.Web/sites/deploy.bicep' = {
+module deploystaticwebapp 'carml/0.8.0/Microsoft.Web/staticSites/deploy.bicep' = {
   name: appservicename
-    params: {
-      kind: kindappservice
-      name: appservicename
-      location: location
-      serverFarmResourceId: deployappserviceplan.outputs.resourceId
+  params: {
+    name: appservicename
+    location: location
   }
 }
+// module deployappservice 'carml/0.8.0/Microsoft.Web/sites/deploy.bicep' = {
+//   name: appservicename
+//     params: {
+//       kind: kindappservice
+//       name: appservicename
+//       location: location
+//       serverFarmResourceId: deployappserviceplan.outputs.resourceId
+//   }
+// }
 
 

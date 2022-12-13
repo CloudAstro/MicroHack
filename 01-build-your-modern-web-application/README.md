@@ -1,10 +1,10 @@
 # **01 Build your modern web application**
 
-## **Challenge 1: Prepare your development environment**
+## Prepare your development environment**
 
   In this challenge we prepare the development environment.
 
-### **In this challenge we use the Windows Subsystem for Linux together with VS Code.**
+### **In these Challenges we use the Windows Subsystem for Linux together with VS Code.**
 
   [How to setup this scenario](https://learn.microsoft.com/en-us/windows/wsl/install)
 
@@ -40,13 +40,42 @@
 
   ![image](./.images/03-node-installation.png)
 
-## **Challenge 2: Adding a Bicep deployment to the project**
+## **Challenge 1: Adding a Bicep deployment to the project**
 
-In this challenge we add the Bicep deployment to the project.
+  In this challenge we add the Bicep deployment to the project.
+  
+  First we setup a folder structure in our project with the following folders:
+  
+- bicep-modules  
+- parameters  
+- pipelines
+  
+  For having a "Bicep Hook", we create a file in the project root directory named main.bicep.
+  
+  The result should look like this:
 
-## **Challenge 3: Create a React Web App**
+  ![image](./.images/04-folder-structure.png)
+
+  There is a Common Azure Resource Modules Library available [here](https://github.com/Azure/ResourceModules), that comes in versions. We use these modules in the deployment, so in the folder bicep-modules, a subfolder is created for the library named carml.
+  Below is the version number as folder, that contains the version of carml you choose to use when building your bicep deployment.
+  
+  The result looks like this:
+
+  ![image](./.images/05-carml-structure.png)
+
+  
+
+## **Challenge 2: Create a React Web App**
 
 To create a React Web App, run the following commands from the root folder of the project:
+
+`npx create-react-app cloudastro-react-app`
+
+The following output is shown:
+
+## **Challenge 3: Commit to git and setup GitHub Action**
+
+In this Challenge
 
 `npx create-react-app cloudastro-react-app`
 
