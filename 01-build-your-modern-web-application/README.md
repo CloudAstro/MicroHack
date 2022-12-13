@@ -3,7 +3,7 @@
 - **Challenge 1: Prepare your development environment**
     In this challenge we prepare the development environment.
 
-    In this challenge we use the Windows Subsystem for Linux together with VS Code.
+## - [In this challenge we use the Windows Subsystem for Linux together with VS Code.](#in-this-challenge-we-use-the-windows-subsystem-for-linux-together-with-vs-code)
 
     [How to setup this scenario](https://learn.microsoft.com/en-us/windows/wsl/install)
 
@@ -39,7 +39,6 @@
 
     ![image](./.images/03-node-installation.png)
 
-    
 - **Challenge 2: Adding a Bicep deployment to the project**
 In this challenge we add the Bicep deployment to the project.
 
