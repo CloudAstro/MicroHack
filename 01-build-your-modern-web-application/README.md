@@ -91,6 +91,8 @@ The following output is shown:
 This can take a minute or two.
 When the setup of react web app is finished, the following output is shown:
 
+![image](./.images/12-react-app-result.png)
+
 ## **Challenge 4: Commit to git and setup GitHub Action**
 
 In this Challenge we are checking in the code to git and use GitHub to create a deployment action.
