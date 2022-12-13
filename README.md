@@ -1,6 +1,6 @@
-# **Master Template MicroHack**
+# **CloudAstro MicroHack**
 
-- [**Master Template MicroHack**](#master-template-microhack)
+- [**CloudAstro MicroHack**](#cloudastro-microhack)
 - [MicroHack introduction and context](#microhack-introduction-and-context)
 - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
