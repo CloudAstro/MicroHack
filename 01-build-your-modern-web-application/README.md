@@ -89,23 +89,18 @@ The following output is shown:
 ![image](./.images/11-react-app-creation.png)
 
 This can take a minute or two.
+So we can now change into cloudastro-react-app and start a pre-build version of this app locally.
+
 When the setup of react web app is finished, the following output is shown:
 
 ![image](./.images/12-react-app-result.png)
-
-## **Challenge 4: Commit to git and setup GitHub Action**
-
-In this Challenge we are checking in the code to git and use GitHub to create a deployment action.
-
-![image](./.images/12-react-app-result.png)
-
-So we can now change into cloudastro-react-app and start a pre-build version of this app locally.
 
 `cd cloudastro-react-app`
 
 `npm start`
 
 This brings up the React Web App to your default browser on [http://localhost:3000](http://localhost:3000)
+
 
 ![image](./.images/13-react-app-starting.png)
 
@@ -119,3 +114,14 @@ The result is shown like this:
 ![image](./.images/15-react-web-app-customized.png)
 
 We are ready for a deployment, sice this web page only exist for demonstration of the possibilities.
+
+## **Challenge 4: Commit to git and setup GitHub Action**
+
+In this Challenge we are checking in the code to git and use GitHub to create a deployment action.
+First we have to create a build version of the React Web App. for this type the following command:
+
+`npm run build`
+
+The result shoud look like this:
+
+![image](./.images/17-react-web-app-compiled-successfully.png)
