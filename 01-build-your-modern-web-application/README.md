@@ -2,43 +2,43 @@
 
 ## **Challenge 1: Prepare your development environment**
 
-    In this challenge we prepare the development environment.
+  In this challenge we prepare the development environment.
 
 ### **In this challenge we use the Windows Subsystem for Linux together with VS Code.**
 
-    [How to setup this scenario](https://learn.microsoft.com/en-us/windows/wsl/install)
+  [How to setup this scenario](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-    [How to setup git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+  [How to setup git](https://docs.github.com/en/get-started/quickstart/set-up-git)
 
-    In VS Code install the git extension pack:
+  In VS Code install the git extension pack:
 
-    ![image](./.images/01-git-extension-pack.png)
+  ![image](./.images/01-git-extension-pack.png)
 
-    Add the Bicep Extension to VS Code:
+  Add the Bicep Extension to VS Code:
 
-    ![image](./.images/02-bicep-extension.png)
+  ![image](./.images/02-bicep-extension.png)
 
 ### **Install node in WSL:**
 
-    `sudo apt-get install curl`
+  `sudo apt-get install curl`
 
-    `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
-    
-    `command -v nvm`
-    
-    This should return `nvm`
+  `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
 
-    `nvm -v`
+  `command -v nvm`
 
-    This should return the version >= 0.39.2
+  This should return `nvm`
 
-    To install node enter the following:
+  `nvm -v`
 
-    `nvm install node`
-    
-    `nvm ls`
+  This should return the version >= 0.39.2
 
-    ![image](./.images/03-node-installation.png)
+  To install node enter the following:
+
+  `nvm install node`
+
+  `nvm ls`
+
+  ![image](./.images/03-node-installation.png)
 
 ## **Challenge 2: Adding a Bicep deployment to the project**
 
