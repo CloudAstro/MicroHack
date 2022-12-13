@@ -27,7 +27,7 @@
 
 # MicroHack introduction and context
 
-This MicroHack scenario walks through the use of ... with a focus on the best practices and the design principles. Specifically, this builds up to include working with an existing infrastructure.
+This MicroHack scenario walks through the use of VS Code to create a CI/CD pipeline deploying a modern web application like React web app with a focus on the best practices and the design principles. Specifically, this builds up to include working with an existing infrastructure.
 
 ![image](Path to the high level architecture )
 

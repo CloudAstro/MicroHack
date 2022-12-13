@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentPrefix": {
+      "value": "rm"
+    },
+    "rgname": {
+      "value": "rg-microhack-rolandmeier"
+    },
+    "appsname": {
+      "value": "apps-microhack-rolandmeier"
+    },
+    "location": {
+      "value": "west europe"
+    },
+    "lock": {
+      "value": "read-only"
+    },
+    "roleAssignments": {
+      "value": []
+    },
+    "enableDefaultTelemetry": {
+      "value": false
+    }
+  }
+}
