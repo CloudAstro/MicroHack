@@ -59,7 +59,7 @@ At the end of this MicroHack your base lab build looks as follows:
 
 ## MicroHack Parts 
 
-### Part 1 - Build your modern web application
+### [Part 1 - Build your modern web application](./01-build-your-modern-web-application/README.md)
 
 ### Part 2 - ...
 
