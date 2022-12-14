@@ -32,12 +32,12 @@ Main goals to achieve in this workshop:
 
 Actions that we took to achieve goals:
 
-1. Find docker image sample from internet
-2. Assign permissions to users joined in that tenant
-3. Create resource group
-4. Create Azure Container App in Subscription and resource group that we created
-5. Configure Container App with image we found in internet
-6. Deploying demo container with link the resource provided to us
+1. [Find docker image sample from internet](#find-docker-image-sample-from-internet)
+2. [Assign permissions to users joined in that tenant](#assign-permissions-to-users-joined-in-that-tenant)
+3. [Create resource group](#create-resource-group)
+4. [Create Azure Container App in Subscription and resource group that we created](#create-azure-container-app-in-subscription-and-resource-group-that-we-created)
+5. [Configure Container App with image we found in internet](#configure-container-app-with-image-we-found-in-internet)
+6. [Deploying demo container with link the resource provided to us](#deploying-demo-container-with-link-the-resource-provided-to-us)
 
 ## **Find docker image sample from internet**
 
