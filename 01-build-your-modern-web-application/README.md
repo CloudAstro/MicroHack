@@ -91,6 +91,14 @@ Developing in Bicep with this setup is a pleasure. Try to make use of the Intell
 
 ![image](./.images/07-bicep-main.png)
 
+When calling modules in Bicep, the path is specified for the module.bicep file to call. A module can have output variables that are returned as an object to the name of the module in main.bicep. This helps to use results from modules later in the script, e.g. to deploy some service into a resource group. The output from module deploy-resourcegroup is used to initialize the module deploy-webapp.bicep.
+
+![image](./.images/08-bicep-main-modules.png)
+
+Inside the module a resource can be created. Type res and wait for suggestions. Use resource and give that resource a name. Next is to select the API of the service. After the @ symbol, the APi version is selected.
+
+![image](./.images/09-bicep-module-rg.png)
+
 [Back to top](#01-build-your-modern-web-application)
 
 ## **Challenge 3: Create a React Web App**
