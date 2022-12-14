@@ -104,19 +104,29 @@ Overview
 
 2. What is that part of application that is recommended to run in “Container App” resource?
   Azure Container App it’s recommended to be used for deploying parts like:
+
   • Deploying API endpoints
+
   • Hosting background processing applications
+
   • Handling event-driven processing
+
   • Running microservices
   
   Recommended from Microsoft check: [https://learn.microsoft.com/en-us/azure/container-apps/overview](https://learn.microsoft.com/en-us/azure/container-apps/overview)
 
 Benefits
+
   • HTTP traffic
+
   • Event-driven processing
+
   • CPU or memory load
+
   • Any KEDA-supported scaler
+
   • Priceless
+
   • Container runs with no requirements, simple and easy (create image and run it automatically no requirement)
-  
+
 Recommended from Microsoft check: [https://learn.microsoft.com/en-us/azure/container-apps/overview](https://learn.microsoft.com/en-us/azure/container-apps/overview)
