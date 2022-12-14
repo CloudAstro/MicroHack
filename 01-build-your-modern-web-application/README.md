@@ -32,6 +32,13 @@ Permissions for the deployment:
 
 - Contributor on your Azure Subscription
 
+### Architecture
+
+At the end of this MicroHack your base lab build looks as follows:
+
+![image](Path to the architecture missing)
+
+
 ### **Challenge 1: Deploy the lab environment.**
 
   In this challenge we are going to use VS Code with WSL to create a react web app. Since Node is used as a programming language, having a full stack linux subsystem for Open Source components is advantageous.
