@@ -87,6 +87,10 @@ The result should look like this:
 
 ![image](./.images/06-bicep-module-files.png)
 
+Developing in Bicep with this setup is a pleasure. Try to make use of the IntelliSense feature and the Bicep language support in VS Code. To start just type tar and wait for the suggestions to come up. Select targetScope from the list. Type = and press Strg+Space to see possible values for targetScope. It is very intuitive...
+
+![image](./.images/07-bicep-main.png)
+
 [Back to top](#01-build-your-modern-web-application)
 
 ## **Challenge 3: Create a React Web App**

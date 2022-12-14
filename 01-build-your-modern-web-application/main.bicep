@@ -9,7 +9,7 @@ targetScope = 'subscription'
 
 @minLength(2)
 @maxLength(4)
-@description('Required. The name of the resource group to deploy.')
+@description('Required. The deployment name prefix.')
 param deploymentPrefix string //= ''
 
 @description('Required. The name of the Resource Group.')
@@ -45,7 +45,8 @@ param enableDefaultTelemetry bool
 // ==================== //
 
 // var rgname = 'rg-${name}-${deploymentPrefix}'
-var appservicename = '${appsname}-${deploymentPrefix}'
+var appservicename = '${deploymentPrefix}-${appsname}'
+
 // =========== //
 // Deployments //
 // =========== //
