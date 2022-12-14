@@ -8,9 +8,29 @@
 - [Challenge 4:Setup GitHub Actions](#challenge-4-commit-to-git-and-setup-github-action)
 - [Challenge 5:Deployment Ready](#challenge-5-deployment-ready)
 
-## Prepare your development environment**
+## **Objectives**
 
-  In this challenge we prepare the development environment.
+After completing this MicroHack you will:
+
+- Know how to build a Bicep deployment with a resource group and a static web app
+- Understand the easiness of creating a React web app.
+- Understand how to leverage GitHub Actions to build a CI/CD pipeline for this solution
+
+## **Prerequisites**
+
+In order to use the MicroHack time most effectively, the following tasks should be completed prior to starting the session.
+
+With these pre-requisites in place, we can focus on building the fundamental knowledge in Bicep, React and GitHub that is required when working with the product.
+
+In summary:
+
+- Azure Subscription
+- VS Code installed on the local PC
+- WSL used as Linux subsystem
+
+Permissions for the deployment:
+
+- Contributor on your Azure Subscription
 
 ### **Challenge 1: Deploy the lab environment.**
 
