@@ -41,6 +41,12 @@ Actions that we took to achieve goals:
 
 ## **Find docker image sample from internet**
 
+Steps in screenshots:
+
+1. Role assignment to subscription
+
+![image](./.images/01-role-assignments-to-subscription.png)
+
 ## **Assign permissions to users joined in that tenant**
 
 ## **Create resource group**
