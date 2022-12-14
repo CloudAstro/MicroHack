@@ -1,7 +1,17 @@
 # **01 Build your modern web application**
 
+This MicroHack scenario walks through the use of VS Code to create a CI/CD pipeline deploying a modern web application like React web app with a focus on the best practices and the design principles. Specifically, this builds up to include working with an existing infrastructure.
+
+![image](Path to the high level architecture )
+
+This lab is not a full explanation of .... as a technology, please consider the following articles required pre-reading to build foundational knowledge.
+
+Optional (read this after completing this lab to take your learning even deeper!
+
+Describe the scenario here...
+
 - [Challenge 1:Deploy the lab environment](#challenge-1-deploy-the-lab-environment)
-  - [Install VS Code Extensions](#prepare-your-development-environment)
+  - [Install VS Code Extensions](#install-vs-code-extensions)
   - [Install node in WSL](#install-node-in-wsl)
 - [Challenge 2:Adding a bicep deployment](#challenge-2-adding-a-bicep-deployment-to-the-project)
 - [Challenge 3:Create a React Web App](#challenge-3-create-a-react-web-app)
@@ -38,7 +48,6 @@ At the end of this MicroHack your base lab build looks as follows:
 
 ![image](Path to the architecture missing)
 
-
 ### **Challenge 1: Deploy the lab environment.**
 
   In this challenge we are going to use VS Code with WSL to create a react web app. Since Node is used as a programming language, having a full stack linux subsystem for Open Source components is advantageous.
@@ -46,6 +55,8 @@ At the end of this MicroHack your base lab build looks as follows:
   [How to setup this scenario](https://learn.microsoft.com/en-us/windows/wsl/install)
 
   [How to setup git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+
+### **Install VS Code Extensions**
 
   In VS Code install the git extension pack:
 

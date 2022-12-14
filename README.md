@@ -11,15 +11,13 @@
 
 ## MicroHack introduction and context
 
-This MicroHack scenario walks through the use of VS Code to create a CI/CD pipeline deploying a modern web application like React web app with a focus on the best practices and the design principles. Specifically, this builds up to include working with an existing infrastructure.
+This MicroHack is devided to 3 modules.
 
-![image](Path to the high level architecture )
+Description of Module 1
 
-This lab is not a full explanation of .... as a technology, please consider the following articles required pre-reading to build foundational knowledge.
+Description of Module 2
 
-Optional (read this after completing this lab to take your learning even deeper!
-
-Describe the scenario here...
+Description of module 3
 
 ## Objectives
 
