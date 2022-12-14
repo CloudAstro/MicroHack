@@ -123,15 +123,15 @@ Inside the module a resource can be created. Type res and wait for suggestions. 
   
   `npm start`
   
-  This brings up the React Web App to your default browser on [http://localhost:3000](http://  localhost:3000)
+  This brings up the React Web App to your default browser on [http://localhost:3000](http://localhost:3000)
   
   ![image](./.images/13-react-app-starting.png)
   
   ![image](./.images/14-react-app-running.png)
   
   Now we can make some changes to the React Web App to align with the MicroHack.
-  For that we are going to change the file App.js in the created folder "cloudastro-react-app/src/".
-  
+  For that we are going to change the file App.js in the created folder [./cloudastro-react-app/src/App.js](./cloudastro-react-app/src/App.js)
+
   The result is shown like this:
   
   ![image](./.images/15-react-web-app-customized.png)
