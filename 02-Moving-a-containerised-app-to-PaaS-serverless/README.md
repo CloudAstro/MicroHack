@@ -1,6 +1,6 @@
 # **02 Moving a containerised app to PaaS/serverless**
 
-Introduction
+## **Introduction**
 
 The workshop provided by us aims towards providing Container App resource on Azure with test “hello world” docker image from internet.
 
@@ -8,28 +8,32 @@ Workshop consists of the deployment and presenting how serverless resources on A
 
 In this case we deployed only a simple application in one docker image to the container app and provide link to show the container runs automatically without prerequisites.
 
-Requirements
+## **Requirements**
 
 Application deployment can be done successfully after receiving full control on Docker image repo credentials of the client.
 
-Infrastructure Environment:
+### **Infrastructure Environment:**
 
 - Subscription to deploy resources
 - Container App resource in Azure
 - Docker image link user/password to add in resource
 
-Reference links 
+## **Reference links**
 
 Microsoft - [https://learn.microsoft.com/en-us/azure/container-apps/quickstart-portal](https://learn.microsoft.com/en-us/azure/container-apps/quickstart-portal)
 
 Microsoft Video - [https://www.youtube.com/watch?v=b3dopSTnSRg](https://www.youtube.com/watch?v=b3dopSTnSRg)
 
+## **Challenges**
+
+Goal
 Main goals to achieve in this workshop:
 
 1. Participating and working as a team with colleagues
 2. Deploying docker image sample from internet in container app
 3. Discussion with colleagues about benefits of serverless resources
 
+Actions
 Actions that we took to achieve goals:
 
 1. [Find docker image sample from internet](#find-docker-image-sample-from-internet)
@@ -41,17 +45,25 @@ Actions that we took to achieve goals:
 
 ## **Find docker image sample from internet**
 
+## **Assign permissions to users joined in that tenant**
+
 Steps in screenshots:
 
 1. Role assignment to subscription
 
 ![image](./.images/01-role-assignments-to-subscription.png)
 
-## **Assign permissions to users joined in that tenant**
-
 ## **Create resource group**
 
+2. Creating resource group
+
+![image](./.images/02-create-resource-group.png)
+
 ## **Create Azure Container App in Subscription and resource group that we created**
+
+3. Create Container App in Subscription and resource group
+
+![image](./.images/03-create-container-app.png)
 
 ## **Configure Container App with image we found in internet**
 
