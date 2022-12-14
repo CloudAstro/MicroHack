@@ -56,38 +56,38 @@
 
 ## **Challenge 2: Adding a Bicep deployment to the project**
 
-  In this challenge we add the Bicep deployment to the project.
+In this challenge we add the Bicep deployment to the project.
   
-  First we setup a folder structure in our project with the following folders:
-  
+First we setup a folder structure in our project with the following folders:
+
 - bicep-modules  
 - parameters  
 - pipelines
   
-  For having a "Bicep Hook", we create a file in the project root directory named main.bicep.
+For having a "Bicep Hook", we create a file in the project root directory named main.bicep.
   
-  The result should look like this:
+The result should look like this:
 
-  ![image](./.images/04-folder-structure.png)
+![image](./.images/04-folder-structure.png)
 
-  There is a Common Azure Resource Modules Library available [here](https://github.com/Azure/ResourceModules), that comes in versions. We use these modules in the deployment, so in the folder bicep-modules, a subfolder is created for the library named carml.
-  Below is the version number as folder, that contains the version of carml you choose to use when building your bicep deployment.
+There is a Common Azure Resource Modules Library available [here](https://github.com/Azure/ResourceModules), that comes in versions. We use these modules in the deployment, so in the folder bicep-modules, a subfolder is created for the library named carml.
+Below is the version number as folder, that contains the version of carml you choose to use when building your bicep deployment.
   
-  The result looks like this:
+The result looks like this:
 
-  ![image](./.images/05-carml-structure.png)
+![image](./.images/05-carml-structure.png)
 
-  Now we are going to write the modules that are called from the main.bicep later. We need a module for the resource group creation in a subscription, and a module for setting up the static web app.
-  So we create two files in the folder bicep-modules:
+Now we are going to write the modules that are called from the main.bicep later. We need a module for the resource group creation in a subscription, and a module for setting up the static web app.
+So we create two files in the folder bicep-modules:
 
-  - deploy-resourcegroup.bicep
-  - deploy-webapp.bicep
+- deploy-resourcegroup.bicep
+- deploy-webapp.bicep
 
-  The result should look like this:
+The result should look like this:
 
-  ![image](./.images/06-bicep-module-files.png)
+![image](./.images/06-bicep-module-files.png)
 
-  [Back to top](#01-build-your-modern-web-application)
+[Back to top](#01-build-your-modern-web-application)
 
 ## **Challenge 3: Create a React Web App**
 
