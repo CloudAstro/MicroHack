@@ -61,6 +61,6 @@ At the end of this MicroHack your base lab build looks as follows:
 
 ### [Part 1 - Build your modern web application](./01-build-your-modern-web-application/README.md)
 
-### [Part 2](./02-...)
+### [Part 2 - Moving a containerised app to PaaS/serverless](./02-Moving-a-containerised-app-to-PaaS-serverless/)
 
 ### [Part 3](./03-...)
