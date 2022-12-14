@@ -57,10 +57,10 @@ At the end of this MicroHack your base lab build looks as follows:
 
 ![image](Path to the architecture )
 
-## MicroHack Parts 
+## MicroHack Parts
 
 ### [Part 1 - Build your modern web application](./01-build-your-modern-web-application/README.md)
 
-### Part 2 - ...
+### [Part 2](./02-...)
 
-### Part 3 - ...
+### [Part 3](./03-...)

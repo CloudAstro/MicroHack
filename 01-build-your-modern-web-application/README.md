@@ -1,5 +1,13 @@
 # **01 Build your modern web application**
 
+- [Challenge 1:Deploy the lab environment](#challenge-1-deploy-the-lab-environment)
+  - [Install VS Code Extensions](#prepare-your-development-environment)
+  - [Install node in WSL](#install-node-in-wsl)
+- [Challenge 2:Adding a bicep deployment](#challenge-2-adding-a-bicep-deployment-to-the-project)
+- [Challenge 3:Create a React Web App](#challenge-3-create-a-react-web-app)
+- [Challenge 4:Setup GitHub Actions](#challenge-4-commit-to-git-and-setup-github-action)
+- [Challenge 5:Deployment Ready](#challenge-5-deployment-ready)
+
 ## Prepare your development environment**
 
   In this challenge we prepare the development environment.
@@ -101,7 +109,6 @@ When the setup of react web app is finished, the following output is shown:
 
 This brings up the React Web App to your default browser on [http://localhost:3000](http://localhost:3000)
 
-
 ![image](./.images/13-react-app-starting.png)
 
 ![image](./.images/14-react-app-running.png)
@@ -125,3 +132,5 @@ First we have to create a build version of the React Web App. for this type the 
 The result shoud look like this:
 
 ![image](./.images/17-react-web-app-compiled-successfully.png)
+
+## **Challenge 5: Deployment Ready**
