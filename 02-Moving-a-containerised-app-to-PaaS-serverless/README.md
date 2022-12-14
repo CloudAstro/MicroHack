@@ -85,4 +85,38 @@ Steps in screenshots:
 
 ## **Deploying demo container with link the resource provided to us**
 
+5. Validation passed
+
+![image](./.images/05-validation-passed.png)
+
+6. Container App resource in Azure created successfully
+
+![image](./.images/06-container-app-created-successfully.png)
+
 [Back to top](#02-moving-a-containerised-app-to-paasserverless)
+
+## **Evaluation**
+
+Overview
+
+1. Why use Azure serverless “Container App” resource?
+  Azure Container App helps deploying that less useable part of web application to be used whenever it’s needed to use.
+
+2. What is that part of application that is recommended to run in “Container App” resource?
+  Azure Container App it’s recommended to be used for deploying parts like:
+  • Deploying API endpoints
+  • Hosting background processing applications
+  • Handling event-driven processing
+  • Running microservices
+  
+  Recommended from Microsoft check: [https://learn.microsoft.com/en-us/azure/container-apps/overview](https://learn.microsoft.com/en-us/azure/container-apps/overview)
+
+Benefits
+  • HTTP traffic
+  • Event-driven processing
+  • CPU or memory load
+  • Any KEDA-supported scaler
+  • Priceless
+  • Container runs with no requirements, simple and easy (create image and run it automatically no requirement)
+  
+Recommended from Microsoft check: [https://learn.microsoft.com/en-us/azure/container-apps/overview](https://learn.microsoft.com/en-us/azure/container-apps/overview)
