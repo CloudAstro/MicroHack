@@ -91,42 +91,42 @@
 
 ## **Challenge 3: Create a React Web App**
 
-To create a React Web App, run the following commands from the [root](./) folder of the project.
-Open the terminal in VS Code using the WSL distribution of your choice. from the project root folder type:
-
-`npx create-react-app cloudastro-react-app`
-
-The following output is shown:
-
-![image](./.images/11-react-app-creation.png)
-
-This can take a minute or two.
-So we can now change into cloudastro-react-app and start a pre-build version of this app locally.
-
-When the setup of react web app is finished, the following output is shown:
-
-![image](./.images/12-react-app-result.png)
-
-`cd cloudastro-react-app`
-
-`npm start`
-
-This brings up the React Web App to your default browser on [http://localhost:3000](http://localhost:3000)
-
-![image](./.images/13-react-app-starting.png)
-
-![image](./.images/14-react-app-running.png)
-
-Now we can make some changes to the React Web App to align with the MicroHack.
-For that we are going to change the file App.js in the created folder "cloudastro-react-app/src/".
-
-The result is shown like this:
-
-![image](./.images/15-react-web-app-customized.png)
-
-We are ready for a deployment, sice this web page only exist for demonstration of the possibilities.
-
-[Back to top](#01-build-your-modern-web-application)
+  To create a React Web App, run the following commands from the [root](./) folder of the project.
+  Open the terminal in VS Code using the WSL distribution of your choice. from the project root folder   type:
+  
+  `npx create-react-app cloudastro-react-app`
+  
+  The following output is shown:
+  
+  ![image](./.images/11-react-app-creation.png)
+  
+  This can take a minute or two.
+  So we can now change into cloudastro-react-app and start a pre-build version of this app locally.
+  
+  When the setup of react web app is finished, the following output is shown:
+  
+  ![image](./.images/12-react-app-result.png)
+  
+  `cd cloudastro-react-app`
+  
+  `npm start`
+  
+  This brings up the React Web App to your default browser on [http://localhost:3000](http://  localhost:3000)
+  
+  ![image](./.images/13-react-app-starting.png)
+  
+  ![image](./.images/14-react-app-running.png)
+  
+  Now we can make some changes to the React Web App to align with the MicroHack.
+  For that we are going to change the file App.js in the created folder "cloudastro-react-app/src/".
+  
+  The result is shown like this:
+  
+  ![image](./.images/15-react-web-app-customized.png)
+  
+  We are ready for a deployment, sice this web page only exist for demonstration of the possibilities.
+  
+  [Back to top](#01-build-your-modern-web-application)
 
 ## **Challenge 4: Commit to git and setup GitHub Action**
 
