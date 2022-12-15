@@ -33,4 +33,6 @@ Prerequisites are outlined for every module of the microhack in the modules READ
 
 ### [Part 2 - Moving a containerised app to PaaS/serverless](./02-Moving-a-containerised-app-to-PaaS-serverless/)
 
-### [Part 3](./03-...)
+### [Part 3 - Developer Productivity / Developer Velocity
+![image](https://user-images.githubusercontent.com/119932800/207817061-7f3e8a6a-e1ed-42c9-a330-9361658b33b1.png)
+](./03-...)
