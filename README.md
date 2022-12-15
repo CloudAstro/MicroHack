@@ -7,7 +7,7 @@
 - [MicroHack Parts](#microhack-parts)
   - [Part 1 - Build your modern web application](./01-build-your-modern-web-application/README.md)
   - [Part 2 - Moving a containerised app to PaaS/serverless](./02-Moving-a-containerised-app-to-PaaS-serverless/)
-  - [Part 3 = Developer Productivity / Developer Velocity](./03=Developer Productivity / Developer Velocity)
+  - [Part 3 - Developer Productivity / Developer Velocity](./03=Developer-Productivity/Developer-Velocity)
 
 ## MicroHack introduction and context
 
@@ -33,4 +33,4 @@ Prerequisites are outlined for every module of the microhack in the modules READ
 
 ### [Part 2 - Moving a containerised app to PaaS/serverless](./02-Moving-a-containerised-app-to-PaaS-serverless/)
 
-### [Part 3 - Developer Productivity / Developer Velocity ](./03=Developer Productivity / Developer Velocity)
+### [Part 3 - Developer Productivity / Developer Velocity ](./03=Developer-Productivity/Developer-Velocity)
