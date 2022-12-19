@@ -6,11 +6,27 @@
 - [Prerequisites](#prerequisites)
 - [MicroHack Parts](#microhack-parts)
   - [Part 1 - Build your modern web application](./01-build-your-modern-web-application/README.md)
+<<<<<<< HEAD
   - [Part 2 - Sustainable-Software-Development-Green-Coding](./02-Sustainable-Software-Development-Green-Coding/README.md)
   - [Part 3 - Developer Productivity / Developer Velocity](./03-Developer-Productivity/Developer-Velocity/README.md)
 =======
   - [Part 2 - ./02-Sustainable-Software-Development-Green-Coding/](./03-developer-productivity-developer-velocity/5-Moving-a-containerised-app-to-PaaS-serverless/)
 ##  - [Part 3 : Name..](./03-developer-productivity-developer-velocity/)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - [Part 2 - Sustainable-Software-Development-Green-Coding](./02-Sustainable-Software-Development-Green-Coding/)
+  - [Part 3 - Developer Productivity / Developer Velocity](./03-Developer-Productivity/Developer-Velocity/README.md)
+=======
+  - [Part 2 - ./02-Sustainable-Software-Development-Green-Coding/](./03-developer-productivity-developer-velocity/5-Moving-a-containerised-app-to-PaaS-serverless/)
+=======
+  - [Part 2 - 02-Sustainable-Software-Development-Green-Coding](./02-Sustainable-Software-Development-Green-Coding/)
+  - [Part 3 - Developer Productivity / Developer Velocity](./03=Developer-Productivity/Developer-Velocity/)
+    - [Part 1 - Moving a containerised app to PaaS/serverless](./03-developer-productivity-developer-velocity/)
+    - [Part 5-Moving-a-containerised-app-to-PaaS-serverless]()
+>>>>>>> c9e3e89 (Adding Structure)
+  - [Part 3 : Name..](./03-developer-productivity-developer-velocity/)
+>>>>>>> 5976ec11b7a0c345da2db656bb0e5f12d84ed942
 >>>>>>> 6e677c9 (Changed structure of parts of the MicroHack. Not finished!)
 
 ## MicroHack introduction and context
