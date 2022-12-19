@@ -36,6 +36,6 @@ Prerequisites are outlined for every module of the microhack in the modules READ
 
 ### [Part 1 - Build your modern web application](./01-build-your-modern-web-application/README.md)
 
-### [Part 2 - Sustainable Software Development Green Coding](./02-Sustainable-Software-Development-Green-Coding/)
+### [Part 2 - Sustainable Software Development Green Coding](./02-Sustainable-Software-Development-Green-Coding/README.md)
 
 ### [Part 3 - Developer Productivity / Developer Velocity ](./03-Developer-Productivity/Developer-Velocity/README.md)
