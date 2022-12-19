@@ -10,7 +10,7 @@
   - [Part 2 - Sustainable-Software-Development-Green-Coding](./02-Sustainable-Software-Development-Green-Coding/)
   - [Part 3 - Developer Productivity / Developer Velocity](./03=Developer-Productivity/Developer-Velocity/README.md)
 =======
-  - [Part 2 - Moving a containerised app to PaaS/serverless](./03-developer-productivity-developer-velocity/5-Moving-a-containerised-app-to-PaaS-serverless/)
+  - [Part 2 - ./02-Sustainable-Software-Development-Green-Coding/](./03-developer-productivity-developer-velocity/5-Moving-a-containerised-app-to-PaaS-serverless/)
   - [Part 3 : Name..](./03-developer-productivity-developer-velocity/)
 >>>>>>> 6e677c9 (Changed structure of parts of the MicroHack. Not finished!)
 
