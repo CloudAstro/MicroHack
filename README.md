@@ -5,9 +5,9 @@
 - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
 - [MicroHack Parts](#microhack-parts)
-  - [Part 1 - Build your modern web application](./01-build-your-modern-web-application/README.md)
+  - [Part 1 - Build your modern web application](./01-build-your-modern-web-application/)
   - [Part 2 - Sustainable-Software-Development-Green-Coding](./02-Sustainable-Software-Development-Green-Coding/)
-  - [Part 3 - Developer Productivity / Developer Velocity](./03-Developer-Productivity/Developer-Velocity/README.md)
+  - [Part 3 - Developer Productivity / Developer Velocity](./03-Developer-Productivity/Developer-Velocity/)
 
 
 ## MicroHack introduction and context
