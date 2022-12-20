@@ -9,7 +9,9 @@ jobs:
     - uses: actions/checkout@main
 
       # Log into Azure
-    - uses: azure/login@v1.4.3
+    - name: Log in to Azure subscription
+      if: env.subscription == 'Visual Studio Enterprise'
+      uses: azure/login@v1.4.3
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
