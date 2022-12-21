@@ -23,4 +23,4 @@ jobs:
         resourceGroupName: ${{ secrets.AZURE_RG }}
         template: ./01-build-your-modern-web-application/main.bicep
         parameters: ./01-build-your-modern-web-application/parameters/main.parameters.json
-        failOnStdErr: false
+        
