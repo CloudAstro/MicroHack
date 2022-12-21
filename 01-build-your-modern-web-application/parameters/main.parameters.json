@@ -15,7 +15,7 @@
       "value": "west europe"
     },
     "lock": {
-      "value": "read-only"
+      "value": ""
     },
     "roleAssignments": {
       "value": []
