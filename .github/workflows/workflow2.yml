@@ -1,0 +1,20 @@
+on: [push]
+name: AzureARMSample
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@master
+
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - uses: azure/arm-deploy@v1
+      with:
+        resourceGroupName: rg-microhack-roland
+        template: ./01-build-your-modern-web-application/main.bicep
+        parameters: ./01-build-your-modern-web-application/parameters/main.parameters.json
+        additionalArguments: "--what-if --rollback-on-error --what-if-exclude-change-types Create Ignore"
