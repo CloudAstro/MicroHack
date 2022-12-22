@@ -8,7 +8,8 @@ jobs:
       # Checkout code
     - uses: actions/checkout@main
 
-    - run: |
+    - name: Reserved
+      run: |
         ls -la
         az -v
 
@@ -19,20 +20,14 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         enable-AzPSSession: true
 
-    - name: 'Run Az commands'
-      run: |
-        az group create --name "rg-microhack-roland" --location "west europe"
-
-      # Deploy Bicep file
+       # Deploy Bicep file
     - name: Deploy Bicep
-      uses: azure/arm-deploy@v1
-      with:
-        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
-        resourceGroupName: ${{ secrets.AZURE_RG }}
-        template: ./01-build-your-modern-web-application/main.bicep
-        parameters: ./01-build-your-modern-web-application/parameters/main.parameters.json
-
-
+      run: |
+        az deployment sub create \
+          --location "West Europe" \
+          --name Testdeployment20221222 \
+          --template-file ./01-build-your-modern-web-application/main.bicep \
+          --parameters ./01-build-your-modern-web-application/parameters/main.parameters.json
 
 
 # checkout code
