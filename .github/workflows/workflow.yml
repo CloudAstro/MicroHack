@@ -1,5 +1,5 @@
 on: [push]
-name: Azure Daployment
+name: Azure Deployment
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -19,18 +19,17 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         enable-AzPSSession: true
 
-    - name: 'Run az commands'
+    - name: 'Run Az commands'
       run: |
         az account show
-        az group create \
-          --name ${{ secrets.AZURE_RG }} \
-          --location ${{ secrets.AZURE_LOCATION }}
+        az group create --name ${{ secrets.AZURE_RG }} --location ${{ secrets.AZURE_LOCATION }}
 
       # Deploy Bicep file
-    - name: deployBicep
+    - name: Deploy Bicep
       uses: azure/arm-deploy@v1
       with:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
+        resourceGroupName: ${{ secrets.AZURE_RG }}
         template: ./01-build-your-modern-web-application/main.bicep
         parameters: ./01-build-your-modern-web-application/parameters/main.parameters.json
 
