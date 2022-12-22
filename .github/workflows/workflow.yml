@@ -29,22 +29,11 @@ jobs:
           --template-file ./01-build-your-modern-web-application/main.bicep \
           --parameters ./01-build-your-modern-web-application/parameters/main.parameters.json
 
+    - name: Build React Web App
+      run: |
+        cd ./01-build-your-modern-web-application/cloudastro-react-app
+        npm run build
 
-# checkout code
-# npm run build
-# az account set --subscription c34e7d41-2896-4edd-9386-9432283d9cb4
-
-
-
-# The project was built assuming it is hosted at /.
-# You can control this with the homepage field in your package.json.
-
-# The build folder is ready to be deployed.
-# You may serve it with a static server:
-
-#   npm install -g serve
-#   serve -s build
-
-# Find out more about deployment here:
-
-#   https://cra.link/deployment
+    # - name: Update Static Web App
+    #   run: |
+        
