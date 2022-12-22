@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@main
 
     - run: |
-      ls -la
+        ls -la
 
       # Log into Azure
     - name: Login via Az module
