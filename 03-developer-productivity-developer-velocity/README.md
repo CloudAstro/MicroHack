@@ -121,8 +121,15 @@ The first thing we should check is version of packages or libraries we are worki
 
 #### Task 2: Code 
 
-Its time we write our first code in our cloud environment development tool.  
+Its time we write our first code in our cloud environment development tool.
 
+ 
+(If you stopped the app from running in task 1) you should start running your app  by giving the following command in the terminal: `npm start`. 
+
+![image](./images/carbon06.png)
+
+Write the code like the image above and then save the file.
+**And this is our first code in GitHub codespaces!!!**
 
 #### Task 3: Push our code in a repository 
 We dont need to create any repository by ourselves, GitHub codespaces will create it for us in some clicks only. 
@@ -154,12 +161,19 @@ After your repository has been created you now can add collaborators, continue c
 
 ![image](./images/Screenshot14.png)
 
+You are free to write the code you like, in my case this is the code i wrote. You can copy then paste, if your compiler does not run at the moment simply  run `npm start` in ur terminal.
+
 
 #### Task 4: Working on an existing repository. 
 
 Lets see a scenario where you need to work on a existing repository in GitHub codespaces. 
 
 To prepare our Lab for this scenario go to the GitHub codespaces main page again and delete your existing codespace. 
+
+
+Then we will approach option two of starting a codespace
+
+
 
 
  
