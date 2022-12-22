@@ -23,9 +23,8 @@ jobs:
       run: |
         az account show
 
-        if ! [az group exists --name ${{ secrets.AZURE_RG }}]; then
-            az group create --name ${{ secrets.AZURE_RG }} --location ${{ secrets.AZURE_LOCATION }}
-        fi
+        az group create --name ${{ secrets.AZURE_RG }} --location ${{ secrets.AZURE_LOCATION }}
+        
 
 
       # Deploy Bicep file
