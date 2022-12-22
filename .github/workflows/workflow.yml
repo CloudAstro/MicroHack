@@ -22,8 +22,9 @@ jobs:
     - name: 'Run az commands'
       run: |
         az account show
-        az group list
-        pwd
+        az group create \
+          --name ${{ secrets.AZURE_RG }} \
+          --location ${{ secrets.AZURE_LOCATION }}
 
       # Deploy Bicep file
     - name: deployBicep

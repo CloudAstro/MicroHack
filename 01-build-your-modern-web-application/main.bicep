@@ -51,22 +51,23 @@ var appservicename = '${deploymentPrefix}-${appsname}'
 // Deployments //
 // =========== //
 
-module deployresourcegroup './bicep-modules/deploy-resourcegroup.bicep' = {
-  name: rgname
-  params: {
-    name: rgname
-    enableDefaultTelemetry: enableDefaultTelemetry
-    location: location
-    lock: lock
-    roleAssignments: roleAssignments
-    tags: tags
-  }
-}
+
+// module deployresourcegroup './bicep-modules/deploy-resourcegroup.bicep' = {
+//   name: rgname
+//   params: {
+//     name: rgname
+//     enableDefaultTelemetry: enableDefaultTelemetry
+//     location: location
+//     lock: lock
+//     roleAssignments: roleAssignments
+//     tags: tags
+//   }
+// }
 module deploywebapp './bicep-modules/deploy-webapp.bicep' = {
-  scope: resourceGroup(deployresourcegroup.name)
+  scope: resourceGroup(rgname)
   name: appservicename
   params: {
-    location: deployresourcegroup.outputs.location
+    location: location
     name: appservicename
     sku: 'B1'
     kindappservice: 'functionapp,linux'
