@@ -62,7 +62,7 @@ module deployresourcegroup './bicep-modules/deploy-resourcegroup.bicep' = {
   }
 }
 module deploywebapp './bicep-modules/deploy-webapp.bicep' = {
-  scope: resourceGroup(rgname)
+  scope: resourceGroup(deployresourcegroup.name)
   name: appservicename
   params: {
     location: location
