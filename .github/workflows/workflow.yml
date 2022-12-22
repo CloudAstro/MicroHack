@@ -29,11 +29,6 @@ jobs:
           --template-file ./01-build-your-modern-web-application/main.bicep \
           --parameters ./01-build-your-modern-web-application/parameters/main.parameters.json
 
-    - name: Build React Web App
-      run: |
-        cd ./01-build-your-modern-web-application/cloudastro-react-app
-        npm run build
-
     # - name: Update Static Web App
     #   run: |
         
