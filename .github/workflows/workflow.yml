@@ -22,7 +22,7 @@ jobs:
     - name: 'Run Az commands'
       run: |
         az account show
-        az group create --name ${{ secrets.AZURE_RG }} --location ${{ secrets.AZURE_LOCATION }}
+        az group create --name rg-microhack-roland --location "west europe"
 
       # Deploy Bicep file
     - name: Deploy Bicep
