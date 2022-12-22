@@ -6,7 +6,7 @@
 - [MicroHack Challenges](#challenges)
   - [Challenge 1: How to get up to speed as Developer](#challenge-1-how-to-get-up-to-speed-as-developer)
   - [Challenge 2: Working in a Cloud environment development](#challenge-2-working-in-a-cloud-environment-development)
-  - [Challenge 3: Other CED and what is the difference](#challenge-3-other-ced-and-waht-is-the-difference)
+  - [Challenge 3: Other CED and what is the difference](#challenge-3-other-ced-and-what-is-the-difference)
 
 
 ## MicroHack introduction and context
