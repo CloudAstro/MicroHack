@@ -1,11 +1,10 @@
 # **03 Developer Productivity/Developer Velocity**
 
-- [**CloudAstro MicroHack**](#cloudastro-microhack)
 - [MicroHack introduction and context](#microhack-introduction-and-context)
 - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
 - [MicroHack Challenges](#microhack-parts)
-  - [Challenge 1 - How to get up to speed as Developer](./01-build-your-modern-web-application/)
+  - [Challenge 1 - How to get up to speed as Developer](challenge-1-how-to-get-up-to-speed-as-Developer)
   - [Challenge 2 - Working in a Cloud environment development](./02-sustainable-software-sevelopment-green-coding/)
   - [Challenge 3 - Other CED and what is the difference](./03-developer-productivity-developer-velocity/)
 
