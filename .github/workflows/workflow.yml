@@ -1,5 +1,5 @@
 on: [push]
-name: Azure ARM
+name: Azure Daployment
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -14,10 +14,10 @@ jobs:
 
       # Log into Azure
     - name: Login via Az module
-      uses: azure/login@v1.4.3
+      uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-        enable-AzPSSession: true 
+        enable-AzPSSession: true
 
     - name: 'Run az commands'
       run: |
