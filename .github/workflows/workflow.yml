@@ -10,6 +10,7 @@ jobs:
 
     - run: |
         ls -la
+        az -v
 
       # Log into Azure
     - name: Login via Az module
