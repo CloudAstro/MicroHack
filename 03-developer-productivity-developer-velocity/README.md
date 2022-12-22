@@ -17,14 +17,14 @@ This MicroHack scenario walks through the use of modern dev tools  to help you t
 
 This lab is not a full explanation of the complete tool set, please consider the following articles required pre-reading to build foundational knowledge. 
 
-What is a Cloud Environment Development 
+[What is a Cloud Environment Development](https://www.cloudshare.com/virtual-it-labs-glossary/cloud-development-environment/) 
 
-Why would we use the Cloud Environment for Development 
+[Why would we use the Cloud Environment for Development](https://www.itprotoday.com/development-techniques-and-management/who-needs-or-doesn-t-need-cloud-ides) 
 
  
 
 If you want to take your knowledge deeper than what will be explained here, we recommand reading: 
-Github Codespaces or/and  Microsoft Dev Box 
+[Github Codespaces](https://docs.github.com/en/codespaces) or/and  [Microsoft Dev Box](https://learn.microsoft.com/en-us/azure/dev-box/) 
 
 ## Objectives
 
@@ -206,7 +206,7 @@ if you would like to code localy in GitHub codespaces there are ways to do that 
 If you are looking to code localy: [how to use GitHub codespaces in Visual studio code](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code), there is also support for other IDEs. 
 
 
-### **Challenge 3 : Other CED and what is the difference**
+### **Challenge 3: Other CED and what is the difference**
 
 #### Goal 
 Know other Cloud environment development tools which exist and what fits you best 
@@ -260,7 +260,7 @@ This was a basic introduction to Cloud Environment Development and is by far not
 
  
 
-By now your created GitHub repository which we created should look like this. 
+By now your created GitHub repository which you created should look like [this](https://github.com/CADreni/First-Github-codespaces-project). 
 
  
 
