@@ -30,7 +30,7 @@ jobs:
           --parameters ./01-build-your-modern-web-application/parameters/main.parameters.json
 
 
-# checkout code
+
 # npm run build
 # az account set --subscription c34e7d41-2896-4edd-9386-9432283d9cb4
 
