@@ -21,23 +21,16 @@ jobs:
 
     - name: 'Run Az commands'
       run: |
-        az account show
-        
-        echo ${{ secrets.AZURE_RG }}
-        echo ${{ secrets.AZURE_LOCATION }}
+        az group create --name "rg-microhack-roland" --location "west europe"
 
-    #     az group create --name ${{ secrets.AZURE_RG }} --location ${{ secrets.AZURE_LOCATION }}
-        
-
-
-    #   # Deploy Bicep file
-    # - name: Deploy Bicep
-    #   uses: azure/arm-deploy@v1
-    #   with:
-    #     subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
-    #     resourceGroupName: ${{ secrets.AZURE_RG }}
-    #     template: ./01-build-your-modern-web-application/main.bicep
-    #     parameters: ./01-build-your-modern-web-application/parameters/main.parameters.json
+      # Deploy Bicep file
+    - name: Deploy Bicep
+      uses: azure/arm-deploy@v1
+      with:
+        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
+        resourceGroupName: ${{ secrets.AZURE_RG }}
+        template: ./01-build-your-modern-web-application/main.bicep
+        parameters: ./01-build-your-modern-web-application/parameters/main.parameters.json
 
 
 
