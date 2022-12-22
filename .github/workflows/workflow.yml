@@ -8,16 +8,49 @@ jobs:
       # Checkout code
     - uses: actions/checkout@main
 
+    - run: |
+      ls -la
+
       # Log into Azure
-    - uses: azure/login@v1
+    - name: Login via Az module
+      uses: azure/login@v1.4.3
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
+        enable-AzPSSession: true 
 
-      # Deploy Bicep file
-    - name: deploy
-      uses: azure/arm-deploy@v1
-      with:
-        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
-        resourceGroupName: ${{ secrets.AZURE_RG }}
-        template: ./01-build-your-modern-web-application/main.bicep
-        parameters: ./01-build-your-modern-web-application/parameters/main.parameters.json
+    - name: 'Run az commands'
+      run: |
+        az account show
+        az group list
+        pwd
+
+    #   # Deploy Bicep file
+    # - name: deployBicep
+    #   uses: azure/arm-deploy@v1
+    #   with:
+    #     subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
+    #     resourceGroupName: ${{ secrets.AZURE_RG }}
+    #     template: ./01-build-your-modern-web-application/main.bicep
+    #     parameters: ./01-build-your-modern-web-application/parameters/main.parameters.json
+
+
+
+
+# checkout code
+# npm run build
+# az account set --subscription c34e7d41-2896-4edd-9386-9432283d9cb4
+
+
+
+# The project was built assuming it is hosted at /.
+# You can control this with the homepage field in your package.json.
+
+# The build folder is ready to be deployed.
+# You may serve it with a static server:
+
+#   npm install -g serve
+#   serve -s build
+
+# Find out more about deployment here:
+
+#   https://cra.link/deployment
