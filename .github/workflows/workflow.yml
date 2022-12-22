@@ -24,7 +24,7 @@ jobs:
     - name: Deploy Bicep
       run: |
         az deployment group create \
-          --name $(Build.BuildNumber) \
+          --name Testdeployment20221222 \
           --resource-group rg-microhack-roland \
           --template-file ./01-build-your-modern-web-application/main.bicep \
           --parameters ./01-build-your-modern-web-application/parameters/main.parameters.json
