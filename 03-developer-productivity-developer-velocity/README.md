@@ -4,10 +4,10 @@
 - [MicroHack introduction and context](#microhack-introduction-and-context)
 - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
-- [MicroHack Parts](#microhack-parts)
-  - [Part 1 - Build your modern web application](./01-build-your-modern-web-application/)
-  - [Part 2 - Sustainable-Software-Development-Green-Coding](./02-sustainable-software-sevelopment-green-coding/)
-  - [Part 3 - Developer Productivity / Developer Velocity](./03-developer-productivity-developer-velocity/)
+- [MicroHack Challenges](#microhack-parts)
+  - [Challenge 1 - How to get up to speed as Developer](./01-build-your-modern-web-application/)
+  - [Challenge 2 - Working in a Cloud environment development](./02-sustainable-software-sevelopment-green-coding/)
+  - [Challenge 3 - Other CED and what is the difference](./03-developer-productivity-developer-velocity/)
 
 
 ## MicroHack introduction and context
@@ -175,13 +175,3 @@ Then we will approach option two of starting a codespace
 
 
 
-
- 
-
-## MicroHack Parts
-
-### [Part 1 - Build your modern web application](./01-build-your-modern-web-application/README.md)
-
-### [Part 2 - Sustainable Software Development Green Coding](./02-sustainable-software-sevelopment-green-coding/README.md)
-
-### [Part 3 - Developer Productivity / Developer Velocity ](./03-developer-productivity-developer-velocity/README.md)
