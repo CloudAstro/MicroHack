@@ -4,9 +4,9 @@
 - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
 - [MicroHack Challenges](#microhack-parts)
-  - [Challenge 1 - How to get up to speed as Developer](challenge-1-how-to-get-up-to-speed-as-Developer)
-  - [Challenge 2 - Working in a Cloud environment development](./02-sustainable-software-sevelopment-green-coding/)
-  - [Challenge 3 - Other CED and what is the difference](./03-developer-productivity-developer-velocity/)
+  - [Challenge 1: How to get up to speed as Developer](#challenge-1-how-to-get-up-to-speed-as-developer)
+  - [Challenge 2: Working in a Cloud environment development](./02-sustainable-software-sevelopment-green-coding/)
+  - [Challenge 3: Other CED and what is the difference](./03-developer-productivity-developer-velocity/)
 
 
 ## MicroHack introduction and context
@@ -58,7 +58,7 @@ All you need in order to follow is a browser, Visual Studio Code
 
 ## Challenges
 
-### Challenge 1 - How to get up to speed as Developer 
+### **Challenge 1: How to get up to speed as Developer** 
 
  
 
@@ -98,7 +98,7 @@ If your app did not start, in the terminal run the following command:  `npm star
 Now that we have the basics done, we can proceed to the next challenge. 
 
 
-### Challenge 2 - Working in a Cloud environment development  
+### **Challenge 2: Working in a Cloud environment development**  
 
 #### Goal 
 In this challenge we will be focusing on making our simple app production ready without having any tools in our local system installed.
