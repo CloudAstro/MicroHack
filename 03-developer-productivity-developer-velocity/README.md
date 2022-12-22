@@ -3,10 +3,10 @@
 - [MicroHack introduction and context](#microhack-introduction-and-context)
 - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
-- [MicroHack Challenges](#microhack-parts)
+- [MicroHack Challenges](#challenges)
   - [Challenge 1: How to get up to speed as Developer](#challenge-1-how-to-get-up-to-speed-as-developer)
-  - [Challenge 2: Working in a Cloud environment development](./02-sustainable-software-sevelopment-green-coding/)
-  - [Challenge 3: Other CED and what is the difference](./03-developer-productivity-developer-velocity/)
+  - [Challenge 2: Working in a Cloud environment development](#challenge-2-working-in-a-cloud-environment-development)
+  - [Challenge 3: Other CED and what is the difference](#challenge-3-other-ced-and-waht-is-the-difference)
 
 
 ## MicroHack introduction and context
@@ -172,5 +172,101 @@ To prepare our Lab for this scenario go to the GitHub codespaces main page again
 
 Then we will approach option two of starting a codespace
 
+![image](./images/Screenshot2.png)
 
+Press the New Codespace button top-right of the screen  
+
+
+You will then be moved to a new page where you need to select your repository to work on, branch, region, and machine type. 
+
+![image](./images/Screenshot16.png)
+
+Select the repository we created earlier.
+Now we have a field which is not knowt before to us called Dev container Configuration.  
+This are configurations predefined for our environment (i.eg Port the app should run at, CPUs minimum requirement etc.) [see more...](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers) 
+
+![image](./images/Screenshot17.png)
+
+To edit the **devcontainer configuration**, inside your project repository you will find a folder named .devcontainer and inside of it devcontainer.json which then you can edit based on the configuration you want. For now we are going to let the configuration like it is for this microhack. 
+
+![image](./images/Screenshot18.png)
+
+If your devcontainer configuration looks different, in order to follow up with this microhac it is recommanded to set the configuration like the json file above. 
+
+On Machine Type you will recognize that the predefined configuration will not allow you to chose a machine type below that. 
+
+![image](./images/Screenshot20.png)
+
+Chose an appropriate machine type and create your codespace. Thats it! Now you are back to your cloud environment and can start imediately to code. 
+
+
+Before proceeding to challenge 3,  
+
+if you would like to code localy in GitHub codespaces there are ways to do that which are out of the scope of this microhack.  
+If you are looking to code localy: [how to use GitHub codespaces in Visual studio code](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code), there is also support for other IDEs. 
+
+
+### **Challenge 3 : Other CED and what is the difference**
+
+#### Goal 
+Know other Cloud environment development tools which exist and what fits you best 
+
+
+#### Task 1: Other CED tools 
+
+There are many possible cloud environments you can chose in the internet like: 
+
+**Microsoft Dev Box,** 
+
+**AWS CLoud9,** 
+
+**GitLab** 
+
+… and the list goes on. 
+
+
+In this microhack we are going to focus comparing **Microsoft Dev Box** to **GitHub codespaces** and see what would benifit you more depending on the project you have or plan to have. 
+
+
+#### Task 2: GitHub codespaces or Microsoft Dev Box 
+
+(1) GitHub codespaces runs on Linux where as Microsoft Dev Box runs on Windows. 
+
+(2) Source Code Management on GitHub codespaces is supported only on github, in Microsoft Dev Box any version control system would do the job. 
+
+(3) GitHub codespaces supports workloads like Web Apps, APIs, Backends Microsoft Dev Box on the other hand any workload including desktop, games and much more 
+
+(4) The IT in GitHub CodeSpaces is managed by github.com team and Microsoft Dev Box by the Endpoint Manager & Microsoft Azure.
+
+
+#### Task 3:  What is the best opion for you  
+
+If we have a simple app like we have developed in this microhack then both opionions would do for development. 
+
+In Production if the plan is Azure then Microsoft Dev Box would be a more ideal pick. 
+
+ 
+For windows users Microsoft Dev Box offers an amazing feature running the cloud environament as a desktop page in which you also have access to other Microsoft software like office. 
+
+ 
+To wrap everything up, in the end it depends on the needs and/or personal preference which one to go for. 
+
+ 
+This was a basic introduction to Cloud Environment Development and is by far not everything what cloud environment offers you as a developer. It is recommanded to try on your own and see based on your personal experience where you would find yourself more productive. 
+
+
+
+#### Task 4: Where have we reached 
+
+ 
+
+By now your created GitHub repository which we created should look like this. 
+
+ 
+
+If you ran into any problems it is good to double check if you missed any task or part of the challenge. 
+
+ 
+
+**Note!** If you delete the repository, your codespace will be deleted aswell! 
 
