@@ -1,7 +1,6 @@
 on:
   push:
-    paths:
-      - '/01-build-your-modern-web-application/main.bicep'
+    paths: '/01-build-your-modern-web-application/main.bicep'
 
       name: Azure Deployment
       jobs:
