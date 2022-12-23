@@ -1,34 +1,33 @@
 on: [fork]
+name: Azure Deployment
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
 
-  name: Azure Deployment
-  jobs:
-    build-and-deploy:
-      runs-on: ubuntu-latest
-      steps:
+      # Checkout code
+    - uses: actions/checkout@main
 
-        # Checkout code
-      - uses: actions/checkout@main
+    - name: Reserved
+      run: |
+        ls -la
+        az -v
 
-      - name: Reserved
-        run: |
-          ls -la
-          az -v
+      # Log into Azure
+    - name: Login via Az module
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        enable-AzPSSession: true
 
-        # Log into Azure
-      - name: Login via Az module
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
-          enable-AzPSSession: true
-
-        # Deploy Bicep file
-      - name: Deploy Bicep
-        run: |
-          az deployment sub create \
-            --location "West Europe" \
-            --name Testdeployment20221222 \
-            --template-file ./01-build-your-modern-web-application/main.bicep \
-            --parameters ./01-build-your-modern-web-application/parameters/main.parameters.json
+      # Deploy Bicep file
+    - name: Deploy Bicep
+      run: |
+        az deployment sub create \
+          --location "West Europe" \
+          --name Testdeployment20221222 \
+          --template-file ./01-build-your-modern-web-application/main.bicep \
+          --parameters ./01-build-your-modern-web-application/parameters/main.parameters.json
 
 
         
