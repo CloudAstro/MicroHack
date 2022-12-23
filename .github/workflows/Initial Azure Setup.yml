@@ -29,6 +29,5 @@ jobs:
           --template-file ./01-build-your-modern-web-application/main.bicep \
           --parameters ./01-build-your-modern-web-application/parameters/main.parameters.json
 
-    # - name: Update Static Web App
-    #   run: |
+
         

@@ -1,0 +1,26 @@
+on: [push]
+name: CI/CD containerized installation
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      # Checkout code
+    - uses: actions/checkout@main
+
+    - name: Reserved
+      run: |
+        ls -la
+        az -v
+
+      # Log into Azure
+    - name: Login via Az module
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        enable-AzPSSession: true
+
+
+
+
+        
