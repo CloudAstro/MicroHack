@@ -1,6 +1,4 @@
-on:
-  release:
-    types: [published]
+on: [release]
 
   name: Azure Deployment
   jobs:
