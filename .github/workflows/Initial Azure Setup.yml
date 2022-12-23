@@ -1,4 +1,4 @@
-on: [release]
+on: [fork]
 
   name: Azure Deployment
   jobs:
