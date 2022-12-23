@@ -1,7 +1,6 @@
 on:
-  push:
-    paths:
-    - '**.bicep'
+  release:
+    types: [published]
 
   name: Azure Deployment
   jobs:
