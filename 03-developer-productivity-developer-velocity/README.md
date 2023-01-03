@@ -9,7 +9,7 @@
   - [Challenge 3: Other CED and what is the difference](#challenge-3-other-ced-and-what-is-the-difference)
 
 
-## MicroHack introduction and context
+## Introduction and context
 
 In order to start working on a software project, a developer needs to first set up a development environment containing all the tools, libraries, dependencies and configuration necessary before the actual work can begin. This process is cumbersome, frustrating and very time-consuming. 
 
