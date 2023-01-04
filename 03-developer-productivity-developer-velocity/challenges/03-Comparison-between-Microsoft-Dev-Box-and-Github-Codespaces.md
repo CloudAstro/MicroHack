@@ -10,29 +10,29 @@ and explore the benifits which fit to your project best.
 
 The goal of this challenge is to finish a simple react app.
 
-### Task 1: Create React app in Microsoft Dev Box
+### Task 1: Create app in Microsoft Dev Box
 
-- Create a react "Hello World" app
+- Create an index html file
+- Write a simple Header "Hello World"
 - Start the App 
 
 ### Task 2: Github Codespaces setup
 
 - Login to [Github Codespaces](https://github.com/features/codespaces)
 - Create a blank project
-- Delete the template code and try to have a same outcome like in the previous task
-- Install the Live Server Extension
+- Write a simple Header "Hello World"
 - Start the app
 
 ### Task 3: VS Code Extensions
 
-Install one or some extensions for VS Code of your choice
+Install the Live Server VS Code Extension in both environments
 
 ### Task 4: Source Code Management
 
-- Push your app created in the Dev Box to a new Github Repository
+- Push your the Dev Box app in to a new Github Repository
 - Use Github Codespaces feature to automatically create a new Github repository for your project
 
 ## Challenge Completed if
 
 - The "Hello World" app runs on both tools
-- Image shows up in the public folder on both tools.
+- Code is pushed in a Github Repository
