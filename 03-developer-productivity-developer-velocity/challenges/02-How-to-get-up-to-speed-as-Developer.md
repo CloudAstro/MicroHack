@@ -24,10 +24,13 @@ Login to your microsoft account [https://aka.ms/devbox](https://aka.ms/devbox/)
 
 Now that we have everything set up its time to prepare the environment to start coding.
 
-- Install an IDE/Code Editor (for this microhack VS Code)
-- Install Node (we are going to use React as an example for this microhack)
+- Install an IDE/Code Editor (for this microhack Visual Studio Code)
+- Install VS Code Live Server extension
+- We are going to write simple html as example for this microhack
+
+#### Note! In your real project 
 
 ## Challenge Completed if
 
 - VS Code is ready for use
-- Node is propperly installed on the Dev Box
+- Our code runs as expected
