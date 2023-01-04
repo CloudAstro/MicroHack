@@ -129,5 +129,5 @@ should see on the top right of the screen a button "New dev box" click on it**
 
 **You can run your dev box in the browser or for windwos users also in RDP Client**
 
-![image](../images/solution1/25.png)
+![image](../images/solution1/26.png)
 
