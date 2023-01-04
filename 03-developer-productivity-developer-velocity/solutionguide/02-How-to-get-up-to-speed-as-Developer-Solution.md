@@ -1,6 +1,6 @@
 # Challenge 1 - How to get up to speed as Developer Solution
 
-Duration: ~30-45 Min
+Duration: 40-50 Min
 
 ### Task 1: Create a Dev Box
 
@@ -78,8 +78,56 @@ dev center in this field. After that Create the Project**
 
 ![image](../images/solution1/12.png)
 
+**When your project is created it should appear in your project list.**
 
+![image](../images/solution1/14.png)
 
+**Finally we need to create a Dev box pool**
+**In the Projects list, click on the project we crated and then in the panel click on Dev box pools**
 
+![image](../images/solution1/15.png)
 
+**Next create a new Dev box pool, click on "Create" on top of the page**
+
+![image](../images/solution1/16.png)
+
+**Next you need to give it a name, dev box definition (which we created), Network connection (which we created).
+set Enable Auto-stop to "No" for now and click "Create"**
+
+![image](../images/solution1/17.png)
+
+**We have set up everything. Next we set the project access. Go back to the main panel, click on Projects and then click on the project we created.
+Next, click on "Edit access"**
+
+![image](../images/solution1/18.png)
+
+**On top of the page click on "Add"**
+
+![image](../images/solution1/19.png)
+
+**And then  "Add role assignment"**
+
+![image](../images/solution1/20.png)
+
+**Select a role (Dev Box User for this microhack), then click next**
+
+![image](../images/solution1/21.png)
+
+**Next in the Members tab click on "Select members", a menu will open on the right side of the page, select your account and then assign yourself 
+the role as a demo**
+
+![image](../images/solution1/22.png)
+
+**After you assigned yourself a role its time to create a dev box. go to [https://aka.ms/devbox-portal](https://aka.ms/devbox-portal) then you
+should see on the top right of the screen a button "New dev box" click on it**
+
+![image](../images/solution1/23.png)
+
+**Give your dev box a name**
+
+![image](../images/solution1/24.png)
+
+**You can run your dev box in the browser or for windwos users also in RDP Client**
+
+![image](../images/solution1/25.png)
 
