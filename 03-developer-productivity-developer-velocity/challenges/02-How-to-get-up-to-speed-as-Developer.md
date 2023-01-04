@@ -25,12 +25,12 @@ Login to your microsoft account [https://aka.ms/devbox](https://aka.ms/devbox/)
 Now that we have everything set up its time to prepare the environment to start coding.
 
 - Install an IDE/Code Editor (for this microhack Visual Studio Code)
-- Install VS Code Live Server extension
-- We are going to write simple html as example for this microhack
+- We are going to write simple html as example for this microhack so no need to install other tools for now.
 
 #### Note! In your real project 
 
 ## Challenge Completed if
 
+- Dev box is ready for use
 - VS Code is ready for use
-- Our code runs as expected
+
