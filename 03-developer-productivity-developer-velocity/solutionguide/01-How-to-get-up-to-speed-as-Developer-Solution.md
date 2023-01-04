@@ -1,4 +1,4 @@
-# Challenge 1 - How to get up to speed as Developer Solution
+# Solution 1 - How to get up to speed as Developer
 
 Duration: 40-50 Min
 
