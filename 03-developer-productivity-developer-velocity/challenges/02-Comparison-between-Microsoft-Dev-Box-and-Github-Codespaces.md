@@ -6,6 +6,8 @@ There are also alternatives when it comes to Cloud Environment Development.
 In this challenge you will be coding in two different Cloud environment development tools (Microsoft Dev Box & Github Codespaces)
 and explore the benifits which fit to your project best.
 
+[Solution for this challenge](../solutionguide/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces-Solution.md)
+
 ## Goal 
 
 The goal of this challenge is to finish a simple react app.
