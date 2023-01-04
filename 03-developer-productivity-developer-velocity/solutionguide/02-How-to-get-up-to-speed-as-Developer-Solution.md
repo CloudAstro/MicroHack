@@ -131,3 +131,7 @@ should see on the top right of the screen a button "New dev box" click on it**
 
 ![image](../images/solution1/26.png)
 
+### Task 2: Prepare the development environment
+
+**Inside your dev box, download Visual Studio Code just like you would in your local environment**
+
