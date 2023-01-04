@@ -4,9 +4,9 @@
 - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
 - [MicroHack Challenges](#challenges)
-  - [Challenge 1: How to get up to speed as Developer](#challenge-1-how-to-get-up-to-speed-as-developer)
-  - [Challenge 2: Working in a Cloud environment development](#challenge-2-working-in-a-cloud-environment-development)
-  - [Challenge 3: Other CED and what is the difference](#challenge-3-other-ced-and-what-is-the-difference)
+  - [Challenge 1: How to get up to speed as Developer](challenges/02-How-to-get-up-to-speed-as-Developer.md)
+  - [Challenge 2: Working in a Cloud environment development](challenges/03-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces.md)
+  - [Challenge 3: Other CED and what is the difference](challenge/04-Deploy-on-Azure-App-Service.md)
 
 
 ## Introduction and context
@@ -36,6 +36,17 @@ After completing this MicroHack you will:
 
 - know the basics of Cloud Environment Development 
 
+# Prerequisites
+
+In order to use the MicroHack time most effectively, the following tasks should be completed prior to starting the session: 
+
+- Azure Subscription 
+
+- Github account 
+
+- Basic knowledge in coding (JavaScript for this Microhack) 
+
+With these pre-requisites in place, we can focus directly developing, rather than spending hours repeating relatively simple tasks such as setting up localy everything by yourself. 
 
 
 ## Lab environment for this MicroHack 
