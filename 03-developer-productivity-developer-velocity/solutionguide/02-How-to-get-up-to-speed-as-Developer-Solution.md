@@ -48,7 +48,24 @@ to create one.**
 
 ![image](../images/solution1/9.png)
 
-**After that, next we are going to create a Project. Go back to the main panel and click on "Projects"**
+**After we have created our Dev box definition next we need to create a Network Connection. Again in the main panel click on "Network Connections"**
+
+![image](../images/solution1/13one.png)
+
+**Your list should be empty and just like the previous steps on top of the page click on "Create"..**
+**Next select the subscription, in the Network connection details you need a virtual network. If the options are empty follow this guide to [set up
+a virtual network](https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-network-connection?tabs=AzureADJoin)**
+
+![image](../images/solution1/13two.png)
+
+**After we successfully created the network go back to the dev center page, click on "Networking" in the left panel. A menu will open in the right
+side of the page, in the dropdown you should see the network you created as an option. Set the created network connection as option here
+and click "Add"**
+
+![image](../images/solution1/13three.png)
+
+
+**Nextt, next we are going to create a Project. Go back to the main panel and click on "Projects"**
 
 ![image](../images/solution1/10.png)
 
@@ -61,16 +78,8 @@ dev center in this field. After that Create the Project**
 
 ![image](../images/solution1/12.png)
 
-**After we have created our project next we need to create a Network Connection. Again in the main panel click on "Network Connections"**
 
-![image](../images/solution1/13one.png)
 
-**Your list should be empty and just like the previous steps on top of the page click on "Create"..**
-**Next select the subscription, in the Network connection details you need a virtual network. If the options are empty follow this guide to [set up
-a virtual network](https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-network-connection?tabs=AzureADJoin)**
 
-![image](../images/solution1/13two.png)
-
-**After we successfully created the network**
 
 
