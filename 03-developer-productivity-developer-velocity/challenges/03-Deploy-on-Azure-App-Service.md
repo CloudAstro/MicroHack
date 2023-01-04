@@ -4,6 +4,8 @@
 
 After you have finished our project, now we can deploy our app in Azure App Service in only a few stepps. 
 
+[Solution for this challenge](../solutionguide/03-Deploy-on-Azure-App-Service-Solution.md)
+
 ## Goal 
 
 The goal of this challenge is to have or at least one of our React apps deployed on Azure App Service and running.
