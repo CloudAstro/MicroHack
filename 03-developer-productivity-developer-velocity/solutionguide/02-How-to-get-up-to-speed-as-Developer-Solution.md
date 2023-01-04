@@ -6,6 +6,6 @@ Duration: ~30-45 Min
 
 After you are logged in to the provided link you should see the config and management panel
 
-![image](./images/solution1/1.png)
+![image](./images/solution1/img1.png)
 
 
