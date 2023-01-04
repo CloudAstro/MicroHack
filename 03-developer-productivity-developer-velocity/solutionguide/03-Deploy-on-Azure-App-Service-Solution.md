@@ -1,6 +1,6 @@
 # Solution 3 - Deploy-on-Azure-App-Service
 
-Duration: 30-45 Min
+Duration: 20-25 Min
 
 ### Task 1: Install the Azure Tools extension in VS Code
 
