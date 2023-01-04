@@ -3,6 +3,10 @@
 ## Introduction
 
 There are many ways to improve developing speed and be more productive as a developer. In this Microhack we are going to be focusing to eliminate the time it takes to setup the project, neccesary tools, code editor and even extensions and jumping directly on the code part in!
+
+If hybrid or remote, does not play a role anymore. Everyone will work in the same environment and no matter how many different project you work on,
+you can have as many instances of Cloud environment development.
+
 Instead of installing every required tool/software in your machine, we will be using Microsoft Dev Box to setup the project once and thats it! every other team member will be ready to start coding in no time!
 
 [Solution for this challenge](../solutionguide/01-How-to-get-up-to-speed-as-Developer-Solution.md)
