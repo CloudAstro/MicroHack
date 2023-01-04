@@ -30,9 +30,10 @@ Check Node and Npm version on both tools.
 
 Install one or some extensions for VS Code of your choice
 
-### Task 5: Files and Images
+### Task 5: Source Code Management
 
-Get an image of your choice to the project (public folder)
+- Push your React app created in the Dev Box to a new Github Repository
+- Use Github Codespaces feature to automatically create a new Github repository for your project
 
 ## Challenge Completed if
 
