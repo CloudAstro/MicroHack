@@ -18,21 +18,18 @@ The goal of this challenge is to finish a simple react app.
 ### Task 2: Github Codespaces setup
 
 - Login to [Github Codespaces](https://github.com/features/codespaces)
-- Create a React App using the templates
+- Create a blank project
 - Delete the template code and try to have a same outcome like in the previous task
+- Install the Live Server Extension
 - Start the app
 
-### Task 3: Versioning
-
-Check Node and Npm version on both tools.
-
-### Task 4: VS Code Extensions
+### Task 3: VS Code Extensions
 
 Install one or some extensions for VS Code of your choice
 
-### Task 5: Source Code Management
+### Task 4: Source Code Management
 
-- Push your React app created in the Dev Box to a new Github Repository
+- Push your app created in the Dev Box to a new Github Repository
 - Use Github Codespaces feature to automatically create a new Github repository for your project
 
 ## Challenge Completed if
