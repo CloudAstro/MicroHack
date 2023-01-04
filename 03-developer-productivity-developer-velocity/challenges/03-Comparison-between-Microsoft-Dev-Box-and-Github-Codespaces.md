@@ -1,4 +1,4 @@
-# Challenge 3 - Comparison between Microsoft Dev Box and Github Codespaces
+# Challenge 2 - Comparison between Microsoft Dev Box and Github Codespaces
 
 ## Introduction
 
