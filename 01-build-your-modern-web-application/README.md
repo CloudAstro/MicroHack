@@ -1,4 +1,9 @@
-# **01 Build your modern web application**
+![image](./.images/MicroHack_Logo_1.png)
+
+# **01 Build your modern web application - MicroHack**
+
+## **Introduction**
+
 
 This MicroHack scenario walks through the use of VS Code to create a CI/CD pipeline deploying a modern web application like React web app with a focus on the best practices and the design principles. Specifically, this builds up to include working with an existing infrastructure.
 
