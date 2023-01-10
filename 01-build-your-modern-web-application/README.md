@@ -23,12 +23,14 @@ This lab is not a full explanation of preparing a development workstation, pleas
 
 ## **Content and challenges**
 
-- [Prerequisites](./Challenges/00-Pre-Reqs.md)
-- [Challenge 1:Deploy the lab environment](./Challenges/01-Challenge1.md)
-- [Challenge 2:Adding a bicep deployment](./Challenges/02-Challenge2.md)
-- [Challenge 3:Create a React Web App](#challenge-3-create-a-react-web-app)
-- [Challenge 4:Setup GitHub Actions](#challenge-4-commit-to-git-and-setup-github-action)
-- [Challenge 5:Deployment Ready](#challenge-5-deployment-ready)
+- [Getting started](./Challenges/00-Pre-Reqs.md)
+- [Challenge 1: Deploy the lab environment](./Challenges/01-Challenge1.md)
+- [Challenge 2: Adding a bicep deployment](./Challenges/02-Challenge2.md)
+- [Challenge 3: Create a React Web App](./Challenges/02-Challenge3.md)
+- [Challenge 4: Setup GitHub Actions](./Challenges/01-Challenge4.md)
+- [Challenge 5: Deploy as Static Web App](./Challenges/01-Challenge5.md)
+- [Challenge 6: Deploy as App Service](./Challenges/01-Challenge6.md)
+- [Challenge 7: Deploy as Containerized Application](./Challenges/01-Challenge7.md)
 
 ## **Objectives**
 
