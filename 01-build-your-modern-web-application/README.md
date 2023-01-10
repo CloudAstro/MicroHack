@@ -4,21 +4,28 @@
 
 ## **Introduction**
 
+This hack is designed to help you get hands-on experience with publishing a modern web application to Microsoft Azure in three different ways:
 
-This MicroHack scenario walks through the use of VS Code to create a CI/CD pipeline deploying a modern web application like React web app with a focus on the best practices and the design principles. Specifically, this builds up to include working with an existing infrastructure.
+- as an Azure Static Web App
+- as an App Service
+- as a containerized installation
 
-![image](Path to the high level architecture )
+## **Learning Objectives++
 
-This lab is not a full explanation of .... as a technology, please consider the following articles required pre-reading to build foundational knowledge.
+In this hack you will learn how to use Bicep to deploy infrastructure to Azure, how to build a CI/CD pipeline in GitHub to deploy the web app, and get an overview of the differnt ways of hosting the web app in Azure.
+This lab is not a full explanation of preparing a development workstation, please consider the following articles required pre-reading to build foundational knowledge.
 
-Optional (read this after completing this lab to take your learning even deeper!
+[Setup Node on Windows](https://nodejs.org/en/download/)
 
-Describe the scenario here...
+[Setup VS Code](https://code.visualstudio.com/Docs/setup/setup-overview)
 
-- [Challenge 1:Deploy the lab environment](#challenge-1-deploy-the-lab-environment)
-  - [Install VS Code Extensions](#install-vs-code-extensions)
-  - [Install node in WSL](#install-node-in-wsl)
-- [Challenge 2:Adding a bicep deployment](#challenge-2-adding-a-bicep-deployment-to-the-project)
+[How to setup git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+
+## **Content and challenges**
+
+- [Prerequisites](./Challenges/00-Pre-Reqs.md)
+- [Challenge 1:Deploy the lab environment](./Challenges/01-Challenge1.md)
+- [Challenge 2:Adding a bicep deployment](./Challenges/02-Challenge2.md)
 - [Challenge 3:Create a React Web App](#challenge-3-create-a-react-web-app)
 - [Challenge 4:Setup GitHub Actions](#challenge-4-commit-to-git-and-setup-github-action)
 - [Challenge 5:Deployment Ready](#challenge-5-deployment-ready)
