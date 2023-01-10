@@ -114,10 +114,7 @@ Overview
 
 Benefits
 
-- HTTP traffic
-- Event-driven processing
-- CPU or memory load
-- Any KEDA-supported scaler
+- CPU or memory load managed better
 - Priceless
 - Container runs with no requirements, simple and easy (create image and run it automatically no requirement)
 
