@@ -1,14 +1,47 @@
 
+# **Getting started**
 
+[Home](./../README.md) - [Challenge One](./01-Challenge1.md)
 
+## **Introduction**
 
-### **Challenge 1: Deploy the lab environment.**
+To deploy a web application the following lab environment is used.
 
-  In this challenge we are going to use VS Code with WSL to create a react web app. Since Node is used as a programming language, having a full stack linux subsystem for Open Source components is advantageous.
+## **High Level View**
 
-  [How to setup this scenario](https://learn.microsoft.com/en-us/windows/wsl/install)
+![image](./../.images/high-level-view.png)
 
-  [How to setup git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+The deployment of base infrastructure components like a Resource Group or the App Service is a one time deployment. In contrast the CI/CD deployment of a React web app is updating the web app on every commit to the repository.
+
+## **Setup your resource group and publishing service**
+
+You can use [the Bicep Deployment script](./../main.bicep) to setup the base components as a one-time deployment.
+
+- Open Visual Studio Code and log in to Azure Cloud Shell at https://shell.azure.com/ and select Bash
+
+`az login`
+
+- Ensure Azure CLI and extensions are up to date:
+
+`az upgrade --yes`
+
+`az biceps upgrade`  or `az biceps install` (to install it)
+
+- If necessary select your target subscription:
+
+`az account set --subscription <Name or ID of subscription>`
+
+- Update and set the `parameters-aa-join-example.json`
+
+- Update and set the main.bicep parameters.
+
+- Run the deployment with e.g.
+
+`$location = "WestEurope"`
+
+`$name="<your name>"`
+
+`az deployment sub create --location $location -f ./main.bicep --parameters name=$name --parameters @parameters-ad-join-example.json -c`
 
 ### **Install VS Code Extensions**
 
