@@ -6,7 +6,7 @@
 - [MicroHack Challenges](#challenges)
   - [Challenge 1: How to get up to speed as Developer](challenges/01-How-to-get-up-to-speed-as-Developer.md)
   - [Challenge 2: Working in a Cloud environment development](challenges/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces.md)
-  - [Challenge 3: Other CED and what is the difference](challenge/03-Deploy-on-Azure-App-Service.md)
+  - [Challenge 3: Other CED and what is the difference](challenges/03-Deploy-on-Azure-App-Service.md)
 
 
 ## Introduction and context
