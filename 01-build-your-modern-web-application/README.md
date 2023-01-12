@@ -24,7 +24,7 @@ This lab is not a full explanation of preparing a development workstation, pleas
 ## **Content and challenges**
 
 - [Getting started](./Challenges/00-Pre-Reqs.md)
-- [Challenge 1: Deploy the lab environment](./Challenges/01-Deploy-the-lab-environment.md)
+- [Challenge 1: Deploy the lab environment](./SolutionGuide/01-Deploy-the-lab-environment-solution.md)
 - [Challenge 2: Adding a bicep deployment](./Challenges/02-Adding-a-bicep-deployment.md)
 - [Challenge 3: Create a React Web App](./Challenges/03-Create-a-react-web-app.md)
 - [Challenge 4: Setup GitHub Actions](./Challenges/04-Setup-github-actions.md)
