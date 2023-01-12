@@ -1,4 +1,4 @@
-# Challenge 2 - Create a React web app
+# Challenge 3 - Create a React web app
 
 ## Introduction
 
