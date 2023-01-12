@@ -69,7 +69,7 @@ module deployresourcegroup './bicep-modules/deploy-resourcegroup.bicep' = {
     tags: tags
   }
 }
-module deploywebapp './bicep-modules/deploy-webapp.bicep' = {
+module deploywebapp './bicep-modules/deploy-staticwebapp.bicep' = {
   scope: resourceGroup(deployresourcegroup.name)
   name: appservicename
   params: {

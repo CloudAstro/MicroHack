@@ -1,4 +1,4 @@
-// deploy-webapp.bicep //
+// deploy-staticwebapp.bicep //
 // 10.01.2023 //
 
 targetScope = 'resourceGroup'
@@ -17,24 +17,20 @@ param sku string //= 'S1'
 
 param serverOS string
 
-param appInsightId string
+param repositoryUrl string
 
-param linuxFxVersion string = 'NODE|18-lts'
-
-param numberOfWorkers int = 1
-
+param repositoryToken string
 
 // =========== //
 // Variables //
 // =========== //
 
 var appserviceplanname = 'appsp-${name}'
-var webappname = 'swa-${name}'
+var swaname = 'swa-${name}'
 
 // =========== //
 // Deployments //
 // =========== //
-
 
 module deployappserviceplan 'carml/0.8.0/Microsoft.Web/serverfarms/deploy.bicep' = {
   name: appserviceplanname
@@ -48,22 +44,19 @@ module deployappserviceplan 'carml/0.8.0/Microsoft.Web/serverfarms/deploy.bicep'
   }
 }
 
-module deploywebapp 'carml/0.8.0/Microsoft.Web/sites/deploy.bicep' = {
-  name: webappname
+module deploystaticwebapp 'carml/0.8.0/Microsoft.Web/staticSites/deploy.bicep' = {
+  name: swaname
   params: {
-    name: webappname
-    kind: 'app'
+    name: swaname
     location: location
-    serverFarmResourceId: deployappserviceplan.outputs.resourceId
-    clientAffinityEnabled: false
-    keyVaultAccessIdentityResourceId: 'SystemAssigned'
-    appInsightId: appInsightId
-    siteConfig: {
-      acrUseManagedIdentityCreds: false
-      alwaysOn: false
-      linuxFxVersion: linuxFxVersion
-      numberOfWorkers: numberOfWorkers
-    }
+    allowConfigFileUpdates: true
+    branch: 'main'
+    enterpriseGradeCdnStatus: 'Disabled'
+    provider: 'GitHub'
+    repositoryUrl: repositoryUrl
+    repositoryToken: repositoryToken
+    sku: 'Standard'
+    stagingEnvironmentPolicy: 'Enabled'
   }
 }
 
@@ -80,11 +73,16 @@ output appserviceplanresourceId string = deployappserviceplan.outputs.resourceId
 @description('The location the resource was deployed into.')
 output appserviceplanlocation string = deployappserviceplan.outputs.location
 
+
 @description('The name of the resource group.')
-output webappname string = deploywebapp.name
+output staticwebappname string = deployappserviceplan.name
 
 @description('The resource ID of the resource group.')
-output webappresourceId string = deploywebapp.outputs.resourceId
+output staticwebappresourceId string = deployappserviceplan.outputs.resourceId
 
 @description('The location the resource was deployed into.')
-output webapplocation string = deploywebapp.outputs.location
+output staticwebapplocation string = deployappserviceplan.outputs.location
+
+
+
+

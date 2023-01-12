@@ -78,6 +78,10 @@ module resourceGroup_roleAssignments './carml/1.2.1/Microsoft.Resources/resource
   }
   scope: resourceGroup
 }]
+
+// =========== //
+// Outputs //
+// =========== //
 @description('The name of the resource group.')
 output name string = resourceGroup.name
 
