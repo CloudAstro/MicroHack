@@ -26,7 +26,7 @@ jobs:
           repo_token: ${{ secrets.GTHB_TOKEN }} # Used for GitHub integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations ######
-          app_location: "./../../01-build-your-modern-web-application/cloudastro-react-app" # App source code path relative to repository root
+          app_location: "./01-build-your-modern-web-application/cloudastro-react-app/src" # App source code path relative to repository root
           # api_location: "./../../01-build-your-modern-web-application/cloudastro-react-app/api" # Api source code path relative to repository root - optional
           output_location: "public" # Built app content directory, relative to app_location - optional
           ###### End of Repository/Build Configurations ######
