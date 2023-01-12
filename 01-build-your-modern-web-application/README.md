@@ -10,7 +10,7 @@ This hack is designed to help you get hands-on experience with publishing a mode
 - as an App Service
 - as a containerized installation
 
-## **Learning Objectives++
+## **Learning Objectives**
 
 In this hack you will learn how to use Bicep to deploy infrastructure to Azure, how to build a CI/CD pipeline in GitHub to deploy the web app, and get an overview of the differnt ways of hosting the web app in Azure.
 This lab is not a full explanation of preparing a development workstation, please consider the following articles required pre-reading to build foundational knowledge.
