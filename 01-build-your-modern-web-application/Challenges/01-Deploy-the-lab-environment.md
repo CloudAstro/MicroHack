@@ -1,4 +1,4 @@
-# Challenge 2 - Deploy the lab environment
+# Challenge 1 - Deploy the lab environment
 
 ## Introduction
 
