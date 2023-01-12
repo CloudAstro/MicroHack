@@ -26,12 +26,12 @@ This lab is not a full explanation of preparing a development workstation, pleas
 - [Getting started](./Challenges/00-Pre-Reqs.md)
 - [Challenge 1: Deploy the lab environment](./Challenges/01-Deploy-the-lab-environment.md)
 - [Challenge 2: Adding a bicep deployment](./Challenges/02-Adding-a-bicep-deployment.md)
-- [Challenge 3: Create a React Web App](./Challenges/03-Challenge3.md)
-- [Challenge 4: Setup GitHub Actions](./Challenges/04-Challenge4.md)
-- [Challenge 5: Deploy as Static Web App](./Challenges/05-Challenge5.md)
-- [Challenge 6: Deploy as App Service](./Challenges/06-Challenge6.md)
-- [Challenge 7: Deploy as Containerized Application](./Challenges/07-Challenge7.md)
-- [Challenge 8: Set up basic monitoring with Azure Monitor](./Challenges/07-Challenge7.md)
+- [Challenge 3: Create a React Web App](./Challenges/03-Create-a-react-web-app.md)
+- [Challenge 4: Setup GitHub Actions](./Challenges/04-Setup-github-actions.md)
+- [Challenge 5: Deploy as Static Web App](./Challenges/05-Deploy-as-static-web-app.md)
+- [Challenge 6: Deploy as App Service](./Challenges/06-Deploy-as-app-service.md)
+- [Challenge 7: Deploy as Containerized Application](./Challenges/07-Deploy-as-containerized-application.md)
+- [Challenge 8: Set up basic monitoring with Azure Monitor](./Challenges/08-Setup-basic-monitoring-with-azure-monitor.md)
 
 ## **Prerequisites**
 
