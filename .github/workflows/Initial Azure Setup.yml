@@ -1,4 +1,4 @@
-on: [fork]
+on: [push]
 name: Azure Deployment
 jobs:
   build-and-deploy:
