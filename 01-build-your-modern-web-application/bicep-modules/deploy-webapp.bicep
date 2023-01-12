@@ -13,18 +13,20 @@ param name string
 @description('Required. The name of the Resource Group.')
 param location string
 
-param sku string = 'F1' 
-
-param kindappservice string
+param sku string //= 'S1' 
 
 param serverOS string
+
+param repositoryUrl string
+
+param repositoryToken string
 
 // =========== //
 // Variables //
 // =========== //
 
 var appserviceplanname = 'appsp-${name}'
-var appservicename = 'apps-${name}'
+var swaname = 'swa-${name}'
 
 // =========== //
 // Deployments //
@@ -43,10 +45,18 @@ module deployappserviceplan 'carml/0.8.0/Microsoft.Web/serverfarms/deploy.bicep'
 }
 
 module deploystaticwebapp 'carml/0.8.0/Microsoft.Web/staticSites/deploy.bicep' = {
-  name: appservicename
+  name: swaname
   params: {
-    name: appservicename
+    name: swaname
     location: location
+    allowConfigFileUpdates: true
+    branch: 'main'
+    enterpriseGradeCdnStatus: 'Disabled'
+    provider: 'GitHub'
+    repositoryUrl: repositoryUrl
+    repositoryToken: repositoryToken
+    sku: 'Standard'
+    stagingEnvironmentPolicy: 'Enabled'
   }
 }
 

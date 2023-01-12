@@ -40,6 +40,10 @@ param tags object = {
 @description('Optional. Enable telemetry via the Customer Usage Attribution ID (GUID).')
 param enableDefaultTelemetry bool
 
+param repositoryUrl string = 'https://github.com/CloudAstro/MicroHack'
+
+param repositoryToken string = '' // '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'
+
 // ==================== //
 // Variable declaration //
 // ==================== //
@@ -67,9 +71,10 @@ module deploywebapp './bicep-modules/deploy-webapp.bicep' = {
   params: {
     location: location
     name: appservicename
-    sku: 'B1'
-    kindappservice: 'functionapp,linux'
+    sku: 'S1'
     serverOS: 'Linux'
+    repositoryUrl: repositoryUrl
+    repositoryToken: repositoryToken
   }
 }
 
