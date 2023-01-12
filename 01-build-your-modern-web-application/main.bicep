@@ -48,6 +48,14 @@ param sku string = 'S1'
 
 param appserverOS string = 'Linux'
 
+param webappname string = 'webapp-microhack-rolandmeier'
+
+param apinname string = 'apin-microhack-rolandmeier'
+
+param lawname string = 'law-microhack-rolandmeier'
+
+param serverOS string = 'Linux'
+
 // ==================== //
 // Variable declaration //
 // ==================== //
@@ -69,7 +77,8 @@ module deployresourcegroup './bicep-modules/deploy-resourcegroup.bicep' = {
     tags: tags
   }
 }
-module deploywebapp './bicep-modules/deploy-staticwebapp.bicep' = {
+
+module deploystaticwebapp './bicep-modules/deploy-staticwebapp.bicep' = {
   scope: resourceGroup(deployresourcegroup.name)
   name: appservicename
   params: {
@@ -79,6 +88,28 @@ module deploywebapp './bicep-modules/deploy-staticwebapp.bicep' = {
     serverOS: appserverOS
     repositoryUrl: repositoryUrl
     repositoryToken: repositoryToken
+  }
+}
+
+module deploymonitoring './bicep-modules/deploy-monitoring.bicep' = {
+  name: apinname
+  scope: resourceGroup(deployresourcegroup.name)
+  params: {
+    location: location
+    apinname: apinname
+    lawname: lawname
+  }
+}
+
+module deploywebapp './bicep-modules/deploy-webapp.bicep' = {
+  scope: resourceGroup(deployresourcegroup.name)
+  name: webappname
+  params: {
+    name: webappname
+    location: location
+    sku: sku
+    appInsightId: deploymonitoring.outputs.applicationinsightsresourceId
+    serverOS: serverOS
   }
 }
 

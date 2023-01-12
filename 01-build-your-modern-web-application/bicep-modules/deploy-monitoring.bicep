@@ -8,7 +8,10 @@ targetScope = 'resourceGroup'
 // ========== //
 
 @description('Required. The name of the Resource Group.')
-param name string
+param lawname string
+
+@description('Required. The name of the Resource Group.')
+param apinname string
 
 @description('Required. The name of the Resource Group.')
 param location string
@@ -24,15 +27,22 @@ param location string
 // =========== //
 
 module deployloganalytics 'carml/0.8.0/Microsoft.OperationsManagement/solutions/deploy.bicep' ={
-  name: name
+  name: lawname
   params: {
-    name: name
-    logAnalyticsWorkspaceName: name
+    name: lawname
+    logAnalyticsWorkspaceName: lawname
     enableDefaultTelemetry: true
     location: location
   }
 }
 
+module deployapplicationinsights 'carml/0.8.0/Microsoft.OperationalInsights/workspaces/deploy.bicep' = {
+  name: apinname
+  params: {
+    name: apinname
+    location: location
+  }
+}
 // =========== //
 // Outputs //
 // =========== //
@@ -45,3 +55,13 @@ output loganalyticsresourceId string = deployloganalytics.outputs.resourceId
 
 @description('The location the resource was deployed into.')
 output loganalyticslocation string = deployloganalytics.outputs.location
+
+
+@description('The name of the resource group.')
+output applicationinsightsname string = deployapplicationinsights.name
+
+@description('The resource ID of the resource group.')
+output applicationinsightsresourceId string = deployapplicationinsights.outputs.resourceId
+
+@description('The location the resource was deployed into.')
+output applicationinsightslocation string = deployapplicationinsights.outputs.location
