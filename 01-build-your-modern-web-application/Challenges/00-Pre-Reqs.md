@@ -5,13 +5,32 @@
 
 ## **Introduction**
 
-To deploy a web application the following lab environment is used.
+Azure Virtual Desktop is a service that gives users easy and secure access to their virtualized desktops and RemoteApps. This topic will tell you a bit more about the general structure of the Azure Virtual Desktop environment.
+
+This introduction is to ensure that all the pre-requisites and/or concepts to start the planning and deployment for Azure Virtual Desktop (AVD) are in place.
+
 
 ## **High Level View**
 
 ![image](./../.images/high-level-view.png)
 
 The deployment of base infrastructure components like a Resource Group or the App Service is a one time deployment. In contrast the CI/CD deployment of a React web app is updating the web app on every commit to the repository.
+
+In this hack we use GitHub actions that:
+
+1. Check out the code from the Git repository
+
+2. Deploy a Resource Group and a Static Web App with Bicep
+
+3. Deploy the React Web App to the Static Web App
+
+4. Deploy the React Web App to an App Service
+
+5. Create Docker image with React Web App, NGINX and docker compose
+
+6. Push code in Docker Hub
+
+7. Deploy the React Web as containerized installation to Azure
 
 ## **Setup your resource group and publishing service**
 
