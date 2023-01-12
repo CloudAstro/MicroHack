@@ -4,7 +4,7 @@
 
 DESCRIPTION HERE
 
-[Solution for this challenge](../solutionguide/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces-Solution.md)
+[Solution for this challenge](../SolutionGuide/03-Create-a-react-web-app-solution.md)
 
 ## Goal 
 
