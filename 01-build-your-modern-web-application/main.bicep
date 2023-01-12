@@ -44,6 +44,10 @@ param repositoryUrl string = 'https://github.com/CloudAstro/MicroHack'
 
 param repositoryToken string = '' // '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'
 
+param sku string = 'S1'
+
+param appserverOS string = 'Linux'
+
 // ==================== //
 // Variable declaration //
 // ==================== //
@@ -71,8 +75,8 @@ module deploywebapp './bicep-modules/deploy-webapp.bicep' = {
   params: {
     location: location
     name: appservicename
-    sku: 'S1'
-    serverOS: 'Linux'
+    sku: sku
+    serverOS: appserverOS
     repositoryUrl: repositoryUrl
     repositoryToken: repositoryToken
   }
