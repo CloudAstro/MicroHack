@@ -1,7 +1,7 @@
 
 # **Getting started**
 
-[Home](./../README.md) - [Challenge One](./01-Challenge1.md)
+[Home](./../README.md) - [Challenge One](./01-Deploy-the-lab-environment.md)
 
 ## **Introduction**
 
