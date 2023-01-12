@@ -24,7 +24,7 @@ This lab is not a full explanation of preparing a development workstation, pleas
 ## **Content and challenges**
 
 - [Getting started](./Challenges/00-Pre-Reqs.md)
-- [Challenge 1: Deploy the lab environment](./Challenges/01-Deploy-the-lab-environment-solution.md)
+- [Challenge 1: Deploy the lab environment](./Challenges/01-Deploy-the-lab-environment.md)
 - [Challenge 2: Adding a bicep deployment](./Challenges/02-Adding-a-bicep-deployment.md)
 - [Challenge 3: Create a React Web App](./Challenges/03-Create-a-react-web-app.md)
 - [Challenge 4: Setup GitHub Actions](./Challenges/04-Setup-github-actions.md)
@@ -47,13 +47,14 @@ Permissions for the deployment:
 
 ## **Solution Guide**
 
-- [Challenge 1: Deploy the lab environment](./SolutionGuide/01-Deploy-the-lab-environment-solution.md)
-- [Challenge 2: Adding a bicep deployment](./SolutionGuide/02-Solution2.md)
-- [Challenge 3: Create a React Web App](./SolutionGuide/03-Solution3.md)
-- [Challenge 4: Setup GitHub Actions](./SolutionGuide/04-Solution4.md)
-- [Challenge 5: Deploy as Static Web App](./SolutionGuide/05-Solution5.md)
-- [Challenge 6: Deploy as App Service](./SolutionGuide/06-Solution6.md)
-- [Challenge 7: Deploy as Containerized Application](./SolutionGuide/07-Solution7.md)
+- [Solution 1: Deploy the lab environment](./SolutionGuide/01-Deploy-the-lab-environment-solution.md)
+- [Solution 2: Adding a bicep deployment](./SolutionGuide/02-Adding-a-bicep-deployment-solution.md)
+- [Solution 3: Create a React Web App](./SolutionGuide/03-Create-a-react-web-app-solution.md)
+- [Solution 4: Setup GitHub Actions](./SolutionGuide/04-Setup-github-actions-solution.md)
+- [Solution 5: Deploy as Static Web App](./SolutionGuide/05-Deploy-as-static-web-app-solution.md)
+- [Solution 6: Deploy as App Service](./SolutionGuide/06-Deploy-as-app-service-solution.md)
+- [Solution 7: Deploy as Containerized Application](./SolutionGuide/07-Deploy-as-containerized-application-solution.md)
+- [Solution 8: Set up basic monitoring with Azure Monitor](./SolutionGuide/08-Setup-basic-monitoring-with-azure-monitor-solution.md)
 
 ## **Contributor**
 
