@@ -4,7 +4,7 @@
 
 DESCRIPTION HERE
 
-[Solution for this challenge](../solutionguide/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces-Solution.md)
+[Solution for this challenge](../SolutionGuide/02-Adding-a-bicep-deployment-solution.md)
 
 ## Goal 
 
