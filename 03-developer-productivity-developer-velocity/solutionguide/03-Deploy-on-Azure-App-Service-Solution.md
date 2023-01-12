@@ -1,4 +1,4 @@
-# Solution 3 - Deploy-on-Azure-App-Service
+# Solution 3 - Deploy on Azure App Service
 
 Duration: 20-25 Min
 
