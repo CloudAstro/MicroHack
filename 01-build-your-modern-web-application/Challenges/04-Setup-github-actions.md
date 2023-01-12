@@ -1,4 +1,4 @@
-# Challenge 3 - Setup GitHub Actions
+# Challenge 4 - Setup GitHub Actions
 
 ## Introduction
 
