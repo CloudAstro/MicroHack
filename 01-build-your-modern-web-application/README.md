@@ -31,6 +31,7 @@ This lab is not a full explanation of preparing a development workstation, pleas
 - [Challenge 5: Deploy as Static Web App](./Challenges/05-Challenge5.md)
 - [Challenge 6: Deploy as App Service](./Challenges/06-Challenge6.md)
 - [Challenge 7: Deploy as Containerized Application](./Challenges/07-Challenge7.md)
+- [Challenge 8: Set up basic monitoring with Azure Monitor](./Challenges/07-Challenge7.md)
 
 ## **Prerequisites**
 
