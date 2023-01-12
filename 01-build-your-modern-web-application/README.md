@@ -40,6 +40,7 @@ This lab is not a full explanation of preparing a development workstation, pleas
 - Node for Windows installed
 - Visual Studio Biceps Extension installed
 - Azure CLI
+- Docker Hub account
 
 Permissions for the deployment:
 
