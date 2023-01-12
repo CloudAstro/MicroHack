@@ -2,6 +2,30 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
+    "repositoryUrl": {
+      "value": "https://github.com/CloudAstro/MicroHack"
+    },
+    "repositoryToken": {
+      "value": "  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"
+    },
+    "sku": {
+      "value": "S1"
+    },
+    "appserverOS": {
+      "value": "Linux"
+    },
+    "webappname": {
+      "value": "webapp-microhack-rolandmeier"
+    },
+    "apinname": {
+      "value": "apin-microhack-rolandmeier"
+    },
+    "lawname": {
+      "value": "law-microhack-rolandmeier"
+    },
+    "serverOS": {
+      "value": "Linux"
+    },
     "deploymentPrefix": {
       "value": "rm"
     },

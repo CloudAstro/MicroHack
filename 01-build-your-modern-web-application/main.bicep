@@ -91,25 +91,25 @@ module deploystaticwebapp './bicep-modules/deploy-staticwebapp.bicep' = {
   }
 }
 
-module deploymonitoring './bicep-modules/deploy-monitoring.bicep' = {
-  name: apinname
-  scope: resourceGroup(deployresourcegroup.name)
-  params: {
-    location: location
-    apinname: apinname
-    lawname: lawname
-  }
-}
+// module deploymonitoring './bicep-modules/deploy-monitoring.bicep' = {
+//   name: apinname
+//   scope: resourceGroup(deployresourcegroup.name)
+//   params: {
+//     location: location
+//     apinname: apinname
+//     lawname: lawname
+//   }
+// }
 
-module deploywebapp './bicep-modules/deploy-webapp.bicep' = {
-  scope: resourceGroup(deployresourcegroup.name)
-  name: webappname
-  params: {
-    name: webappname
-    location: location
-    sku: sku
-    appInsightId: deploymonitoring.outputs.applicationinsightsresourceId
-    serverOS: serverOS
-  }
-}
+// module deploywebapp './bicep-modules/deploy-webapp.bicep' = {
+//   scope: resourceGroup(deployresourcegroup.name)
+//   name: webappname
+//   params: {
+//     name: webappname
+//     location: location
+//     sku: sku
+//     appInsightId: deploymonitoring.outputs.applicationinsightsresourceId
+//     serverOS: serverOS
+//   }
+// }
 
