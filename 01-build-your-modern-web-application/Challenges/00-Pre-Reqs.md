@@ -62,11 +62,11 @@ If not already installed, please install VSCode User.
 
 In VS Code install the git extension pack:
 
-  ![image](./../.images/01-git-extension-pack.png)
+  ![image](./.images/01-git-extension-pack.png)
 
   Add the Bicep Extension to VS Code:
 
-  ![image](./../.images/02-bicep-extension.png)
+  ![image](./.images/02-bicep-extension.png)
 
 ## Task 4: Install Azure Cli
 
@@ -89,3 +89,7 @@ For the Bicep PowerShell modules please type the following:
 `az bicep install` or `az bicep upgrade`
 
   [Back to top](#getting-started)
+
+Now we are ready to start with the first Challange.
+
+[Home](./../README.md) - [Challenge One](./01-Deploy-the-lab-environment.md)
