@@ -4,7 +4,7 @@
 
 To deploy a modern web application to Azure App Service, the infrastructure components have to be created in an Azure Subscription. In this hack we are going to use a Bicep script to deploy the base infrastructure.
 
-[Solution for this challenge](../SolutionGuide/01-Deploy-the-lab-environment-solution.md)
+[Solution for this challenge](../SolutionGuide/01-Deploy-the-lab-environment-solution.md) - [Home](./../README.md)
 
 ## Goal
 
@@ -14,10 +14,12 @@ The goal is to have:
 - a static Web App
 - a standard Web App
 - a containerized Web App
+- an Application Insights workspace
+- a Log Analytics Workspace
 
 ### Task 1: Task one comes here
 
-Check out the MicroHack repository locally.
+Create a resource group.
 
 ### Task 2: Task 2 comes here
 
