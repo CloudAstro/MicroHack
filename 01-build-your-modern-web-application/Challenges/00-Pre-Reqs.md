@@ -62,11 +62,11 @@ If not already installed, please install VSCode User.
 
 In VS Code install the git extension pack:
 
-  ![image](./.images/01-git-extension-pack.png)
+  ![image](./../.images/01-git-extension-pack.png)
 
   Add the Bicep Extension to VS Code:
 
-  ![image](./.images/02-bicep-extension.png)
+  ![image](./../.images/02-bicep-extension.png)
 
 ## Task 4: Install Azure Cli
 
