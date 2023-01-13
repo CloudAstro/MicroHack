@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Azure Web App - app-microhack-tst
+name: Build and deploy Node.js app to Azure Web App - app-microhack-tst
 
 on:
   push:
@@ -21,19 +21,17 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: npm build
+      - name: npm install, build, and test
         run: |
-          cd ./01-build-your-modern-web-application/microhack-react-app
-          npm -v
-          npm install create-react-app
-          npm run build
-          rm -rf ./node_modules
+          npm install
+          npm run build --if-present
+          npm run test --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: ./01-build-your-modern-web-application/microhack-react-app
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
@@ -54,5 +52,5 @@ jobs:
         with:
           app-name: 'app-microhack-tst'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_086D05921CB6419CA5A512E7DA6AB29B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E84A25D89AF1419CA5E97CC433DCA711 }}
           package: .
