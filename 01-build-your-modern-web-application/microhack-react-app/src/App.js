@@ -7,16 +7,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to CloudAstro React Web App.
-        </p>
-        <a
+          Welcome to <a
           className="App-link"
           href="https://github.com/CloudAstro/MicroHack"
           target="_blank"
           rel="noopener noreferrer"
         >
-          CloudAstro MicroHack
-        </a>
+        MicroHack
+        </a> React Web App.
+        </p>
+       
       </header>
     </div>
   );

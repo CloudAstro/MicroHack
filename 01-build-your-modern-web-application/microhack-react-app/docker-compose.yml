@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: microhack-react-app
+    image: microhack-react-app
+    build:
+      target: production
