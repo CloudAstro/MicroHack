@@ -2,50 +2,26 @@
 
 Duration: xx-xx min
 
-### Task 1: Task 1 (from challenge)
+## Task 1: Create a Resource Group
 
-Some explonation
+In the Azure Portal select 'Create a Resource' and type 'resource group'. Select Resource Group from Marketplace and select 'Create'.
 
-![image](./../.images/02-bicep-extension.png)
+![image](./../.images/01-create-resource-group.PNG)
 
-Before moving to the next task, make sure you are in the project root directory.
+![image](./../.images/02-create-resource-group.PNG)
 
-### Task 1: Task 2 (from challenge)
+### Task 2: Create a Log Analytics Workspace
 
-Some explonation
+In the Azure Portal select the new Resource Group and select 'Create' in the upper left corner. Type 'Log Analytics' and select 'Log Analytics Workspace' from MArketplace. Select 'Create' and fill out the form like in the following example given.
 
-### Task 3: Task 3 (from challenge)
+![image](./../.images/03-create-law.PNG)
 
-Some explonation
+![image](./../.images/04-create-law.PNG)
 
+### Task 3: Create an Application Insights Workspace
 
+In the Azure Portal select the new Resource Group and select 'Create' in the upper left corner. Type 'Application Insights' and select 'Application Insights' from Marketplace. Select 'Create' and fill out the form like in the following example given.
 
-## **Deploy a Resource Group and a Static Web App with Bicep**
+![image](./../.images/05-create-appin.PNG)
 
-You can use [the Bicep Deployment script](./../main.bicep) to setup the base components as a one-time deployment.
-
-- Open Visual Studio Code and log in to Azure Cloud Shell at https://shell.azure.com/ and select Bash
-
-`az login`
-
-- Ensure Azure CLI and extensions are up to date:
-
-`az upgrade --yes`
-
-`az bicep upgrade`  or `az bicep install` (to install it)
-
-- If necessary select your target subscription:
-
-`az account set --subscription <Name or ID of subscription>`
-
-- Update and set the `main.parameters.json`
-
-- Update and set the main.bicep parameters.
-
-- Run the deployment with e.g.
-
-`$location = "WestEurope"`
-
-`$name="<your name>"`
-
-`az deployment sub create --location $location -f ./main.bicep --parameters name=$name --parameters @parameters-ad-join-example.json -c`
+[Challenge 2](../Challenges/02-Create-a-react-web-app.md) - [Home](./../README.md)
