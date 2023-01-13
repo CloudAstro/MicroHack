@@ -18,11 +18,11 @@ Fill out the form according to the picture below:
 
 After the deployment is complete a new App Service Plan is created together with the Web App. The Web App is integrated to the GitHub repository, a new workflow is created for a CI/CD scenario. Application Insights is configured for monitoring.
 
-### Task 1: Task 2 (from challenge)
+### Task 1: Change workflow for Web App
 
 Some explonation
 
-### Task 3: Task 3 (from challenge)
+### Task 3: Review created Web App
 
 Some explonation
 
