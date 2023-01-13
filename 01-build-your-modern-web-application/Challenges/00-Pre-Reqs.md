@@ -5,9 +5,9 @@
 
 ## **Introduction**
 
-Azure Virtual Desktop is a service that gives users easy and secure access to their virtualized desktops and RemoteApps. This topic will tell you a bit more about the general structure of the Azure Virtual Desktop environment.
+Azure App Services is a service that gives developers flexibility in hosting a modern web application. This topic will give you a high level view of three deployment options for a React app.
 
-This introduction is to ensure that all the pre-requisites and/or concepts to start the planning and deployment for Azure Virtual Desktop (AVD) are in place.
+This introduction is to ensure that all the pre-requisites and/or concepts to start the planning and deployment for building a modern web application are in place.
 
 
 ## **High Level View**
@@ -30,9 +30,24 @@ In this hack we use GitHub actions that:
 
 6. Push code in Docker Hub
 
-7. Deploy the React Web as containerized installation to Azure
+7. Deploy the React Web App as containerized installation to Azure
 
-## **Setup your resource group and publishing service**
+8. Look at monitoring festures in Azure for the publishing examples
+
+To achive these stepts a couple of requirements need to be fulfilled:
+
+- Install git on Windows
+- Install Node on Windows
+- Install VSCode
+- Install Azure Cli
+- Install the Bicep extension and the Bicep PowerShell module
+- 
+
+## **Check out the code from the Git repository**
+
+
+
+## **Deploy a Resource Group and a Static Web App with Bicep**
 
 You can use [the Bicep Deployment script](./../main.bicep) to setup the base components as a one-time deployment.
 
@@ -44,13 +59,13 @@ You can use [the Bicep Deployment script](./../main.bicep) to setup the base com
 
 `az upgrade --yes`
 
-`az biceps upgrade`  or `az biceps install` (to install it)
+`az bicep upgrade`  or `az bicep install` (to install it)
 
 - If necessary select your target subscription:
 
 `az account set --subscription <Name or ID of subscription>`
 
-- Update and set the `parameters-aa-join-example.json`
+- Update and set the `main.parameters.json`
 
 - Update and set the main.bicep parameters.
 
@@ -72,29 +87,13 @@ You can use [the Bicep Deployment script](./../main.bicep) to setup the base com
 
   ![image](./.images/02-bicep-extension.png)
 
-### **Install node in WSL:**
+### **Install node on Windows**
   
-  We are goint to install node as described [here](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl).
+  We are going to install Node on Windows from this download link.
+  
+  [Latest LTS Version](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
 
-  `sudo apt-get install curl`
-
-  `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
-
-  `command -v nvm`
-
-  This should return `nvm`
-
-  `nvm -v`
-
-  This should return the version >= 0.39.2
-
-  To install node enter the following:
-
-  `nvm install node`
-
-  `nvm ls`
-
-  ![image](./.images/03-node-installation.png)
+ 
 
   [Back to top](#01-build-your-modern-web-application)
 
