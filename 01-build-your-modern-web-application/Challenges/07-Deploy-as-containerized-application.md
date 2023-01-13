@@ -24,7 +24,7 @@ There are a few steps creating a docker image of the same React App we used befo
 
 After your image has been build now push to your Docker Hub Repo as a public image.
 
-### Task 3: Create a new Azure App Service
+### Task 3: Create a new Azure App Service and deploy
 
 Next you need to create an Azure App Service.
 
