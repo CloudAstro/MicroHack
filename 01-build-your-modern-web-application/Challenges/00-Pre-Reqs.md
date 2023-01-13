@@ -63,7 +63,7 @@ If not already installed, please install VSCode User.
 
 In VS Code install the git extension pack:
 
-  ![image](./../.images/01-git-extension-pack.png)
+  ![image](./../.images/git-extension-pack.png)
 
 ## Task 4: Install Azure Cli
 
