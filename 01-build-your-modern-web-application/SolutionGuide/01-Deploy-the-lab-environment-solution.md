@@ -2,7 +2,7 @@
 
 Duration: xx-xx min
 
-## Task 1: Create a Resource Group
+### Task 1: Create a Resource Group
 
 In the Azure Portal select 'Create a Resource' and type 'resource group'. Select Resource Group from Marketplace and select 'Create'.
 

@@ -71,3 +71,4 @@ After a few seconds or minutes the containerized React App is deployed and under
 
 Click the Link provided to you and the App should open.
 
+[Challenge 6](../Challenges/06-Setup-basic-monitoring-with-azure-monitor.md) - [Home](./../README.md)

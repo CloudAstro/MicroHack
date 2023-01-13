@@ -2,7 +2,7 @@
 
 Duration: xx-xx min
 
-## Task 1: Open PowerShell and Check npm
+### Task 1: Open PowerShell and Check npm
 
 Open a PowerShell terminal, change to the solution folder and type:
 
@@ -36,4 +36,8 @@ Note: In this scenario it is not necessary to build with `npm run build` since t
 
 From the React App folder in PowerShell type `Remove-Item -Recurse -Force .\node_modules\`.
 
+Now we are ready to deploy this React Web App to Microsoft Azure.
+
 [Back to top](#solution-2---create-a-react-web-app)
+
+[Challenge 3](../Challenges/03-Deploy-as-static-web-app.md) - [Home](./../README.md)
