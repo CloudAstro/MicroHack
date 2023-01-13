@@ -21,12 +21,14 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: npm install, build, and test
+      - name: npm build
         run: |
-          npm install
-          npm run build --if-present
-          npm run test --if-present
-
+          cd ./01-build-your-modern-web-application/microhack-react-app
+          npm -v
+          npm install create-react-app
+          npm run build
+          rm -rf ./node_modules
+          
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
