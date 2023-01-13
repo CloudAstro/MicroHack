@@ -26,6 +26,7 @@ jobs:
           cd ./01-build-your-modern-web-application/microhack-react-app
           npm -v
           npm install create-react-app
+          npm audit fix --force
           npm run build
           rm -rf ./node_modules
 
