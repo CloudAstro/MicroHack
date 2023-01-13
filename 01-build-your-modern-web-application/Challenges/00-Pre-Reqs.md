@@ -20,19 +20,21 @@ In this hack we use GitHub actions that:
 
 1. Check out the code from the Git repository
 
-2. Deploy a Resource Group and a Static Web App with Bicep
+2. Create a React Web App
 
-3. Deploy the React Web App to the Static Web App
+3. Deploy a Resource Group and a Static Web App
 
-4. Deploy the React Web App to an App Service
+4. Deploy the React Web App to the Static Web App
 
-5. Create Docker image with React Web App, NGINX and docker compose
+5. Deploy the React Web App to an App Service
 
-6. Push code in Docker Hub
+6. Create Docker image with React Web App, NGINX and docker compose
 
-7. Deploy the React Web App as containerized installation to Azure
+7. Push code in Docker Hub
 
-8. Look at monitoring festures in Azure for the publishing examples
+8. Deploy the React Web App as containerized installation to Azure
+
+9. Look at monitoring festures in Azure for the publishing examples
 
 To achive these stepts a couple of requirements need to be fulfilled:
 
