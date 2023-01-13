@@ -14,13 +14,13 @@ Duration: xx-xx min
 
 ![image](../.images/31-create-staticwebapp.PNG)
 
-### Task 1: Review the Github CI/CD workflow created
+### Task 1: Review the CI/CD workflow 
 
 In VS Code sync the repository.
 
 Go to .github\workflows in the Explorer tree and check if there is a new workflow.
 
-
+This workflow was created from Azure Web App creation wizard and can be used for a CI/CD workflow.
 
 ### Task 3: Task 3 (from challenge)
 

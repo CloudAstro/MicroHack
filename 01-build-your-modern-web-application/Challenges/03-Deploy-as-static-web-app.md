@@ -10,11 +10,11 @@ DESCRIPTION HERE
 
 GOAL HERE
 
-### Task 1: Task one comes here
+### Task 1: Create a Static Web App
 
 some text for task 1
 
-### Task 2: Task 2 comes here
+### Task 2: Review the CI/CD workflow
 
 soem text for task 2
 
