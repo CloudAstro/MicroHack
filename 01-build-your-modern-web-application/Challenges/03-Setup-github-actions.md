@@ -1,10 +1,10 @@
-# Challenge 4 - Setup GitHub Actions
+# Challenge 3 - Setup GitHub Actions
 
 ## Introduction
 
 DESCRIPTION HERE
 
-[Solution for this challenge](../SolutionGuide/04-Setup-github-actions-solution.md)
+[Solution for this challenge](../SolutionGuide/03-Setup-github-actions-solution.md)
 
 ## Goal 
 

@@ -1,10 +1,10 @@
-# Challenge 7 - Deploy as containerized application
+# Challenge 6 - Deploy as containerized application
 
 ## Introduction
 
 In this challenge you are going to deploy our React app as a containerized app using Docker & Docker Hub. This is one way of deploying your app, -containerized in Azure App Service.
 
-[Solution for this challenge](../SolutionGuide/07-Deploy-as-containerized-application-solution.md)
+[Solution for this challenge](../SolutionGuide/06-Deploy-as-containerized-application-solution.md)
 
 ## Goal 
 

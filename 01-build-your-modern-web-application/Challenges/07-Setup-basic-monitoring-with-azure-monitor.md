@@ -1,10 +1,10 @@
-# Challenge 8 - Setup basic monitoring with Azure Monitor
+# Challenge 7 - Setup basic monitoring with Azure Monitor
 
 ## Introduction
 
 DESCRIPTION HERE
 
-[Solution for this challenge](../SolutionGuide/08-Setup-basic-monitoring-with-azure-monitor-solution.md)
+[Solution for this challenge](../SolutionGuide/07-Setup-basic-monitoring-with-azure-monitor-solution.md)
 
 ## Goal 
 

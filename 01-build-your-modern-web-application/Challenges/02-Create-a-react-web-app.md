@@ -1,10 +1,10 @@
-# Challenge 3 - Create a React web app
+# Challenge 2 - Create a React web app
 
 ## Introduction
 
 DESCRIPTION HERE
 
-[Solution for this challenge](../SolutionGuide/03-Create-a-react-web-app-solution.md)
+[Solution for this challenge](../SolutionGuide/02-Create-a-react-web-app-solution.md)
 
 ## Goal 
 

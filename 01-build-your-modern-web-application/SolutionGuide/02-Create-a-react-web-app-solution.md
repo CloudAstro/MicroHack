@@ -1,4 +1,4 @@
-# Solution 3 - Create a React web app
+# Solution 2 - Create a React web app
 
 Duration: xx-xx min
 
@@ -22,7 +22,7 @@ Some explonation
 
 
 
-## **Challenge 3: Create a React Web App**
+## **Challenge 2: Create a React Web App**
 
   To create a React Web App, run the following commands from the [root](./) folder of the project.
   Open the terminal in VS Code using the WSL distribution of your choice. from the project root folder   type:

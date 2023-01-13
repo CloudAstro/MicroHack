@@ -1,10 +1,10 @@
-# Challenge 5 - Deploy as static web app
+# Challenge 4 - Deploy as static web app
 
 ## Introduction
 
 DESCRIPTION HERE
 
-[Solution for this challenge](../SolutionGuide/05-Deploy-as-static-web-app-solution.md)
+[Solution for this challenge](../SolutionGuide/04-Deploy-as-static-web-app-solution.md)
 
 ## Goal 
 

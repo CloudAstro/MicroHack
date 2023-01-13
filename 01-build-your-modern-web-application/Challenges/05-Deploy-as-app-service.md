@@ -1,10 +1,10 @@
-# Challenge 6 - Deploy as app service
+# Challenge 5 - Deploy as app service
 
 ## Introduction
 
 DESCRIPTION HERE
 
-[Solution for this challenge](../SolutionGuide/06-Deploy-as-app-service-solution.md)
+[Solution for this challenge](../SolutionGuide/05-Deploy-as-app-service-solution.md)
 
 ## Goal 
 
