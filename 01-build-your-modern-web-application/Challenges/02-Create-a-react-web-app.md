@@ -24,4 +24,4 @@ Delete the files not necessary to create the React Web App.
 
 ## Challenge Completed if
 
-- A React App with Hello World exists as deployable solution
+- A React App with Hello World exists as deployable solution in the root folder of the repository.

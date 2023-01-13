@@ -26,11 +26,10 @@ This lab is not a full explanation of preparing a development workstation, pleas
 - [Getting started](./Challenges/00-Pre-Reqs.md)
 - [Challenge 1: Deploy the lab environment](./Challenges/01-Deploy-the-lab-environment.md)
 - [Challenge 2: Create a React Web App](./Challenges/02-Create-a-react-web-app.md)
-- [Challenge 3: Setup GitHub Actions](./Challenges/03-Setup-github-actions.md)
-- [Challenge 4: Deploy as Static Web App](./Challenges/04-Deploy-as-static-web-app.md)
-- [Challenge 5: Deploy as App Service](./Challenges/05-Deploy-as-app-service.md)
-- [Challenge 6: Deploy as Containerized Application](./Challenges/06-Deploy-as-containerized-application.md)
-- [Challenge 7: Set up basic monitoring with Azure Monitor](./Challenges/07-Setup-basic-monitoring-with-azure-monitor.md)
+- [Challenge 3: Deploy as Static Web App](./Challenges/04-Deploy-as-static-web-app.md)
+- [Challenge 4: Deploy as App Service](./Challenges/05-Deploy-as-app-service.md)
+- [Challenge 5: Deploy as Containerized Application](./Challenges/06-Deploy-as-containerized-application.md)
+- [Challenge 6: Set up basic monitoring with Azure Monitor](./Challenges/07-Setup-basic-monitoring-with-azure-monitor.md)
 
 ## **Prerequisites**
 
@@ -49,11 +48,10 @@ Permissions for the deployment:
 
 - [Solution 1: Deploy the lab environment](./SolutionGuide/01-Deploy-the-lab-environment-solution.md)
 - [Solution 2: Create a React Web App](./SolutionGuide/02-Create-a-react-web-app-solution.md)
-- [Solution 3: Setup GitHub Actions](./SolutionGuide/03-Setup-github-actions-solution.md)
-- [Solution 4: Deploy as Static Web App](./SolutionGuide/04-Deploy-as-static-web-app-solution.md)
-- [Solution 5: Deploy as App Service](./SolutionGuide/05-Deploy-as-app-service-solution.md)
-- [Solution 6: Deploy as Containerized Application](./SolutionGuide/06-Deploy-as-containerized-application-solution.md)
-- [Solution 7: Set up basic monitoring with Azure Monitor](./SolutionGuide/07-Setup-basic-monitoring-with-azure-monitor-solution.md)
+- [Solution 3: Deploy as Static Web App](./SolutionGuide/04-Deploy-as-static-web-app-solution.md)
+- [Solution 4: Deploy as App Service](./SolutionGuide/05-Deploy-as-app-service-solution.md)
+- [Solution 5: Deploy as Containerized Application](./SolutionGuide/06-Deploy-as-containerized-application-solution.md)
+- [Solution 6: Set up basic monitoring with Azure Monitor](./SolutionGuide/07-Setup-basic-monitoring-with-azure-monitor-solution.md)
 
 ## **Contributor**
 
