@@ -4,18 +4,18 @@ Duration: xx-xx min
 
 ## Task 1: Install Create React App
 
-  To create a React Web App you can use the node module `create-react-app`. To do so open a PowerShell command line window and change in the root folder of the repository.
-  Type `npm update` to update Node package manager.
-  Type `npm install create-react-app` to install the node modules.
-  Type `npm audit fix --force` to correct detected vulnerabilities in the installation.
-
-  ![image](./../.images/12-create-react-app.png)
+To create a React Web App you can use the node module `create-react-app`. To do so open a PowerShell command line window and change in the root folder of the repository.
+Type `npm update` to update Node package manager.
+Type `npm audit fix --force` to correct detected vulnerabilities in the installation.
+  
+![image](./../.images/12-create-react-app.png)
 
 Before moving to the next task, make sure you are in the project root directory.
 
 ### Task 1: Task 2 (from challenge)
 
-Some explonation
+Type `npx create-react-app microh4ck-react-app`
+
 
 ### Task 3: Task 3 (from challenge)
 
