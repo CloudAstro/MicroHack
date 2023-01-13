@@ -36,50 +36,31 @@ In this hack we use GitHub actions that:
 
 To achive these stepts a couple of requirements need to be fulfilled:
 
-- Install git on Windows
-- Install Node on Windows
-- Install VSCode
-- Install Azure Cli
-- Install the Bicep extension and the Bicep PowerShell module
-- 
+- [Task 1: Install git on Windows](#task-1-install-git-on-windows)
+- [Task 2: Install Node on Windows](#task-2-install-node-on-windows)
+- [Task 3: Install VSCode](#task-3-install-vscode)
+- [Task 4: Install Azure Cli](#task-4-install-azure-cli)
+- [Task 5: Install the Bicep extension and the Bicep PowerShell module](#task-5-install-the-bicep-extension-and-the-bicep-powershell-module)
 
-## **Check out the code from the Git repository**
+## Task 1: Install Git on Windows
 
+We need to download and install the Windows Git Client.
 
+  [Git Download Link](https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-64-bit.exe)
 
-## **Deploy a Resource Group and a Static Web App with Bicep**
+## Task 2: Install Node on Windows
 
-You can use [the Bicep Deployment script](./../main.bicep) to setup the base components as a one-time deployment.
+Next we install the Node Language support for Windows.
+  
+  [Latest LTS Version](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
 
-- Open Visual Studio Code and log in to Azure Cloud Shell at https://shell.azure.com/ and select Bash
+## Task 3: Install VSCode
 
-`az login`
+If not already installed, please install VSCode User.
 
-- Ensure Azure CLI and extensions are up to date:
+  [VSCode download link](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
 
-`az upgrade --yes`
-
-`az bicep upgrade`  or `az bicep install` (to install it)
-
-- If necessary select your target subscription:
-
-`az account set --subscription <Name or ID of subscription>`
-
-- Update and set the `main.parameters.json`
-
-- Update and set the main.bicep parameters.
-
-- Run the deployment with e.g.
-
-`$location = "WestEurope"`
-
-`$name="<your name>"`
-
-`az deployment sub create --location $location -f ./main.bicep --parameters name=$name --parameters @parameters-ad-join-example.json -c`
-
-### **Install VS Code Extensions**
-
-  In VS Code install the git extension pack:
+In VS Code install the git extension pack:
 
   ![image](./.images/01-git-extension-pack.png)
 
@@ -87,113 +68,24 @@ You can use [the Bicep Deployment script](./../main.bicep) to setup the base com
 
   ![image](./.images/02-bicep-extension.png)
 
-### **Install node on Windows**
-  
-  We are going to install Node on Windows from this download link.
-  
-  [Latest LTS Version](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
+## Task 4: Install Azure Cli
 
- 
+From this download link we install the Azure Cli:
 
-  [Back to top](#01-build-your-modern-web-application)
+  [Azure Cli Download](https://aka.ms/installazurecliwindows)
 
-## **Challenge 2: Adding a Bicep deployment to the project**
+## Task 5: Install the Bicep extension and the Bicep PowerShell module
 
-In this challenge we add the Bicep deployment to the project.
-  
-First we setup a folder structure in our project with the following folders:
+In VS Code please install the Bicep Extension from Microsoft.
 
-- bicep-modules  
-- parameters  
-- pipelines
-  
-For having a "Bicep Hook", we create a file in the project root directory named main.bicep.
-  
-The result should look like this:
+  ![image](./../.images/02-bicep-extension.png)
 
-![image](./.images/04-folder-structure.png)
+Open a PowerShell window as Administrator and type the following:
 
-There is a Common Azure Resource Modules Library available [here](https://github.com/Azure/ResourceModules), that comes in versions. We use these modules in the deployment, so in the folder bicep-modules, a subfolder is created for the library named carml.
-Below is the version number as folder, that contains the version of carml you choose to use when building your bicep deployment.
-  
-The result looks like this:
+`az install` or `az upgrade`
 
-![image](./.images/05-carml-structure.png)
+For the Bicep PowerShell modules please type the following:
 
-Now we are going to write the modules that are called from the main.bicep later. We need a module for the resource group creation in a subscription, and a module for setting up the static web app.
-So we create two files in the folder bicep-modules:
+`az bicep install` or `az bicep upgrade`
 
-- deploy-resourcegroup.bicep
-- deploy-webapp.bicep
-
-The result should look like this:
-
-![image](./.images/06-bicep-module-files.png)
-
-Developing in Bicep with this setup is a pleasure. Try to make use of the IntelliSense feature and the Bicep language support in VS Code. To start just type tar and wait for the suggestions to come up. Select targetScope from the list. Type = and press Strg+Space to see possible values for targetScope. It is very intuitive...
-
-![image](./.images/07-bicep-main.png)
-
-When calling modules in Bicep, the path is specified for the module.bicep file to call. A module can have output variables that are returned as an object to the name of the module in main.bicep. This helps to use results from modules later in the script, e.g. to deploy some service into a resource group. The output from module deploy-resourcegroup is used to initialize the module deploy-webapp.bicep.
-
-![image](./.images/08-bicep-main-modules.png)
-
-Inside the module a resource can be created. Type res and wait for suggestions. Use resource and give that resource a name. Next is to select the API of the service. After the @ symbol, the APi version is selected.
-
-![image](./.images/09-bicep-module-rg.png)
-
-[Back to top](#01-build-your-modern-web-application)
-
-## **Challenge 3: Create a React Web App**
-
-  To create a React Web App, run the following commands from the [root](./) folder of the project.
-  Open the terminal in VS Code using the WSL distribution of your choice. from the project root folder   type:
-  
-  `npx create-react-app cloudastro-react-app`
-  
-  The following output is shown:
-  
-  ![image](./.images/11-react-app-creation.png)
-  
-  This can take a minute or two.
-  So we can now change into cloudastro-react-app and start a pre-build version of this app locally.
-  
-  When the setup of react web app is finished, the following output is shown:
-  
-  ![image](./.images/12-react-app-result.png)
-  
-  `cd cloudastro-react-app`
-  
-  `npm start`
-  
-  This brings up the React Web App to your default browser on [http://localhost:3000](http://localhost:3000)
-  
-  ![image](./.images/13-react-app-starting.png)
-  
-  ![image](./.images/14-react-app-running.png)
-  
-  Now we can make some changes to the React Web App to align with the MicroHack.
-  For that we are going to change the file App.js in the created folder [./cloudastro-react-app/src/App.js](./cloudastro-react-app/src/App.js)
-
-  The result is shown like this:
-  
-  ![image](./.images/15-react-web-app-customized.png)
-  
-  We are ready for a deployment, sice this web page only exist for demonstration of the possibilities.
-  
-  [Back to top](#01-build-your-modern-web-application)
-
-## **Challenge 4: Commit to git and setup GitHub Action**
-
-In this Challenge we are checking in the code to git and use GitHub to create a deployment action.
-First we have to create a build version of the React Web App. for this type the following command:
-
-`npm run build`
-
-The result shoud look like this:
-
-![image](./.images/17-react-web-app-compiled-successfully.png)
-
-[Back to top](#01-build-your-modern-web-application)
-
-## **Challenge 5: Deployment Ready**
+  [Back to top](#getting-started)
