@@ -11,30 +11,23 @@ To deploy a modern web application to Azure App Service, the infrastructure comp
 The goal is to have:
 
 - a Resource Group with
-- a static Web App
-- a standard Web App
-- a containerized Web App
 - an Application Insights workspace
 - a Log Analytics Workspace
 
-### Task 1: Task one comes here
+### Task 1: Create a Resource Group
 
 Create a resource group.
 
-### Task 2: Task 2 comes here
+### Task 2: Create a Log Analytics Workspace
 
-Use the Bicep Example given in the folder '01-build-your-modern-web-application' to deploy the base infrastructure components for this hack.
+Create a Log Analytics Workspace in the new Resource Group.
 
-### Task 3: Task 3 here
+### Task 3: Create an Application Insights Workspace
 
-Check in your Azure Subscription if you have the following services:
-
-
-### Task 4: Task 4 comes here
-
-some text for task 4
+Create an Application Insights Workspace in the new Resource Group.
 
 ## Challenge Completed if
 
-- Something
-- Something
+- A Resource Group exists with
+- a Log Analytics Workspace
+- an Application Insights Workspace

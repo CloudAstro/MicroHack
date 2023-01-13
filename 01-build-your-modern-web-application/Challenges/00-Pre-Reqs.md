@@ -42,7 +42,6 @@ To achive these stepts a couple of requirements need to be fulfilled:
 - [Task 2: Install Node on Windows](#task-2-install-node-on-windows)
 - [Task 3: Install VSCode](#task-3-install-vscode)
 - [Task 4: Install Azure Cli](#task-4-install-azure-cli)
-- [Task 5: Install the Bicep extension and the Bicep PowerShell module](#task-5-install-the-bicep-extension-and-the-bicep-powershell-module)
 
 ## Task 1: Install Git on Windows
 
@@ -75,22 +74,6 @@ In VS Code install the git extension pack:
 From this download link we install the Azure Cli:
 
   [Azure Cli Download](https://aka.ms/installazurecliwindows)
-
-## Task 5: Install the Bicep extension and the Bicep PowerShell module
-
-In VS Code please install the Bicep Extension from Microsoft.
-
-  ![image](./../.images/02-bicep-extension.png)
-
-Open a PowerShell window as Administrator and type the following:
-
-`az install` or `az upgrade`
-
-For the Bicep PowerShell modules please type the following:
-
-`az bicep install` or `az bicep upgrade`
-
-  [Back to top](#getting-started)
 
 Now we are ready to start with the first Challange.
 
