@@ -25,7 +25,9 @@ jobs:
         run: |
           cd ./01-build-your-modern-web-application/microhack-react-app
           npm -v
-          npm run build          
+          npm install create-react-app
+          npm run build
+          rm -rf ./node_modules
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
