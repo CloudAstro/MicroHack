@@ -59,4 +59,15 @@ In teh Basics Tab, it is important you pick the Docker Container option in the "
 
 Then navigate to the Docker tab, in the Options field select "Single Container", and Image Source should be "Docker Hub"
 
+![image](../.images/25-dockerhub-1.png)
+
+Now provide the Docker image and tag (can be found in your docker hub account). Then Press the "Review and Deploy" Button.
+
+![image](../.images/25-dockerhub-2.png)
+
+After a few seconds or minutes the containerized React App is deployed and under "Overview" you should have a look like this
+
+![image](../.images/26-appservice-overview.png)
+
+Click the Link provided to you and the App should open.
 
