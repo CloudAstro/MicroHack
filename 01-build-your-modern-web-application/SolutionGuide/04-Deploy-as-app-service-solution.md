@@ -2,13 +2,21 @@
 
 Duration: xx-xx min
 
-### Task 1: Task 1 (from challenge)
+### Task 1: Create a Web App
 
-Some explonation
+In the Azure Portal go to the Resource Group created and select 'Create'.
 
+Type `Web App` and select Web App from the Marketplace.
 
+Fill out the form according to the picture below:
 
-Before moving to the next task, make sure you are in the project root directory.
+![image](../.images/41-create-web-app.PNG)
+
+![image](../.images/42-create-web-app.PNG)
+
+![image](../.images/43-create-web-app.PNG)
+
+After the deployment is complete a new App Service Plan is created together with the Web App. The Web App is integrated to the GitHub repository, a new workflow is created for a CI/CD scenario. Application Insights is configured for monitoring.
 
 ### Task 1: Task 2 (from challenge)
 
