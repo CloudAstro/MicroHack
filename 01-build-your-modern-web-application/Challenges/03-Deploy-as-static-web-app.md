@@ -6,27 +6,22 @@ DESCRIPTION HERE
 
 [Solution for this challenge](../SolutionGuide/03-Deploy-as-static-web-app-solution.md)
 
-## Goal 
+## Goal
 
-GOAL HERE
+The goal is to deploy the React App created in Challenge 2 as a Static Web App
 
 ### Task 1: Create a Static Web App
 
-some text for task 1
+From the Azure Portal create a new Static Web App that is connected to the GitHub repository.
 
 ### Task 2: Review the CI/CD workflow
 
-soem text for task 2
+Sync the git repository and review the nerwly created worflow for the Static Web App.
 
-### Task 3: Task 3 here
+### Task 3: Review the created Static Web App
 
-some text for task 3
-
-### Task 4: Task 4 comes here
-
-some text for task 4
+Review the settings and monitoring capabilities of the Static Web App.
 
 ## Challenge Completed if
 
-- Something
-- Something
+- Static Web App is up and running React Code from Challenge 2
