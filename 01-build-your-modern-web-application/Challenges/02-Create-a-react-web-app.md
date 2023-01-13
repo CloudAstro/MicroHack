@@ -10,9 +10,9 @@ Create a React Web App for demonstration purpose.
 
 The goal is to have a React Web App ready to deploy to Azure.
 
-### Task 1: Install Create React App
+### Task 1: Open PowerShell and Check npm
 
-Prom PowerShell change to the solution folder and install create-react-app module in Node.
+Check if npm is installed and working.
 
 ### Task 2: Create a React Web App
 
@@ -20,7 +20,7 @@ Use the module create-react-app to create a react app.
 
 ### Task 3: Delete unneccesary files from solution folder
 
-Delete the files not necessary to create the React Web App.
+Delete the folders and files not necessary to create the React Web App.
 
 ## Challenge Completed if
 

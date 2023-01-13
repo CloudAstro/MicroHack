@@ -2,64 +2,38 @@
 
 Duration: xx-xx min
 
-## Task 1: Install Create React App
+## Task 1: Open PowerShell and Check npm
 
-To create a React Web App you can use the node module `create-react-app`. To do so open a PowerShell command line window and change in the root folder of the repository.
-Type `npm update` to update Node package manager.
-Type `npm audit fix --force` to correct detected vulnerabilities in the installation.
+Open a PowerShell terminal, change to the solution folder and type:
+
+`npm -v`
   
 ![image](./../.images/12-create-react-app.png)
 
-Before moving to the next task, make sure you are in the project root directory.
+The output should show the version of npm.
 
-### Task 1: Task 2 (from challenge)
+### Task 1: Create a React Web App
 
-Type `npx create-react-app microh4ck-react-app`
+To create a React Web App you can use the node module `create-react-app`.
 
+Type `npx create-react-app microhack-react-app`
 
-### Task 3: Task 3 (from challenge)
+![image](./../.images/13-create-react-app.png)
 
-Some explonation
+After the module has finished creating the React App, change into the React App folder and type:
 
+`npm start`
 
+![image](./../.images/14-create-react-app.png)
 
+This should open your browser and show the React App starting page.
 
+![image](./../.images/15-create-react-app.png)
 
-## **Challenge 2: Create a React Web App**
+Note: In this scenario it is not necessary to build with `npm run build` since this is done within the CI/CD workflow on every commit.
 
-  To create a React Web App, run the following commands from the [root](./) folder of the project.
-  Open the terminal in VS Code using the WSL distribution of your choice. from the project root folder   type:
-  
-  `npx create-react-app cloudastro-react-app`
-  
-  The following output is shown:
-  
-  ![image](./.images/11-react-app-creation.png)
-  
-  This can take a minute or two.
-  So we can now change into cloudastro-react-app and start a pre-build version of this app locally.
-  
-  When the setup of react web app is finished, the following output is shown:
-  
-  ![image](./.images/12-react-app-result.png)
-  
-  `cd cloudastro-react-app`
-  
-  `npm start`
-  
-  This brings up the React Web App to your default browser on [http://localhost:3000](http://localhost:3000)
-  
-  ![image](./.images/13-react-app-starting.png)
-  
-  ![image](./.images/14-react-app-running.png)
-  
-  Now we can make some changes to the React Web App to align with the MicroHack.
-  For that we are going to change the file App.js in the created folder [./cloudastro-react-app/src/App.js](./cloudastro-react-app/src/App.js)
+### Task 3: Task 3 Delete unneccesary files from solution folder
 
-  The result is shown like this:
-  
-  ![image](./.images/15-react-web-app-customized.png)
-  
-  We are ready for a deployment, sice this web page only exist for demonstration of the possibilities.
-  
-  [Back to top](#01-build-your-modern-web-application)
+From the React App folder in PowerShell type `Remove-Item -Recurse -Force .\node_modules\`.
+
+[Back to top](#solution-2---create-a-react-web-app)
