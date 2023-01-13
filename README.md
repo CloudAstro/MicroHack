@@ -1,6 +1,6 @@
-# **CloudAstro MicroHack**
+# **MicroHack**
 
-- [**CloudAstro MicroHack**](#cloudastro-microhack)
+- [**MicroHack**](#cloudastro-microhack)
 - [MicroHack introduction and context](#microhack-introduction-and-context)
 - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
