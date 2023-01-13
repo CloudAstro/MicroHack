@@ -2,31 +2,26 @@
 
 ## Introduction
 
-DESCRIPTION HERE
+Create a React Web App for demonstration purpose.
 
 [Solution for this challenge](../SolutionGuide/02-Create-a-react-web-app-solution.md)
 
-## Goal 
+## Goal
 
-GOAL HERE
+The goal is to have a React Web App ready to deploy to Azure.
 
-### Task 1: Task one comes here
+### Task 1: Install Create React App
 
-some text for task 1
+Prom PowerShell change to the solution folder and install create-react-app module in Node.
 
-### Task 2: Task 2 comes here
+### Task 2: Create a React Web App
 
-soem text for task 2
+Use the module create-react-app to create a react app.
 
-### Task 3: Task 3 here
+### Task 3: Delete unneccesary files from solution folder
 
-some text for task 3
-
-### Task 4: Task 4 comes here
-
-some text for task 4
+Delete the files not necessary to create the React Web App.
 
 ## Challenge Completed if
 
-- Something
-- Something
+- A React App with Hello World exists as deployable solution
