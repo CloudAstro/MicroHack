@@ -44,4 +44,10 @@ When the deployment is done, we need a startup command to be added to the Web Ap
 
 In the Azure Portal select the Web App instance and browse to Application Insights.
 
+Select `View Application Insights data`
+
+Select `Application Dashboard`
+
+![image](../.images/47-application-insights.png)
+
 [Challenge 5](../Challenges/05-Deploy-as-containerized-application.md) - [Home](./../README.md)
