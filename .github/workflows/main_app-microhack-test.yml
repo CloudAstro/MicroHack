@@ -29,7 +29,9 @@ jobs:
           
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./01-build-your-modern-web-application/microhack-react-app/* -r
+        run: |
+            cd 01-build-your-modern-web-application/microhack-react-app/
+            zip ../../release.zip ./* -r
 
       - run: |
           ls -la  
