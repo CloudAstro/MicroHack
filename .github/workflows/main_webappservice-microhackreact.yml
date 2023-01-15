@@ -4,7 +4,7 @@
 name: Azure Web App - WebAppService-MicroHackReact
 
 on:
-  push:
+  fork:
     branches:
       - main
   workflow_dispatch:

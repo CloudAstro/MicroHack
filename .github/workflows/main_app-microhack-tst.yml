@@ -61,6 +61,6 @@ jobs:
         with:
           app-name: 'app-microhack-test'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A064F7AA4E1148CF9CB09A07D533A819 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
 
