@@ -1,6 +1,6 @@
 # Solution 4 - Deploy as App Service
 
-Duration: xx-xx min
+Duration: 15-20 min
 
 ### Task 1: Create a Web App
 
@@ -40,7 +40,7 @@ When the deployment is done, we need a startup command to be added to the Web Ap
 
 ![image](../.images/46-startup-command.PNG)
 
-### Task 3: Review created Web App
+### Task 3: Setup monitoring
 
 In the Azure Portal select the Web App instance and browse to Application Insights.
 

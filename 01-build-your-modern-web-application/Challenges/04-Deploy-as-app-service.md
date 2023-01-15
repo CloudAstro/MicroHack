@@ -6,27 +6,23 @@ DESCRIPTION HERE
 
 [Solution for this challenge](../SolutionGuide/04-Deploy-as-app-service-solution.md)
 
-## Goal 
+## Goal
 
-GOAL HERE
+The goal is to create a Web App service in Azure that is connected to GitHub for CI/CD and runs the React App from challenge 2.
 
-### Task 1: Task one comes here
+### Task 1: Create a Web App
 
-some text for task 1
+In the Azure portal create a Web App instance that is connected to the GitHub repository hosting a React Application.
 
-### Task 2: Task 2 comes here
+### Task 2: Change workflow for Web App
 
-soem text for task 2
+Change the workflow file to cover the folder structure and change the deployment type to zip deployment.
 
-### Task 3: Task 3 here
+### Task 3: Setup monitoring
 
-some text for task 3
-
-### Task 4: Task 4 comes here
-
-some text for task 4
+Setup monitoring for the Web Service.
 
 ## Challenge Completed if
 
-- Something
-- Something
+- A Web App runs with the React App created in Challenge 2.
+- Monitoring is enabled for the React App
