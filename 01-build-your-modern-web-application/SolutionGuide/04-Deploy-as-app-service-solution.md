@@ -18,13 +18,30 @@ Fill out the form according to the picture below:
 
 After the deployment is complete a new App Service Plan is created together with the Web App. The Web App is integrated to the GitHub repository, a new workflow is created for a CI/CD scenario. Application Insights is configured for monitoring.
 
-### Task 1: Change workflow for Web App
+### Task 2: Change workflow for Web App
 
-Some explonation
+To deploy a React App succeessfully, we give the workflow some improvements:
+
+1. Zip Deploy
+
+2. Path corrections
+
+Add the following lines to the workflow:
+
+![image](../.images/44-change-workflow-file.png)
+
+And below add the following lines:
+
+![image](../.images/45-change-workflow-file.png)
+
+When the deployment is done, we need a startup command to be added to the Web App:
+
+`pm2 serve /home/site/wwwroot/build --spa --no-daemon`
+
+![image](../.images/46-startup-command.PNG)
 
 ### Task 3: Review created Web App
 
-Some explonation
-
+In the Azure Portal select the Web App instance and browse to Application Insights.
 
 [Challenge 5](../Challenges/05-Deploy-as-containerized-application.md) - [Home](./../README.md)
