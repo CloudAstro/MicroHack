@@ -52,13 +52,15 @@ When finished, move the newly created api folder to the folder `01-build-your-mo
 
 Use this folder in the new Static Web App as API location:
 
-![image](../.images/06-create-staticwebapp2.png)
+![image](../.images/06-create-staticwebapp2.PNG)
 
 ### Task 5: Review Static Web App
 
 Review the monitoring capabilities with the new Static Web App containing an API location.
 
-![image]()
+![image](../.images/34-stapp-insights.PNG)
+
+Select `Open in Application Insights` to view logging details of the Static Web App.
 
 
 [Challenge 4](../Challenges/04-Deploy-as-app-service.md) - [Home](./../README.md)
