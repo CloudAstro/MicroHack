@@ -44,4 +44,15 @@ For the Web App type the following URL:
 
 In Azure portal use the Search line and type `Monitor`. Select Monitor from the list. See the points connected in Azure Monitor. On the left navigation pane all types of logging from your Azure Infrastructure are visible.
 
+![image](../.images/68-monitoring-az-monitor.png)
+
+Select Applications in the left navigation pane:
+As you see, the Application Insights workspace is connected.
+
+![image](../.images/69-monitoring-az-monitor.png)
+
+In Application Insights go to the application map and see the updated requests and instances.
+
+![images](../.images/70-monitoring-az-monitor.png)
+
 [Home](./../README.md)
