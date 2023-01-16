@@ -1,4 +1,4 @@
-# Solution 1 - How to get up to speed as Developer
+# Solution 1 - How to get up to speed as Developer using Cloud Environment Development
 
 Duration: 40-50 Min
 
