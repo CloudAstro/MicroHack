@@ -6,7 +6,17 @@ Duration: 15-30 min
 
 In the Azure portal please review the Log Analytics workspace created in Challenge 1. See the different logs created for the services in this hack.
 
+In the left navigation bar select Logs:
 
+![image](../.images/61-monitoring-loganalytics.png)
+
+In the pop-up window type `response` and select `response time trend`.
+
+![image](../.images/62-monitoring-loganalytics.png)
+
+Click `Run`
+
+![image](../.images/63-monitoring-loganalytics.png)
 
 ### Task 2: Review Application Insights
 
