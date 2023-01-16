@@ -1,15 +1,6 @@
 # **03 Developer Productivity/Developer Velocity**
 
-- [MicroHack introduction and context](#microhack-introduction-and-context)
-- [Objectives](#objectives)
-- [Prerequisites](#prerequisites)
-- [MicroHack Challenges](#challenges)
-  - [Challenge 1: How to get up to speed as Developer using Cloud Environment Development](challenges/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development.md)
-  - [Challenge 2: Working in a Cloud environment development](challenges/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces.md)
-  - [Challenge 3: Other CED and what is the difference](challenges/03-Deploy-on-Azure-App-Service.md)
-
-
-## Introduction and context
+## Introduction
 
 In order to start working on a software project, a developer needs to first set up a development environment containing all the tools, libraries, dependencies and configuration necessary before the actual work can begin. This process is cumbersome, frustrating and very time-consuming. 
 
@@ -26,7 +17,8 @@ This lab is not a full explanation of the complete tool set, please consider the
 If you want to take your knowledge deeper than what will be explained here, we recommand reading: 
 [Github Codespaces](https://docs.github.com/en/codespaces) or/and  [Microsoft Dev Box](https://learn.microsoft.com/en-us/azure/dev-box/) 
 
-## Objectives
+
+## Learning Objectives
 
 After completing this MicroHack you will: 
 
@@ -36,7 +28,13 @@ After completing this MicroHack you will:
 
 - know the basics of Cloud Environment Development 
 
-# Prerequisites
+## **Content and challenges**
+
+- [Challenge 1: How to get up to speed as Developer using Cloud Environment Development](challenges/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development.md)
+- [Challenge 2: Working in a Cloud environment development](challenges/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces.md)
+- [Challenge 3: Deploy on Azure App Service](challenges/03-Deploy-on-Azure-App-Service.md)
+
+## Prerequisites
 
 In order to use the MicroHack time most effectively, the following tasks should be completed prior to starting the session: 
 
@@ -48,11 +46,14 @@ In order to use the MicroHack time most effectively, the following tasks should 
 
 With these pre-requisites in place, we can focus directly developing, rather than spending hours repeating relatively simple tasks such as setting up localy everything by yourself. 
 
+## **Solution Guide**
 
-## Lab environment for this MicroHack 
+- [Challenge 1: How to get up to speed as Developer using Cloud Environment Development Solution](solutionguide/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development-solution.md)
+- [Challenge 2: Working in a Cloud environment development Solution](solutionguide/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces-solution.md)
+- [Challenge 3: Deploy on Azure App Service Solution](solutionguide/03-Deploy-on-Azure-App-Service-solution.md)
 
-All you need in order to follow is a browser, Visual Studio Code 
 
+## Contributor 
 
-
+Dreni Gjini 
 
