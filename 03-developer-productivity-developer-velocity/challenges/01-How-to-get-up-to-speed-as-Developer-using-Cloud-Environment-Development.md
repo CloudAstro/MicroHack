@@ -9,7 +9,7 @@ you can have as many instances of Cloud environment development.
 
 Instead of installing every required tool/software in your machine, we will be using Microsoft Dev Box to setup the project once and thats it! every other team member will be ready to start coding in no time!
 
-[Solution for this challenge](../solutionguide/01-How-to-get-up-to-speed-as-Developer-Solution.md)
+[Solution for this challenge](../solutionguide/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development-Solution.md)
 
 ## Goal 
 
