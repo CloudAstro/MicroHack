@@ -2,7 +2,7 @@
 
 ## Introduction
 
-There are many ways to improve developing speed and be more productive as a developer. In this Microhack we are going to be focusing to eliminate the time it takes to setup the project, neccesary tools, code editor and even extensions and jumping directly on the code part in!
+There are several approaches to increase development efficiency and developer productivity. In this Microhack, we'll be concentrating on cutting down on setup time for projects, tools, code editors, and even extensions so that we may jump right into the coding section in!
 
 If hybrid or remote, does not play a role anymore. Everyone will work in the same environment and no matter how many different project you work on,
 you can have as many instances of Cloud environment development.
