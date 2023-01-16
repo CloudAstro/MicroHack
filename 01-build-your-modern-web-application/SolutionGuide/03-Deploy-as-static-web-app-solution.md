@@ -62,5 +62,4 @@ Review the monitoring capabilities with the new Static Web App containing an API
 
 Select `Open in Application Insights` to view logging details of the Static Web App.
 
-
 [Challenge 4](../Challenges/04-Deploy-as-app-service.md) - [Home](./../README.md)

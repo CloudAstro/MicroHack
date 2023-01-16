@@ -22,6 +22,15 @@ Sync the git repository and review the newly created worflow for the Static Web 
 
 Review the settings and monitoring capabilities of the Static Web App.
 
+### Task 4: Add an API
+
+Use Visual Studio Code to add an API function to the Static Web App.
+
+### Task 5: Review Static Web App
+
+In the settings of the Static Web App connect Application Insights.
+
 ## Challenge Completed if
 
 - Static Web App is up and running React Code from Challenge 2
+- Static Web App has an API and is connected to Application Insights
