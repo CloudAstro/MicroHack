@@ -8,7 +8,7 @@ DESCRIPTION HERE
 
 ## Goal
 
-The goal is to deploy the React App created in Challenge 2 as a Static Web App
+The goal is to deploy the React App created in Challenge 2 as a Static Web App. This Static Web App is connected to a git repository for a CI/CD scenario.
 
 ### Task 1: Create a Static Web App
 
@@ -16,7 +16,7 @@ From the Azure Portal create a new Static Web App that is connected to the GitHu
 
 ### Task 2: Review the CI/CD workflow
 
-Sync the git repository and review the nerwly created worflow for the Static Web App.
+Sync the git repository and review the newly created worflow for the Static Web App.
 
 ### Task 3: Review the created Static Web App
 
