@@ -4,7 +4,7 @@
 name: Azure Web App - app-microhack-tst
 
 on:
-  fork:
+  push:
     branches:
       - main
   workflow_dispatch:
