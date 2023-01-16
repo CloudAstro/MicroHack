@@ -14,7 +14,7 @@ This lab is not a full explanation of the complete tool set, please consider the
 
  
 
-If you want to take your knowledge deeper than what will be explained here, we recommand reading: 
+If you want to take your knowledge deeper than what will be learned here, we recommand reading: 
 [Github Codespaces](https://docs.github.com/en/codespaces) or/and  [Microsoft Dev Box](https://learn.microsoft.com/en-us/azure/dev-box/) 
 
 
