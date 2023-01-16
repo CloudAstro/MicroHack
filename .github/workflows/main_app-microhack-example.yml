@@ -26,7 +26,6 @@ jobs:
           cd 01-build-your-modern-web-application/microhack-react-app/
           npm install
           npm run build --if-present
-          
 
       - name: Zip artifact for deployment
         run: |
@@ -59,7 +58,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'app-microhack-test'
+          app-name: 'app-microhack-example'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
