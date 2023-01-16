@@ -1,4 +1,4 @@
-# Solution 1 - Comparison between Microsoft Dev Box and Github Codespaces 
+# Solution 2 - Comparison between Microsoft Dev Box and Github Codespaces 
 
 Duration: 30-45 Min
 
