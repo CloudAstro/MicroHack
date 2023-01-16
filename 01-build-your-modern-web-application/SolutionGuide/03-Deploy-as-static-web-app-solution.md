@@ -35,4 +35,30 @@ Because our React App does not offer an API, we cannot monitor the Static Web Ap
 
 ![image](../.images/33-stapp-insights.PNG)
 
+### Task 4: Add an API
+
+To integrate an API in the Static Web App use VS Code. Select `Azure Static Web Apps: Create Http Function` from the command palette.
+Set a Http Trigger and select Java Script as language.
+
+![image](../.images/06-create-staticwebapp-api-1.PNG)
+
+![image](../.images/06-create-staticwebapp-api-2.png)
+
+![image](../.images/06-create-staticwebapp-api-3.png)
+
+When finished, move the newly created api folder to the folder `01-build-your-modern-web-application`
+
+![image](../.images/06-create-staticwebapp-api-4.png)
+
+Use this folder in the new Static Web App as API location:
+
+![image](../.images/06-create-staticwebapp2.png)
+
+### Task 5: Review Static Web App
+
+Review the monitoring capabilities with the new Static Web App containing an API location.
+
+![image]()
+
+
 [Challenge 4](../Challenges/04-Deploy-as-app-service.md) - [Home](./../README.md)
