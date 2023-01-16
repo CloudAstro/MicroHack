@@ -18,7 +18,7 @@ To create a React Web App you can use the node module `create-react-app`.
 
 Type `npx create-react-app microhack-react-app`
 
-![image](./../.images/13-create-react-app.png)
+![image](./../.images/12-create-react-app.png)
 
 After the module has finished creating the React App, change into the React App folder and type:
 
