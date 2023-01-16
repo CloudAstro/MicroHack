@@ -38,10 +38,13 @@ In this hack we use GitHub actions that:
 
 To achive these stepts a couple of requirements need to be fulfilled:
 
-- [Task 1: Install git on Windows](#task-1-install-git-on-windows)
-- [Task 2: Install Node on Windows](#task-2-install-node-on-windows)
-- [Task 3: Install VSCode](#task-3-install-vscode)
-- [Task 4: Install Azure Cli](#task-4-install-azure-cli)
+- [**Getting started**](#getting-started)
+  - [**Introduction**](#introduction)
+  - [**High Level View**](#high-level-view)
+  - [Task 1: Install Git on Windows](#task-1-install-git-on-windows)
+  - [Task 2: Install Node on Windows](#task-2-install-node-on-windows)
+  - [Task 3: Install VSCode](#task-3-install-vscode)
+  - [Task 4: Install Azure Cli](#task-4-install-azure-cli)
 
 ## Task 1: Install Git on Windows
 
@@ -65,11 +68,15 @@ In VS Code install the git extension pack:
 
   ![image](./../.images/git-extension-pack.png)
 
+Install the Azure Static Web App Extension and the Azure Functions Extension.
+
 ## Task 4: Install Azure Cli
 
 From this download link we install the Azure Cli:
 
   [Azure Cli Download](https://aka.ms/installazurecliwindows)
+
+To install the Azure Static Web Apps Cli type `npm install -g @azure/static-web-apps-cli` from a PowerShell window.
 
 Now we are ready to start with the first Challange.
 

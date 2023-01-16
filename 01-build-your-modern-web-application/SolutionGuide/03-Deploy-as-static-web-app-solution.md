@@ -54,6 +54,35 @@ Use this folder in the new Static Web App as API location:
 
 ![image](../.images/06-create-staticwebapp2.PNG)
 
+To call the API we have to change some code:
+
+![image](../.images/35-add-api-call.png)
+
+To test this behavior we can integrate the API to the Web Frontend by using the Azure Static Web Apps Cli. First we ensure that node is available and the swa cli is installed:
+
+Change into the folder of the React App: `cd ./microhack-react-app/`
+Then type the following commands:
+
+`npm install`
+`npm run build`
+`npm install -g @azure/static-web-apps-cli` (if not already done in Pre-Requisites)
+
+Then we can integrate the Web Frontend and the API Function by typing:
+
+`swa start build --api-location ../api`
+
+In the PowerShell window, the URL is displayed how to call the API. In my case it is localhost port 7071:
+
+`http://localhost:7071/api/HttpTrigger1?name=MicroHacker`
+
+This displays the message:
+
+`Hello, MicroHacker. This HTTP triggered function executed successfully.`
+
+With Ctrl - C stop the local serve and sync the changes to the repository. Test the newly distributed web page in Azure by calling the API.
+
+When the API works, move on to the next Challenge.
+
 ### Task 5: Review Static Web App
 
 Review the monitoring capabilities with the new Static Web App containing an API location.
