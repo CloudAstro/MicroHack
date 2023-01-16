@@ -31,7 +31,7 @@ After completing this MicroHack you will:
 ## **Content and challenges**
 
 - [Challenge 1: How to get up to speed as Developer using Cloud Environment Development](challenges/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development.md)
-- [Challenge 2: Working in a Cloud environment development](challenges/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces.md)
+- [Challenge 2: Comparison between Microsoft Dev Box and GitHub Codespaces](challenges/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces.md)
 - [Challenge 3: Deploy on Azure App Service](challenges/03-Deploy-on-Azure-App-Service.md)
 
 ## Prerequisites
@@ -48,9 +48,9 @@ With these pre-requisites in place, we can focus directly developing, rather tha
 
 ## **Solution Guide**
 
-- [Challenge 1: How to get up to speed as Developer using Cloud Environment Development Solution](solutionguide/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development-solution.md)
-- [Challenge 2: Working in a Cloud environment development Solution](solutionguide/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces-solution.md)
-- [Challenge 3: Deploy on Azure App Service Solution](solutionguide/03-Deploy-on-Azure-App-Service-solution.md)
+- [Solution 1: How to get up to speed as Developer using Cloud Environment Development Solution](solutionguide/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development-Solution.md)
+- [Solution 2: Comparison between Microsoft Dev Box and GitHub Codespaces Solution](solutionguide/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces-Solution.md)
+- [Solution 3: Deploy on Azure App Service Solution](solutionguide/03-Deploy-on-Azure-App-Service-Solution.md)
 
 
 ## Contributor 
