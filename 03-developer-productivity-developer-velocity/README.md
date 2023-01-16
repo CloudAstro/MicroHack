@@ -2,11 +2,11 @@
 
 ## Introduction
 
-In order to start working on a software project, a developer needs to first set up a development environment containing all the tools, libraries, dependencies and configuration necessary before the actual work can begin. This process is cumbersome, frustrating and very time-consuming. 
+A developer must first set up a development environment with all the essential tools, libraries, dependencies, and settings before they can begin working on a software project. This procedure is time-consuming, tedious, and laborious.
 
-This MicroHack scenario walks through the use of modern dev tools  to help you to improve your productivity as a developer with a focus on the best practices and the design principles.  
+This MicroHack scenario demonstrates how to use contemporary development tools to increase your productivity as a developer with an emphasis on best practices and design principles.
 
-This lab is not a full explanation of the complete tool set, please consider the following articles required pre-reading to build foundational knowledge. 
+Please note that this lab does not provide a comprehensive overview of the whole tool set; instead, you should study the papers listed below to provide the groundwork.
 
 [What is a Cloud Environment Development](https://www.cloudshare.com/virtual-it-labs-glossary/cloud-development-environment/) 
 
