@@ -2,31 +2,34 @@
 
 ## Introduction
 
-DESCRIPTION HERE
+Monitoring Azure App Services is done with:
+
+- Activity Logs
+- Azure Resource Logs (formerly known as Diagnostic Logs)
+- Application Insights
 
 [Solution for this challenge](../SolutionGuide/06-Setup-basic-monitoring-with-azure-monitor-solution.md)
 
 ## Goal
 
-GOAL HERE
+This hack implements the following resources to gi´ve a base monitoring solution for Azure App Services:
 
-### Task 1: Task one comes here
+- Log Analytics
+- Application Insights
 
-some text for task 1
+### Task 1: Review the Log Analytics Workspace
 
-### Task 2: Task 2 comes here
+In the Azure portal please review the Log Analytics workspace created in Challenge 1. See the different logs created for the services in this hack.
 
-soem text for task 2
+### Task 2: Review Application Insights
 
-### Task 3: Task 3 here
+In the Azure portal please review the Application Insights workspace created in Challenge 1. See the different analysis options and reports for the services in this hack.
 
-some text for task 3
+### Task 3: Use Azure Monitor
 
-### Task 4: Task 4 comes here
-
-some text for task 4
+In Azure portal use the Search line and type `Monitor`. Select Monitor from the list. See the points connected in Azure Monitor.
 
 ## Challenge Completed if
 
-- Something
-- Something
+- Reports have been reviewed
+- Compare the differences in reporting and logging for the services
