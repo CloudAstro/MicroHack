@@ -8,11 +8,11 @@
 
 ## Goal
 
-  The goal is to have a React Web App ready to deploy to Azure.
+  The goal is to have a React Web App ready to deploy to Azure. You can use npm with the Nodes for Windows installation on the local repository.
 
 ### Task 1: Open PowerShell and Check npm
 
-  Check if npm is installed and working.
+  Check if npm is installed and working. 
 
 ### Task 2: Create a React Web App
 
