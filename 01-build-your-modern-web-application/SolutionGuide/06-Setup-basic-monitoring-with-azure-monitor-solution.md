@@ -33,12 +33,19 @@ In the left navigation pane select Application Map:
 Navigate to Live Metrics and pay attention to the right pane while you make http get requests to either application. To do so open the browser and enter the following URL's:
 
 For the Static Web Application your URL might vary due to automatically naming of the instance:
+
+`https://gentle-smoke-09270ea03.2.azurestaticapps.net`
+
+and:
+
 `https://gentle-smoke-09270ea03.2.azurestaticapps.net/api/HttpTrigger1?name=MicroHacker`
 
 For the Web App type the following URL:
 `https://app-microhack-tst.azurewebsites.net/`
 
 ![image](../.images/67-monitoring-appinsights.png)
+
+When playing around with the requests given, please recognize in the Live Tracker that only API requests are monitored for the Static Web App.
 
 ### Task 3: Use Azure Monitor
 
