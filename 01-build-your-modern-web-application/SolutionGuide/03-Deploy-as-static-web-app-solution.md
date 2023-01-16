@@ -81,8 +81,6 @@ This displays the message:
 
 With Ctrl - C stop the local serve and sync the changes to the repository. Test the newly distributed web page in Azure by calling the API.
 
-When the API works, move on to the next Challenge.
-
 ### Task 5: Review Static Web App
 
 Review the monitoring capabilities with the new Static Web App containing an API location.
