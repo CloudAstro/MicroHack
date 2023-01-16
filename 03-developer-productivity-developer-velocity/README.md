@@ -26,7 +26,7 @@ After completing this MicroHack you will:
 
 - Understand How Development Environment can improve productivity 
 
-- know the basics of Cloud Environment Development 
+- Know the basics of Cloud Environment Development 
 
 ## **Content and challenges**
 
