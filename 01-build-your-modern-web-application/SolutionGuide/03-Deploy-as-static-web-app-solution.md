@@ -46,7 +46,7 @@ Set a Http Trigger and select Java Script as language.
 
 ![image](../.images/06-create-staticwebapp-api-3.png)
 
-When finished, move the newly created api folder to the folder `01-build-your-modern-web-application`
+When finished, move the newly created api folder to the folder `01-build-your-modern-web-application\microhack-react-app`
 
 ![image](../.images/06-create-staticwebapp-api-4.png)
 
@@ -69,7 +69,7 @@ Then type the following commands:
 
 Then we can integrate the Web Frontend and the API Function by typing:
 
-`swa start build --api-location ../api`
+`swa start build --api-location api`
 
 In the PowerShell window, the URL is displayed how to call the API. In my case it is localhost port 7071:
 
