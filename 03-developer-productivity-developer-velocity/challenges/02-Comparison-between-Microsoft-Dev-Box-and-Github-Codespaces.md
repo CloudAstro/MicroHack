@@ -4,13 +4,19 @@
 
 There are also alternatives when it comes to Cloud Environment Development. 
 In this challenge you will be coding in two different Cloud environment development tools (Microsoft Dev Box & Github Codespaces)
-and explore the benifits which fit to your project best.
+and explore the benifits which fit to your project best. 
+
+
+You have a scenario where your company has a new project which needs to be done in Java Spring Boot. The Developers who will be working on that project
+are seperated, and do not have the neccessary tools to start working on a java project. 
+
+You need to configure the cloud environment development so that everyone can start coding imediately.
 
 [Solution for this challenge](../solutionguide/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces-Solution.md)
 
 ## Goal 
 
-The goal of this challenge is to finish a simple react app.
+Setup custom images 
 
 ### Task 1: Create app in Microsoft Dev Box
 
