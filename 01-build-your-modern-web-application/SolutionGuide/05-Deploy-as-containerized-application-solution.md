@@ -87,11 +87,12 @@ It is not possible to choose an existing Log Analytics Workspace from the portal
   This is redeploying the settings and now we are using the correct Log Analytics Workspace.
 4. Delete the additional Log Analytics Workspace with the random name.
 5. Browse to the Container App and in the left navigation pane select `Continuous deployment`.
-6. Configure the settings according to the picture below:
+
+6. Configure the settings according to the picture below, please enter here your docker account name and password:
 
 ![image](../.images/55-configure-conapp.PNG)
 
-The service principal needs to be configured. In our example we use an already created service principal for deployments in this subscription.
+The service principal needs to be configured. In our example we use an already created service principal for deployments in this subscription, but you can select `create new` to create the service principal for Azure Deployments automatically.
 
 From below select `Start continuous deployment`.
 
