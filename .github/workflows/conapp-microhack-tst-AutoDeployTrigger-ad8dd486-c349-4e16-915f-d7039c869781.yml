@@ -34,8 +34,8 @@ jobs:
         with:
           push: true
           tags: drenigjini/drenigjini/microhack:${{ github.sha }}
-          file: ./01-build-your-modern-web-application/microhack-react-app\Dockerfile/Dockerfile
-          context: ./01-build-your-modern-web-application/microhack-react-app\Dockerfile/
+          file: ./01-build-your-modern-web-application/microhack-react-app/Dockerfile
+          context: ./01-build-your-modern-web-application/microhack-react-app/Dockerfile/
 
 
   deploy:
