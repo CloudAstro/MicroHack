@@ -24,19 +24,15 @@ Login to your microsoft account [https://aka.ms/devbox](https://aka.ms/devbox/)
 - Create a Project
 - Create a Network Connection 
 - Create a Dev Box pool
-- Manage access
 
-### Task 2: Prepare the development environment
+### Task 2: Manage access
 
-Now that we have everything set up its time to prepare the environment to start coding.
+After you have created your dev box now you should manage the access and invite team members to your dev box.
+For now You can assign yourself as a developer and/or administrator.
 
-- Install an IDE/Code Editor (for this microhack Visual Studio Code)
-- We are going to write simple html as example for this microhack so no need to install other tools for now.
-
-#### Note! In your real project 
+#### Note! the setup is done once only by the owner of the dev box and as a developer chances are you are not going to configure anything yourself
 
 ## Challenge Completed if
 
 - Dev box is ready for use
-- VS Code is ready for use
 
