@@ -11,7 +11,7 @@ Open your React App using your favorite code editor or IDE.
 In the root directory of the project create a new file and name it `Dockerfile`.
 
 Then write the follwing code into the dockerfile
-**note!** chose your node version (for this microhack we used version 18)
+**note!** chose your node version (for this hack we used version 18)
 
 ![image](../.images/19-m-dockerfile.png)
 
@@ -35,40 +35,74 @@ Open your browser, the app should be running in `localhost`.
 If everything is working lets proceed to the next task
 
 
-### Task 1: Push image on Docker Hub
+### Task 2: Create a docker registry
 
-You can push your docker image to dockerhub through the Docker Desktop app or [Docker Hub Web](https://hub.docker.com/)
+To deploy a Container App, we need a registry from where the image can be deployed. You do not have to push an image to the registry, it is done automatically during setup of the Container App.
 
-After you have pushed your docker image go to Docker Hub you should see the image already in your repository
+Options are:
 
-![image](../.images/21-dockerhub.png)
+- Azure Container Registry
+- Docker Hub
 
-### Task 3: Create a new Azure App Service and deploy
+[Docker Hub Web](https://hub.docker.com/)
 
-In Microsoft Azure go to App Services 
+Create a Docker Hub account.
+Hold your Docker Hub login available.
 
-![image](../.images/22-azure.png)
+### Task 3: Create a new Container App
 
-Create a new App Service 
+In Microsoft Azure go to the Resource Group created in the first Challenge.
 
-![image](../.images/23-create.png)
+Select `Create` from the upper left corner and type `Container`, select Container App from the Marketplace.
 
-In teh Basics Tab, it is important you pick the Docker Container option in the "Publish" Field
+Configure the Container App according to the following pictures.
 
-![image](../.images/24-appservice.png)
+![image](../.images/51-create-conapp.PNG)
 
-Then navigate to the Docker tab, in the Options field select "Single Container", and Image Source should be "Docker Hub"
+Create a new Container Apps Environment like this:
 
-![image](../.images/25-dockerhub-1.png)
+![image](../.images/52-create-conapp.PNG)
 
-Now provide the Docker image and tag (can be found in your docker hub account). Then Press the "Review and Deploy" Button.
+Choose the example given as deployment option to have a Hello World Container App with HTTP Ingress configured to port 80.
 
-![image](../.images/25-dockerhub-2.png)
+![image](../.images/53-create-conapp.PNG)
 
-After a few seconds or minutes the containerized React App is deployed and under "Overview" you should have a look like this
+Review and create the Container App. In this step, three resources are created:
 
-![image](../.images/26-appservice-overview.png)
+- Container App
+- Container App Environment
+- Log Analytics Workspace with random id
 
-Click the Link provided to you and the App should open.
+It is not possible to choose an existing Log Analytics Workspace from the portal at this time, so we need to redeploy the template with the Log Analytics Workspace created in Challenge 1.
+
+### Task 4: Configure the Container App
+
+1. In the Azure Portal (PWA) browse to the Resource Group created in Challenge 1.
+2. In the left navigation pane select Deployments and select the last deployment of the Container App.
+3. In the top pane select `Redeploy`.
+  Change the variable name `workspoace name` to `law-microhack-tst` and select `Review and Create`.
+
+  ![image](../.images/54-configure-conapp.PNG)
+
+  This is redeploying the settings and now we are using the correct Log Analytics Workspace.
+4. Delete the additional Log Analytics Workspace with the random name.
+5. Browse to the Container App and in the left navigation pane select `Continuous deployment`.
+6. Configure the settings according to the picture below:
+
+![image](../.images/55-configure-conapp.PNG)
+
+The service principal needs to be configured. In our example we use an already created service principal for deployments in this subscription.
+
+From below select `Start continuous deployment`.
+
+In the left navigation pane select `Ingress`.
+
+The settings should provide port 80 for HTTP traffic.
+
+![images](../.images/56-configure-conapp.PNG)
+
+Select `Overview` and select the Application Url top right in this window.
+
+When the deployment has finished, the React App should open.
 
 [Challenge 6](../Challenges/06-Setup-basic-monitoring-with-azure-monitor.md) - [Home](./../README.md)
