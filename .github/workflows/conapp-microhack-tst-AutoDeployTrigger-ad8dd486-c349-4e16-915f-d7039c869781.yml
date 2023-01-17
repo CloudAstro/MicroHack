@@ -33,7 +33,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: drenigjini/drenigjini/microhack:${{ github.sha }}
+          tags: drenigjini/microhack:${{ github.sha }}
+
           file: ./01-build-your-modern-web-application/microhack-react-app/Dockerfile
           context: ./01-build-your-modern-web-application/microhack-react-app/
 
