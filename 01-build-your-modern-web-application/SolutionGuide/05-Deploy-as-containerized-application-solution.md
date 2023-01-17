@@ -74,7 +74,9 @@ It is not possible to choose an existing Log Analytics Workspace from the portal
 ### Task 4: Configure the Container App
 
 1. In the Azure Portal (PWA) browse to the Resource Group created in Challenge 1.
+   
 2. In the left navigation pane select Deployments and select the last deployment of the Container App.
+   
 3. In the top pane select `Redeploy`.
   Change the variable name `workspoace name` to `law-microhack-tst` and select `Review and Create`.
 
@@ -82,6 +84,7 @@ It is not possible to choose an existing Log Analytics Workspace from the portal
 
   This is redeploying the settings and now we are using the correct Log Analytics Workspace.
 4. Delete the additional Log Analytics Workspace with the random name.
+   
 5. Browse to the Container App and in the left navigation pane select `Continuous deployment`.
 
 6. Configure the settings according to the picture below, please enter here your docker account name and password:
