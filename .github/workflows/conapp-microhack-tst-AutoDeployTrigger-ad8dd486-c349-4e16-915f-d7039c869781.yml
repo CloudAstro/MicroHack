@@ -9,8 +9,6 @@ on:
     paths:
     - '01-build-your-modern-web-application/microhack-react-app/Dockerfile/**'
     - '.github/workflows/conapp-microhack-tst-AutoDeployTrigger-ad8dd486-c349-4e16-915f-d7039c869781.yml'
-
-  # Allow mannually trigger 
   workflow_dispatch:      
 
 jobs:
