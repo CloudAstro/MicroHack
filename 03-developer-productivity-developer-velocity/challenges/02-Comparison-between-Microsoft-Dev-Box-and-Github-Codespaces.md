@@ -20,7 +20,8 @@ By completing this challenge you will:
 
 - What are environment images and how to configure them in Microsoft dev box and GitHub Codespaces.
 - Diferentiate which tool could be your option in your next project
-- Start a project in your pre-configured cloud environment development
+- Start a project in your pre-configured cloud environment
+
 
 ### Task 1: Create a reusable Microsoft dev box image ready for a spring boot project
 
