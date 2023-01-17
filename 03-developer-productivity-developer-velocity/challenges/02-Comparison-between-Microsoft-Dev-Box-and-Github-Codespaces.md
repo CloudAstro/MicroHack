@@ -23,7 +23,7 @@ By completing this challenge you will:
 - Start a project in your pre-configured cloud environment
 
 
-### Task 1: Create a reusable Microsoft dev box image ready for a spring boot project
+### Task 1: Create a reusable Microsoft dev box image ready for a Java 17 spring boot project
 
 - Create an index html file
 - Write a simple Header "Hello World"
