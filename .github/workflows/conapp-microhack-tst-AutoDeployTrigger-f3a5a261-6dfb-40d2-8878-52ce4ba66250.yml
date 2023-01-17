@@ -9,8 +9,6 @@ on:
     paths:
     - '01-build-your-modern-web-application/microhack-react-app/**'
     - '.github/workflows/conapp-microhack-tst-AutoDeployTrigger-f3a5a261-6dfb-40d2-8878-52ce4ba66250.yml'
-
-  # Allow mannually trigger 
   workflow_dispatch:      
 
 jobs:
