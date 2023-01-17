@@ -7,7 +7,7 @@ In this challenge you will be coding in two different Cloud environment developm
 and explore the benifits which fit to your project best. 
 
 
-You have a scenario where your company has a new project which needs to be done in Java Spring Boot. The Developers who will be working on that project
+You have a scenario where your company has a new project which needs to be done in Java 17 Spring Boot. The Developers who will be working on that project
 are seperated, and do not have the neccessary tools to start working on a java project. 
 
 You need to configure the cloud environment development so that everyone can start coding imediately.
@@ -16,9 +16,13 @@ You need to configure the cloud environment development so that everyone can sta
 
 ## Goal 
 
-Setup custom images 
+By completing this challenge you will: 
 
-### Task 1: Create app in Microsoft Dev Box
+- What are environment images and how to configure them in Microsoft dev box and GitHub Codespaces.
+- Diferentiate which tool could be your option in your next project
+- Start a project in your pre-configured cloud environment development
+
+### Task 1: Create a reusable Microsoft dev box image ready for a spring boot project
 
 - Create an index html file
 - Write a simple Header "Hello World"
