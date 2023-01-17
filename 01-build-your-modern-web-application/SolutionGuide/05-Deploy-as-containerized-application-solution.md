@@ -106,4 +106,6 @@ Select `Overview` and select the Application Url top right in this window.
 
 When the deployment has finished, the React App should open.
 
+![image](../.images/57-configure-conapp.PNG)
+
 [Challenge 6](../Challenges/06-Setup-basic-monitoring-with-azure-monitor.md) - [Home](./../README.md)
