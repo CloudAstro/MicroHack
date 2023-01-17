@@ -83,6 +83,7 @@ It is not possible to choose an existing Log Analytics Workspace from the portal
   ![image](../.images/54-configure-conapp.PNG)
 
   This is redeploying the settings and now we are using the correct Log Analytics Workspace.
+  
 4. Delete the additional Log Analytics Workspace with the random name.
    
 5. Browse to the Container App and in the left navigation pane select `Continuous deployment`.
