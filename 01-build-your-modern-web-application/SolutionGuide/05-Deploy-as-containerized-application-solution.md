@@ -15,7 +15,6 @@ Then write the follwing code into the dockerfile
 
 ![image](../.images/19-m-dockerfile.png)
 
-
 Next you will need to create a Nginx config file and write the configuration like the image below, name it `nginx.conf`.
 
 ![image](../.images/20-m-nginx.png)
@@ -25,15 +24,12 @@ define the docker image (see image below).
 
 ![image](../.images/18-m-dockercompose.png)
 
-
 After you are done with the previous steps, now open the terminal and build your image with the `docker-compose build` command.
 
 Then alternatively you can test your image by running it localy using `docker run -p 80:80 --name microhack-react-app microhack-react-app` in your terminal.
 Open your browser, the app should be running in `localhost`.
 
-
 If everything is working lets proceed to the next task
-
 
 ### Task 2: Create a docker registry
 

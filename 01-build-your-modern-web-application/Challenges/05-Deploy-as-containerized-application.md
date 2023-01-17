@@ -24,14 +24,17 @@ There are a few steps creating a docker image of the same React App we used befo
 
 After your image has been build now push to your Docker Hub Repo as a public image.
 
-### Task 3: Create a new Azure App Service and deploy
+### Task 3: Create a new Container App
 
-Next you need to create an Azure App Service.
+Next you need to create a Container App and a Container App Environment that is connected to the Log Analytics Workspace created in Challenge 1.
 
-- Select Containerized app option
-- Provide docker image/tag
+- Create Containerized app with vanilla settings
 
+### Task 4: Configure the Container App
+
+- Change configuration of Log Analytics Workspace
+- Change configuration to continuous deployment
 
 ## Challenge Completed if
 
-Your containerized app is deployed and runs (Azure App Service)
+Your containerized app is deployed and runs the React App created in Challenge 2.
