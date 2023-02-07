@@ -1,4 +1,4 @@
-# Challenge 3 - Comparison between VDI and Microsoft Dev Box
+# Challenge 3 - Comparison VDI and Microsoft Dev Box
 
 ## Introduction
 
