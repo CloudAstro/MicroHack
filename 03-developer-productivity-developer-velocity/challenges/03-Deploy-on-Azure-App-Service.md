@@ -1,4 +1,4 @@
-# Challenge 3 - Deploy on Azure App Service
+# Challenge 3 - Azure Deployment Environments
 
 ## Introduction
 
