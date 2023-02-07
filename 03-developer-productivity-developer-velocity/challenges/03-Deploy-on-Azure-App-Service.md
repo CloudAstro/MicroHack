@@ -1,4 +1,4 @@
-# Challenge 3 - Azure Deployment Environments
+# Challenge 3 - Comparison between VDI and Microsoft Dev Box
 
 ## Introduction
 
