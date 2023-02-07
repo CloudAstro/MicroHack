@@ -8,12 +8,13 @@ After you have finished our project, now we can deploy our app in Azure App Serv
 
 ## Goal 
 
-Set the goal of challenge
+In the end you will have a solid understanding about VDI and comparison between dev box and similar VDIs
 
 
-### Task 1: Install the Azure Tools extension in VS Code
+### Task 1: Create a Windwos 365 
 
-Create a VDI 
+Create a 365 VDI in azure
+
 
 ### Task 2: Create a new App Service
 
