@@ -8,12 +8,12 @@ After you have finished our project, now we can deploy our app in Azure App Serv
 
 ## Goal 
 
-The goal of this challenge is to have or at least one of our React apps deployed on Azure App Service and running.
+Set the goal of challenge
 
 
 ### Task 1: Install the Azure Tools extension in VS Code
 
-You have the option to install the whole azure package (incl. App Service) 
+Create a VDI 
 
 ### Task 2: Create a new App Service
 
