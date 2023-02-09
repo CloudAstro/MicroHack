@@ -40,7 +40,8 @@ to create one.**
 
 **Then you need to setup the definition by giving the name, image and computing. Then click on "Create"**
 
-**Note!** You can create [custom images](https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-azure-compute-gallery) with preinstalled tools (out of the scope of this microhack)
+**Note!** You can create [custom images](https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-azure-compute-gallery) with preinstalled tools (in the 
+next challenge) and use those for future similar projects. 
 
 ![image](../images/solution1/8.png)
 
@@ -65,7 +66,7 @@ and click "Add"**
 ![image](../images/solution1/13three.png)
 
 
-**Nextt, next we are going to create a Project. Go back to the main panel and click on "Projects"**
+**Next, we are going to create a Project. Go back to the main panel and click on "Projects"**
 
 ![image](../images/solution1/10.png)
 
@@ -78,7 +79,7 @@ dev center in this field. After that Create the Project**
 
 ![image](../images/solution1/12.png)
 
-**When your project is created it should appear in your project list.**
+**When your project is created it should appear in your project list.** 
 
 ![image](../images/solution1/14.png)
 
