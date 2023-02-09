@@ -2,31 +2,18 @@
 
 ## Introduction
 
-A developer must first set up a development environment with all the essential tools, libraries, dependencies, and settings before they can begin working on a software project. This procedure is time-consuming, tedious, and laborious.
-
-This MicroHack scenario demonstrates how to use contemporary development tools to increase your productivity as a developer with an emphasis on best practices and design principles.
-
-Please note that this lab does not provide a comprehensive overview of the whole tool set; instead, you should study the papers listed below to provide the groundwork.
+This microhack will is about hands-on experience on how to speed up as a developer using Cloud environment development tools.
 
 [What is a Cloud Environment Development](https://www.cloudshare.com/virtual-it-labs-glossary/cloud-development-environment/) 
 
 [Why would we use the Cloud Environment for Development](https://www.itprotoday.com/development-techniques-and-management/who-needs-or-doesn-t-need-cloud-ides) 
 
- 
-
-If you want to take your knowledge deeper than what will be learned here, we recommand reading: 
-[Github Codespaces](https://docs.github.com/en/codespaces) or/and  [Microsoft Dev Box](https://learn.microsoft.com/en-us/azure/dev-box/) 
-
 
 ## Learning Objectives
 
-After completing this MicroHack you will: 
-
-- Understand how to be more productive as a developer  
-
-- Understand How Development Environment can improve productivity 
-
-- Know the basics of Cloud Environment Development 
+After completing this MicroHack you will have a basic understanding on how you can make use of different developer environemnt tools in the cloud to help you
+get started coding in no time for your team. No matter if office, remote, or hybrid everyone will have the same dev environment with no need to install project
+dependencies, taking care of your machine performance, securing your machine, or even installing IDE plugins or extensions.
 
 ## **Content and challenges**
 
