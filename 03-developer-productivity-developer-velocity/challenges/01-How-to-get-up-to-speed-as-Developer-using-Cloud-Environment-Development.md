@@ -13,7 +13,7 @@ Instead of installing every required tool/software in your machine, we will be u
 
 ## Goal 
 
-The goal of this challenge is to setup Microsoft Dev Box and prepare for the first use
+The goal of this challenge is to setup a Cloud environment development tool which is Microsoft Dev Box as and prepare for the first use.
 
 ### Task 1: Create a Dev Box
 
