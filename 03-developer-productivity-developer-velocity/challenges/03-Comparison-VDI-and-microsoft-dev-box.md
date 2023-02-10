@@ -10,7 +10,7 @@ In this challenge, you will deploy two popular cloud-based Microsoft VDI solutio
 
 After you complete this challenge, you will have a solid understanding about VDI and comparison between dev box and similar VDIs.
 
-## useful resources
+## Useful resources
 
 [Windows 365 Cloud Pc](https://www.microsoft.com/en-us/windows-365)
 
