@@ -29,32 +29,28 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 
 - Create a Compute Gallery
 - Add a VM in the created Gallery
-- Install tools and dependencies in the VM for the Java Spring Boot Project
+- Install tools and dependencies in the VM for the Java Spring Boot Project (intellij IDE and JDK 17 or 19)
 - Generalize and create a snapshot of the VM
 - Create a new dev definition with the new Image you created
 - Delete your previous or create a new dev pool with the new Image 
 
-### Task 1: Create a reusable Microsoft dev box image ready for a Java 17 spring boot project
+### Task 2: After your environment is ready now create the project and push your code in a Source Code Repo.
 
 - Create a Java Spring boot project (Optional: use [Spring Initializr](https://start.spring.io/))
+- Create a simple Get Request and run your code
+- Push your code to Github
 
-### Task 2: Github Codespaces setup
+### Task 3: Github Codespaces environment setup
 
 - Login to [Github Codespaces](https://github.com/features/codespaces)
 - Create a blank project
-- Write a simple Header "Hello World"
-- Start the app
+- create a devContainer File and apply configurations about scaling and project tools and exensions needed for a Java Spring Boot project
 
-### Task 3: VS Code Extensions
 
-Install the Live Server VS Code Extension in both environments
+### Task 4: Create a new or clone the project previously created in the dev box
 
-### Task 4: Source Code Management
-
-- Push your the Dev Box app in to a new Github Repository
-- Use Github Codespaces feature to automatically create a new Github repository for your project
+Now create a simple get request in spring boot
 
 ## Challenge Completed if
 
-- The "Hello World" app runs on both tools
-- Code is pushed in a Github Repository
+You your code runs in DevBox and Github Codespaces
