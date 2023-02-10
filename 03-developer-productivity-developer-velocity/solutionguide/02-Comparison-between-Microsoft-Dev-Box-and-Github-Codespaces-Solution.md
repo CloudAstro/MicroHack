@@ -1,11 +1,12 @@
 # Solution 2 - Comparison between Microsoft Dev Box and Github Codespaces 
 
-Duration: 30-45 Min
+Duration: 60-75 Min
 
-### Task 1: Create app in Microsoft Dev Box
+### Task 1: Create a reusable Microsoft dev box image ready for a Java 17 spring boot project
 
-Now inside your dev box, open Visual Studio Code and create a `index.html` file. For this example we will only create a header "Hello World".
-In the bottom right of the page you should see "Go Live" in the image below, ignore it for now.
+Now that we have a dev box created lets create an image for a Java Spring Boot project.
+
+Go back to Azure and create a Compute Gallery.
 
 ![image](../images/solution2/27.png)
 
