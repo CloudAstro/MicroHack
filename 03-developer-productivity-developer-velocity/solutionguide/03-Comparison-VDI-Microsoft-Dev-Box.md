@@ -1,8 +1,8 @@
-# Solution 3 - Deploy on Azure App Service
+# Solution 3 - Comparison VDI and Microsoft Dev Box
 
-Duration: 20-25 Min
+Duration: 45min-60 Min
 
-### Task 1: Install the Azure Tools extension in VS Code
+### Task 1: Windows 365 - “Desktop as a Service” (DaaS)
 
 On Either (optional) Microsoft Dev Box or Github Codespaces, in VS Code install the Azure Tools extension
 
