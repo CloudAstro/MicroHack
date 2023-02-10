@@ -15,7 +15,7 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 
 VM generation has to be Gen 2!
 
-![image](../images/solution2/Capture6.PNG)
+![image](../images/solution2/Capture9.PNG)
 
 
 - After you succeeded creating the VM, start the it and install the necessary tool for your java Spring Boot project.
