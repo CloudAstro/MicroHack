@@ -20,6 +20,12 @@ VM generation has to be Gen 2!
 
 - After you succeeded creating the VM, start the it and install the necessary tool for your java Spring Boot project.
 
+  Download and install JDK [here](https://www.oracle.com/java/technologies/downloads/#jdk19-windows)
+  
+  Download and install IntelliJ [here](https://www.jetbrains.com/idea/download/#section=windows)
+  
+  ![image](../images/solution2/Capture.PNG)
+  
 
 
 ### Task 2: Github Codespaces setup
