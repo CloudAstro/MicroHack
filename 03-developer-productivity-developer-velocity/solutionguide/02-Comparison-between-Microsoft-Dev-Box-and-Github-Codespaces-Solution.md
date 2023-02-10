@@ -8,7 +8,7 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 
 Go back to Azure and create a Compute Gallery.
 
-![image](../images/solution2/27.png)
+![image](../images/solution2/Capture21.png)
 
 ### Task 2: Github Codespaces setup
 
