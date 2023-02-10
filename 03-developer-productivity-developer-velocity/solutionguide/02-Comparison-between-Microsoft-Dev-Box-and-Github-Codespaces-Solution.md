@@ -15,6 +15,13 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 
 VM generation has to be Gen 2!
 
+![image](../images/solution2/Capture6.PNG)
+
+
+- After you succeeded creating the VM, start the it and install the necessary tool for your java Spring Boot project.
+
+
+
 ### Task 2: Github Codespaces setup
 
 Login to [Github Codespaces](https://github.com/features/codespaces).
