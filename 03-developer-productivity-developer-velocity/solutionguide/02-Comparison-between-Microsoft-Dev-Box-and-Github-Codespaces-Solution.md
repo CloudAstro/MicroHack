@@ -11,7 +11,9 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 ![image](../images/solution2/Capture21.PNG)
 
 
-- Now create a Virtual Machine image definition. In this microhack we are not covering how to create VMs but you can easily follow [this guide](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal). VM generation has to be Gen 2!
+- Now create a Virtual Machine image definition. In this microhack we are not covering how to create VMs but you can easily follow [this guide](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal). 
+
+VM generation has to be Gen 2!
 
 ### Task 2: Github Codespaces setup
 
