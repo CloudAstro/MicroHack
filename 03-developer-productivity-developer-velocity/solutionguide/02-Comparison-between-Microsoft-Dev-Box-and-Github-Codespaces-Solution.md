@@ -66,7 +66,7 @@ Inside your dev box open (Optional: [spring initializr](https://start.spring.io/
 
 
 
- ![image](../images/solution2/Capture2.PNG)
+ ![image](../images/solution2/Capture222.PNG)
  
  Next unzip and open the project. Create a new java class in `src/main/java/com.[the names you provided]`.
  Write the code like the image below and start the Project
