@@ -96,9 +96,12 @@ Now create a `devcontainer.json` file and write the following code
 
 ![image](../images/solution2/g2.PNG)
 
-**Important**: If you want your exstensions to install automatically you should add the following config in line 15 of the `devcontainer.json` file
+**Important**: If you want your exstensions to install automatically you should add the following config at line 15 of the `devcontainer.json` file
 
 ` "postCreateCommand": "code --install-extension vscjava.vscode-java-pack --install-extension ms-vscode.spring-boot-tools --install-extension vscjava.vscode-java-debug --install-extension vscjava.vscode-java-test",` 
+
+
+**Now lets see what the devcontainer is all about**
 
 
 
