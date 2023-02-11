@@ -53,7 +53,7 @@ VM generation has to be Gen 2!
     tools for a spring project. Now you can delete dhe previous dev definition, (you will need to delete the dev box pool too). 
     Create a new dev definition in a and/or new project  and dev pool (just like in [challenge 1](../challenges/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development.md))
    
-   
+   ![image](../images/solution2/Capture20.PNG)
    
    
 
