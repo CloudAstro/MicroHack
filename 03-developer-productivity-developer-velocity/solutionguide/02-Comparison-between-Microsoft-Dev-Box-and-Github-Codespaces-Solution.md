@@ -75,7 +75,7 @@ Inside your dev box open (Optional: [spring initializr](https://start.spring.io/
 - Next push your code in you Github Repository (we will need this for our next Task!).
 
 
-### Task  Github Codespaces environment setup
+### Task 3: Github Codespaces environment setup
 
 Open VS Code and in the Extensions tab search for "Live Server" and install it (apply on dev box and codespaces).
 After you are done installing, Press "Go Live" which now appeared in VS Code and your app should appear in the browser automatically.
