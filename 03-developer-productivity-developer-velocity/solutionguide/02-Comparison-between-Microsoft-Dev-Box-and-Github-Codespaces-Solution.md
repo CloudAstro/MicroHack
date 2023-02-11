@@ -103,7 +103,13 @@ Now create a `devcontainer.json` file and write the following code
 
 **Now lets see what the devcontainer is all about**
 
+ - Blue: Base Config about the project
+ - 
+ - Yellow: Extensions which are mandatory or recommanded for working in that Project
+ - 
+ - Purple: Scalability
 
+![image](../images/solution2/g3PNG)
 
 ### Task 4: Source Code Management
 
