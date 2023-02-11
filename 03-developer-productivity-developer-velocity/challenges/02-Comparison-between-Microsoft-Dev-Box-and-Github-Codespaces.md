@@ -45,7 +45,7 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 
 - Login to [Github Codespaces](https://github.com/features/codespaces)
 - Create a new codespace and chose the repository we created earlier in the prevous tasks with the Spring Project
-- create a `Dockerfile` and a `devcontainer.json` File and apply configurations about scaling and project tools and exensions needed for a Java Spring Boot project
+- create a `Dockerfile` and a `devcontainer.json` File insde a `.devcontainer` folder and apply configurations about scaling and project tools and exensions needed for a Java Spring Boot project
 
 
 ### Task 4: Create a new or clone the project previously created in the dev box
