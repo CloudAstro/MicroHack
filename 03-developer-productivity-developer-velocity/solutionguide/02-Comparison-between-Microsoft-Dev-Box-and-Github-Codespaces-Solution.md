@@ -44,9 +44,16 @@ VM generation has to be Gen 2!
    
    ![image](../images/solution2/Capture17.PNG)
    
-   After its created you need to add the Identity to the Gallery we created.
+   After its created you need to add the Identity to the Dev Center we created, also add the created Gallery.
    
    ![image](../images/solution2/Capture19.PNG)
+   
+   
+   - Next when you create a new dev box definition you should see the custom VM image and upon clicking it you will have a dev box with the pre-installed
+    tools for a spring project. Now you can delete dhe previous dev definition, (you will need to delete the dev box pool too). 
+    Create a new dev definition in a and/or new project  and dev pool (just like in [challenge 1](../challenges/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development.md))
+   
+   
    
    
 
