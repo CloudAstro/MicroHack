@@ -48,9 +48,9 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 - create a `Dockerfile` and a `devcontainer.json` File insde a `.devcontainer` folder and apply configurations about scaling and project tools and exensions needed for a Java Spring Boot project
 
 
-### Task 4: Create a new or clone the project previously created in the dev box
+### Task 4: Make changes in the project
 
-Now create a simple get request in spring boot
+In our project, in the Greet class add another sentence to the greeting
 
 ## Challenge Completed if
 
