@@ -81,7 +81,24 @@ Inside your dev box open (Optional: [spring initializr](https://start.spring.io/
 
 ![image](../images/solution2/Screenshot1.png)
 
-- Create a blank Project and 
+- Clone your repo from the previous task 
+
+![image](../images/solution2/Screenshot11.png)
+
+- Configure the cpu and memory.
+
+
+In the root level of the project create a Dockerfile and write the following code 
+
+![image](../images/solution2/g1.png)
+
+Now create a `devcontainer.json` file and write the following code
+
+![image](../images/solution2/g2.png)
+
+**Important**: If you want your exstensions to install automatically you should add the following config in line 15 of the `devcontainer.json` file
+
+` "postCreateCommand": "code --install-extension vscjava.vscode-java-pack --install-extension ms-vscode.spring-boot-tools --install-extension vscjava.vscode-java-debug --install-extension vscjava.vscode-java-test",` 
 
 
 
