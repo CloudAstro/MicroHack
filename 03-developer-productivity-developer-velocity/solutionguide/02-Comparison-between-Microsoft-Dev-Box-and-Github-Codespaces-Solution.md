@@ -98,6 +98,8 @@ Now create a `devcontainer.json` file and write the following code
 
 **Important**: If you want your exstensions to install automatically you should add the following config at line 15 of the `devcontainer.json` file
 
+**note** The yellow curly lines suggest that the developer should install the extensions manually from the VS code extensions tab. This is also the way to install other extensions of choice.
+
 ` "postCreateCommand": "code --install-extension vscjava.vscode-java-pack --install-extension ms-vscode.spring-boot-tools --install-extension vscjava.vscode-java-debug --install-extension vscjava.vscode-java-test",` 
 
 
