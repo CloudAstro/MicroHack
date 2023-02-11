@@ -96,7 +96,14 @@ In the root level of the project create a Dockerfile and write the following cod
 
 ![image](../images/solution2/g4.PNG)
 
-Now create a `devcontainer.json` file and write the following code
+Now create a `.devcontainer` folder and and add `devcontainer.json` & `Dockerfile`
+
+![image](../images/solution2/33.PNG)
+
+- Inside the `devcontainer.json` file add the following configuration.
+
+**Note**  you can also press `ctrl/cmd + shift + p` and write `>devcontainer` and generate a premade devcontainer for your project.
+
 
 ![image](../images/solution2/g5.PNG)
 
@@ -117,8 +124,17 @@ Now create a `devcontainer.json` file and write the following code
 
 ![image](../images/solution2/g6.PNG)
 
-### Task 4: Source Code Management
+### Task 4: Make changes in the project and run the project in github codespaces
 
+Inside github codespaces open the `Greet.java` class and make changes in the string we return.
+
+![image](../images/solution2/Capture44.PNG)
+
+Now open the Terminal and write `./mvnw spring-boot:run`  this should run the project. (In case the command should be denied give this command `chmod +x mvnw` and run `./mvnw spring-boot:run` again)
+
+**If the Project runs, that's it! you are done!**
+
+_______________________________________________________________________________________________________________________________________________________________________
 
 **Note!** We created a java version 11 project and spring boot 2 because out of the box github codespaces does not support java 17 and the setup to make it work requires github actions and other configuration which are sometimes complex and not as easy as in the dev box where we would just start the project,
 
