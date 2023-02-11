@@ -38,6 +38,17 @@ VM generation has to be Gen 2!
   Then you should get a page like below where you need to configure the image
   
    ![image](../images/solution2/Capture16.PNG)
+   
+   
+   Before you centinue you also need now to create a Managed Identity in azure, go ahead and create one. 
+   
+   ![image](../images/solution2/Capture17.PNG)
+   
+   After its created you need to add the Identity to the Gallery we created.
+   
+   ![image](../images/solution2/Capture19.PNG)
+   
+   
 
 
 ### Task 2: Github Codespaces setup
