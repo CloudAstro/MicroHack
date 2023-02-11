@@ -109,7 +109,7 @@ Now create a `devcontainer.json` file and write the following code
  - 
  - Purple: Scalability
 
-![image](../images/solution2/g3PNG)
+![image](../images/solution2/g3.PNG)
 
 ### Task 4: Source Code Management
 
