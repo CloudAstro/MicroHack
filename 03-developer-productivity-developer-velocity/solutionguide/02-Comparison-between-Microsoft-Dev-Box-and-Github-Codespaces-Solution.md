@@ -72,6 +72,8 @@ Inside your dev box open (Optional: [spring initializr](https://start.spring.io/
  
 ![image](../images/solution2/Capture5.PNG)
 
+- Next push your code in you Github Repository (we will need this for our next Task!).
+
 
 ### Task 3: VS Code Extensions
 
