@@ -35,6 +35,8 @@ VM generation has to be Gen 2!
    
   ![image](../images/solution2/Capture15.PNG)
   
+  Then you should get a page like below where you need to configure the image
+  
    ![image](../images/solution2/Capture16.PNG)
 
 
