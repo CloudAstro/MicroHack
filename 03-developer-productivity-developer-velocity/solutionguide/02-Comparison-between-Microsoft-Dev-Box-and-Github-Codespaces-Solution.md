@@ -90,11 +90,11 @@ Inside your dev box open (Optional: [spring initializr](https://start.spring.io/
 
 In the root level of the project create a Dockerfile and write the following code 
 
-![image](../images/solution2/g1.png)
+![image](../images/solution2/g1.PNG)
 
 Now create a `devcontainer.json` file and write the following code
 
-![image](../images/solution2/g2.png)
+![image](../images/solution2/g2.PNG)
 
 **Important**: If you want your exstensions to install automatically you should add the following config in line 15 of the `devcontainer.json` file
 
