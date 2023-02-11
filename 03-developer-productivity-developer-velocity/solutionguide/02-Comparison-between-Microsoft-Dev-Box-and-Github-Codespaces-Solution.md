@@ -60,10 +60,17 @@ VM generation has to be Gen 2!
 
 ### Task 2: After your environment is ready now create the project and push your code in a Source Code Repo.
 
-Now you should go back to ([Dev Box Portal](https://aka.ms/devbox-portal)) create a new 
+Now you should go back to ([Dev Box Portal](https://aka.ms/devbox-portal)) create a new dev box and open it.
 
-Inside your dev box VM open (Optional: [spring initializr](https://start.spring.io/)) 
+Inside your dev box open (Optional: [spring initializr](https://start.spring.io/)) 
 
+ ![image](../images/solution2/Capture2.PNG)
+ 
+ Next unzip and open the project. Create a new java class in `src/main/java/com.[the names you provided]`.
+ Write the code like the image below and start the Project
+ 
+ 
+![image](../images/solution2/Capture5.PNG)
 
 
 ### Task 3: VS Code Extensions
