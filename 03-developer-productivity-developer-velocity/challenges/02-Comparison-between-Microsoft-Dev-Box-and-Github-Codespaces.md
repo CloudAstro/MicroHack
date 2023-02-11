@@ -32,8 +32,8 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 - Install tools and dependencies in the VM for the Java Spring Boot Project (intellij IDE and JDK 17 or 19)
 - Create a snapshot of the VM
 - Generalize and capture the image
-- Create a new dev definition with the new Image you created
-- Delete your previous or create a new dev pool with the new Image 
+- Create a new dev box definition with the new Image you created
+- Delete your previous or create a new dev box pool with the new Image 
 
 ### Task 2: After your environment is ready now create the project and push your code in a Source Code Repo.
 
