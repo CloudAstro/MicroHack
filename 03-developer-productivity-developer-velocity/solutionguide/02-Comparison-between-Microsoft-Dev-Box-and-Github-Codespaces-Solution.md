@@ -94,11 +94,11 @@ Inside your dev box open (Optional: [spring initializr](https://start.spring.io/
 
 In the root level of the project create a Dockerfile and write the following code 
 
-![image](../images/solution2/g1.PNG)
+![image](../images/solution2/g4.PNG)
 
 Now create a `devcontainer.json` file and write the following code
 
-![image](../images/solution2/g2.PNG)
+![image](../images/solution2/g5.PNG)
 
 **Important**: If you want your exstensions to install automatically you should add the following config at line 15 of the `devcontainer.json` file
 
@@ -115,7 +115,7 @@ Now create a `devcontainer.json` file and write the following code
  
  - Purple: Scalability
 
-![image](../images/solution2/g3.PNG)
+![image](../images/solution2/g6.PNG)
 
 ### Task 4: Source Code Management
 
