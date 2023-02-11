@@ -30,7 +30,10 @@ VM generation has to be Gen 2!
   - Now open the VM again and follow the path like in the image below, click on `sysadmin` and change settings like below.
   
    ![image](../images/solution2/Capture14.PNG)
-  
+   
+   After that the VM should turn off itself. Stop the VM right after and press on "Capture".
+   
+  ![image](../images/solution2/Capture15.PNG)
 
 
 ### Task 2: Github Codespaces setup
