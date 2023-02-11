@@ -115,17 +115,7 @@ Now create a `devcontainer.json` file and write the following code
 
 ### Task 4: Source Code Management
 
-- In Microsoft dev box you can push your code to Github or Azure DevOps just like you would in an local environment.
 
-- Github Codespaces offers an easier solution to directly create a new repository
-
-In Github Codespaces go to the main page and click on the (three dots right side of the box) Menu and then "Publish to a new repository"
-
-![image](../images/solution2/Screenshot11.png)
-
-Now you can also rename the project and click on "Create Repository"
-
-![image](../images/solution2/Screenshot12.png)
 
 
 **Microsoft Dev Box and Github Codespaces general differences**
