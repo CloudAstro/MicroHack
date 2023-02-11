@@ -58,18 +58,13 @@ VM generation has to be Gen 2!
    
 
 
-### Task 2: Github Codespaces setup
+### Task 2: After your environment is ready now create the project and push your code in a Source Code Repo.
 
-Login to [Github Codespaces](https://github.com/features/codespaces).
-In the homepage click on "Get started for free"
+Now you should go back to ([Dev Box Portal](https://aka.ms/devbox-portal)) create a new 
 
-![image](../images/solution2/Screenshot1.png)
+Inside your dev box VM open (Optional: [spring initializr](https://start.spring.io/)) 
 
-Next create a blank Project. Open create a `index.html` file and apply the same code like Task 1.
 
-![image](../images/solution2/Screenshot3.png)
-
-We now have a simple app on both environments, don't hesitate to play around longer, for this microhack this should be only an introduction.
 
 ### Task 3: VS Code Extensions
 
