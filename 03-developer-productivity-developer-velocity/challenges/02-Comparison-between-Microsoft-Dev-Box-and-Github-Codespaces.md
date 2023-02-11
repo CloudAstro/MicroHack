@@ -48,9 +48,10 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 - create a `Dockerfile` and a `devcontainer.json` File insde a `.devcontainer` folder and apply configurations about scaling and project tools and exensions needed for a Java Spring Boot project
 
 
-### Task 4: Make changes in the project
+### Task 4: Make changes in the project and run the project in github codespaces
 
-In our project, in the Greet class add another sentence to the greeting
+- In our project, in the Greet class add another sentence to the greeting
+- Start the Project
 
 ## Challenge Completed if
 
