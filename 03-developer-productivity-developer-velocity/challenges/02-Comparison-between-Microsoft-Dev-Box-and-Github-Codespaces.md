@@ -31,7 +31,7 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 - Add a VM image in the created Gallery
 - Install tools and dependencies in the VM for the Java Spring Boot Project (intellij IDE and JDK 17 or 19)
 - Create a snapshot of the VM
-- Generalize and capture
+- Generalize and capture the image
 - Create a new dev definition with the new Image you created
 - Delete your previous or create a new dev pool with the new Image 
 
