@@ -89,9 +89,7 @@ Inside your dev box open (Optional: [spring initializr](https://start.spring.io/
 
 - Configure the cpu and memory.
 
-**Note!** We created a java version 11 project and spring boot 2 because out of the box github codespaces does not support java 17 and the setup to make it work requires github actions and other configuration which are sometimes complex and not as easy as in the dev box where we would just start the project,
 
-**There are other differences too e.g in Microsoft Dev Box you could do a Unity project for games which would not be supported in github codespaces.**
 
 
 In the root level of the project create a Dockerfile and write the following code 
@@ -122,7 +120,9 @@ Now create a `devcontainer.json` file and write the following code
 ### Task 4: Source Code Management
 
 
+**Note!** We created a java version 11 project and spring boot 2 because out of the box github codespaces does not support java 17 and the setup to make it work requires github actions and other configuration which are sometimes complex and not as easy as in the dev box where we would just start the project,
 
+**There are other differences too e.g in Microsoft Dev Box you could do a Unity project for games which would not be supported in github codespaces.**
 
 **Microsoft Dev Box and Github Codespaces general differences**
 
