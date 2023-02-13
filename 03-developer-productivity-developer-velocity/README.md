@@ -19,7 +19,7 @@ dependencies, taking care of your machine performance, securing your machine, or
 
 - [Challenge 1: How to get up to speed as Developer using Cloud Environment Development](challenges/01-How-to-get-up-to-speed-as-Developer-using-Cloud-Environment-Development.md)
 - [Challenge 2: Comparison between Microsoft Dev Box and GitHub Codespaces](challenges/02-Comparison-between-Microsoft-Dev-Box-and-Github-Codespaces.md)
-- [Challenge 3: Deploy on Azure App Service](challenges/03-Deploy-on-Azure-App-Service.md)
+- [Challenge 3: Comparison VDI and Microsoft  Dev Box](challenges/03-Comparison-VDI-and-microsoft-dev-box.md)
 
 ## Prerequisites
 
