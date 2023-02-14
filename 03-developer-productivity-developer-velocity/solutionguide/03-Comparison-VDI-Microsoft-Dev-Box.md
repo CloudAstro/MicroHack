@@ -30,7 +30,7 @@ Once the required licensed is obtained, sing in to the Microsoft 365 Admin Cente
 
 
 
-### Task 1: Azure Virtual Desktop
+### Task 2: Azure Virtual Desktop
 
 
 - Sign in to the Azure Portal 
@@ -79,4 +79,35 @@ Once the required licensed is obtained, sing in to the Microsoft 365 Admin Cente
 
 
 
+![image](../images/solution3/Picture26.jpg)
+
+- On the Workspace page, select Yes to register a new desktop app group. Select Create new and provide a Workspace name. Select OK and Review + create.
+
+
+![image](../images/solution3/Picture27.jpg)
+
+- Assign an Azure AD user or group to an application group
+1.	Search for Azure Virtual Desktop and select it from the list of your services
+2.	Under Manage, select Application groups.
+3.	Locate the Application group created in previous steps, the name will look like (<poolName>-DAG). Select the name to manage the Application group.
+4.	Under Manage, select Assignments, and select + Add.
+ 
+ 
+ ![image](../images/solution3/Picture28.jpg)
+ 
+ 5.	In the search box, search for your Azure AD user or group that you want to add.
+ 
+  ![image](../images/solution3/Picture29.jpg)
+ 
+-	Navigate to [https://client.wvd.microsoft.com/arm/webclient/index.html](https://client.wvd.microsoft.com/arm/webclient/index.html)  and logon to your AVD session host.
+ 
+ 
+   ![image](../images/solution3/Picture30.jpg)
+ 
+   ![image](../images/solution3/Picture31.jpg)
+ 
+   ![image](../images/solution3/Picture32.jpg)
+ 
+ 
+ ### Task 3: Install required applications and remove resources.
 
