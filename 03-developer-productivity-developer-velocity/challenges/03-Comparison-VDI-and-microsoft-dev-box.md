@@ -4,7 +4,7 @@
 
 In this challenge, you will deploy two popular cloud-based Microsoft VDI solutions and make a comparison first-handed to microsoft dev box we previously created and used. 
 
-[Solution for this challenge](../solutionguide/03-Comparison-VDI-and-microsoft-dev-box.md)
+[Solution for this challenge](../solutionguide/03-Comparison-VDI-Microsoft-Dev-Box.md)
 
 ## Goal 
 
