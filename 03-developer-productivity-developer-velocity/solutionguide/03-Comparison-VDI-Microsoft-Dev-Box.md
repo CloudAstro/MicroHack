@@ -9,4 +9,4 @@ Once the required licensed is obtained, sing in to the Microsoft 365 Admin Cente
 
 - Select the user and assign Windows 365 license.
 
-![image](../images/solution3/Picture1.jpg)
+![image](../images/solution3/Picture15.jpg)
