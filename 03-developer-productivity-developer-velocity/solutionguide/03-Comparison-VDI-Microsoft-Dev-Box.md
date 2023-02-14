@@ -1,6 +1,6 @@
 # Solution 3 - Comparison VDI and Microsoft Dev Box
 
-Duration: 45min-60 Min
+Duration: 45 min-60 Min
 
 ### Task 1: Windows 365 - “Desktop as a Service” (DaaS)
 
