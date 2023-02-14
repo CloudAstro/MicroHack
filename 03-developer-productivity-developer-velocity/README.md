@@ -44,3 +44,5 @@ With these pre-requisites in place, we can focus directly developing, rather tha
 
 Dreni Gjini 
 
+Darius Krauz
+
