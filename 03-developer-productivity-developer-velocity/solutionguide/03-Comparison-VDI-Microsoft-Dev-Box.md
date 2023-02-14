@@ -10,3 +10,8 @@ Once the required licensed is obtained, sing in to the Microsoft 365 Admin Cente
 - Select the user and assign Windows 365 license.
 
 ![image](../images/solution3/Picture15.jpg)
+
+
+![image](../images/solution3/Picture16.jpg)
+
+-	Sign in to your Windows 365 PC [https://windows365.microsoft.com/](https://windows365.microsoft.com/) and start setting it up.
