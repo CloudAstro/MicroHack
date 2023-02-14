@@ -60,21 +60,21 @@ Once the required licensed is obtained, sing in to the Microsoft 365 Admin Cente
 ![image](../images/solution3/Picture25.jpg)
 
 - On the Add Virtual Machine page, configure VM settings:
-      	1. Resource Group: The Resource Group you deployed the host pool in.
+ 1. Resource Group: The Resource Group you deployed the host pool in.
       	
-      	2. Name prefix: Choose best suitable for you.
+ 2. Name prefix: Choose best suitable for you.
       	
-            3. Virtual machine location: Location you deployed your other AVD resources.
+ 3. Virtual machine location: Location you deployed your other AVD resources.
        
-            4. Available options: No infrastructure redundancy required.
+ 4. Available options: No infrastructure redundancy required.
        
-            5. Image: select a minimum of Windows 10 Enterprise, version 21H2.
+ 5. Image: select a minimum of Windows 10 Enterprise, version 21H2.
        
-      	6. Virtual network: The AVD virtual network you created.
+ 6. Virtual network: The AVD virtual network you created.
       	
-      	7. Domain to join: select Azure Active Directory.
+ 7. Domain to join: select Azure Active Directory.
       	
-      	8. Virtual Machine Administrator account: set local admin and password.
+ 8. Virtual Machine Administrator account: set local admin and password.
 
 
 
