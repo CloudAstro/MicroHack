@@ -53,6 +53,17 @@ Now that we have a dev box created lets create an image for a Java Spring Boot p
 - In our project, in the Greet class add another sentence to the greeting
 - Start the Project
 
+
+### Task 5: Make comparison between Microsoft Dev Box and Github Codespaces.
+
+After learning and seeing both of the solutions tailored for Developers, compare them focusing on the following key aspects:
+
+-	Accessibility
+-	Security
+-	Cost
+-	Flexibility
+
+
 ## Challenge Completed if
 
 You your code runs in DevBox and Github Codespaces
