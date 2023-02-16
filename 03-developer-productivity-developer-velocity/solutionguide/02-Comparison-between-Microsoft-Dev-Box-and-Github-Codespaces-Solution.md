@@ -137,6 +137,17 @@ Now open the Terminal and write `./mvnw spring-boot:run`  this should run the pr
 
 ### Task 5: Make a comparison between Microsoft Dev Box and Github Codespaces
 
+**Microsoft Dev Box and Github Codespaces general differences**
+
+(1) GitHub codespaces runs on Linux where as Microsoft Dev Box runs on Windows. 
+
+(2) Source Code Management on GitHub codespaces is supported only on github, in Microsoft Dev Box any version control system would do the job. 
+
+(3) GitHub codespaces supports workloads like Web Apps, APIs, Backends Microsoft Dev Box on the other hand any workload including desktop, games and much more 
+
+(4) The IT in GitHub CodeSpaces is managed by github.com team and Microsoft Dev Box by the Endpoint Manager & Microsoft Azure.
+
+
 **Accessibility:**
 
 As you have noticed, both Microsoft Dev Box and GitHub Codespaces provide developers with accessibility to their development environments from any device with an internet connection. However, GitHub Codespaces is designed as a purely cloud-based service, which means that developers can access their development environments from anywhere in the world without the need for any local infrastructure. In contrast, Microsoft Dev Box is a cloud-based VDI solution that requires a cloud PC with needed tools to which developers can connect either through the web browser or secure RDP connection.
@@ -157,21 +168,9 @@ Both services have different pricing models. Microsoft Dev Box is a consumption-
 Both services provide a range of features to support developers in their work. Microsoft Dev Box as well as GitHub Codespaces provide developers with a high level of flexibility in terms of the programming languages and frameworks they can use. Microsoft Dev Box is optimized for development with Microsoft tools, but it can also support a wide range of other programming languages and frameworks. GitHub Codespaces provides a wide range of pre-configured 
 
 
-
-
-**Note!** We created a java version 11 project and spring boot 2 because out of the box github codespaces does not support java 17 and the setup to make it work requires github actions and other configuration which are sometimes complex and not as easy as in the dev box where we would just start the project,
+**Note!** We created a java version 11 project and spring boot 2 because out of the box github codespaces does not support java 17 as default and the setup to make it work requires github actions and other configuration which are sometimes complex and not as easy as in the dev box where we would just start the project,
 
 **There are other differences too e.g in Microsoft Dev Box you could do a Unity project for games which would not be supported in github codespaces.**
-
-**Microsoft Dev Box and Github Codespaces general differences**
-
-(1) GitHub codespaces runs on Linux where as Microsoft Dev Box runs on Windows. 
-
-(2) Source Code Management on GitHub codespaces is supported only on github, in Microsoft Dev Box any version control system would do the job. 
-
-(3) GitHub codespaces supports workloads like Web Apps, APIs, Backends Microsoft Dev Box on the other hand any workload including desktop, games and much more 
-
-(4) The IT in GitHub CodeSpaces is managed by github.com team and Microsoft Dev Box by the Endpoint Manager & Microsoft Azure.
 
 
 **What is the best opion for you**  
