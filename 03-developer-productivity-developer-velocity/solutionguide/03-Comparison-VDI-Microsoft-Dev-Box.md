@@ -116,10 +116,9 @@ Once the required licensed is obtained, sing in to the Microsoft 365 Admin Cente
 - Cancel Windows 365 license, delete Azure resources created for AVD.
  
  
- **Notes & Guidance:**
+ ### Task 4: Compare key aspects of VDI solutions: Dev Box, AVD, Windows 365
  
- Accessibility: 
- 
+ **Accessibility:** 
  
  As you must have noticed, all three VDI technologies such as Windows 365, Azure Virtual Desktop, Microsoft Dev Box are cloud based personalized PCs that allow you to work from anywhere on any device as long as you have Internet access.
  
@@ -130,11 +129,10 @@ Developers can use these cloud PCs as a workstation that can be securely accesse
  
  ![image](../images/solution3/Picture3.jpg)
  
- Security: 
+ **Security:** 
  
  
  As mentioned before, Microsoft Dev Box is a Windows 365/Cloud PC that can be accessed from anywhere using a secure and encrypted connection which uses outbound port 443 that Azure Virtual Desktop technology is built on.
- 
  
 You can implement additional security measures since Microsoft Dev Box as well as other cloud-based PCs are natively joined to an Azure AD or Active Directory domain therefore can be securely managed by the organizations using Microsoft Endpoint Manager and device management platforms such as Intune to keep the dev boxes up to date to avoid exposing sensitive data. Dev boxes can be secured using Azure Conditional Access policies that would require users to connect from a complaint device, enable MFA and configure risk-based sign-in policies for the dev boxes that access sensitive source code or customer data.
  
@@ -146,8 +144,7 @@ You can implement additional security measures since Microsoft Dev Box as well a
   ![image](../images/solution3/Picture6.jpg)
  
  
- Cost:
- 
+ **Cost:**
  
  During the setup of each VDI solution, you saw that they are not billed in the same way. Microsoft Dev Box is a high-performance cloud-based workstation that is billed on the consumption-based model (Compute and Storage consumption) in similar way to AVD that requires more services to run whereas Windows 365 uses a fixed-price monthly service designed for simple usage and management for the end-users. 
  
@@ -170,11 +167,10 @@ You can implement additional security measures since Microsoft Dev Box as well a
  
  
  
- Flexibility:
+ **Flexibility:**
  
  
  When it comes to the flexibility and purpose of a traditional Virtual Desktop Infrastructure VDI, whether it is cloud-based such as Azure Virtual Desktop, or on-premises such as Remote Desktop Services, it is built mostly as a pool of machines that are intended to be shared by multiple users. These pools are managed by a team of IT admins, regularly patched, require additional configuration and maintenance and are intended to be a permanent cloud PC to perform specific tasks in a secure environment.
- 
  
 Microsoft Dev Box differs from the traditional VDI as its goal is to be a  ready-to-code developer workstation on demand that can be created and deleted fast by the Project Admins with the required tools using one of the pre-defined images or the image definition developed and maintained by the developers from the Azure Computer Gallery.
 
