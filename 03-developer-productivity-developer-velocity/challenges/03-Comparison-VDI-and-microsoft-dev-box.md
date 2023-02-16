@@ -40,6 +40,17 @@ After you complete this challenge, you will have a solid understanding about VDI
 - Install your applications of choice
 - Remove resources once you are done with testing 
 
+
+### Task : Compare key aspects of VDI solutions
+
+Now that you have gone through the installation and configuration of the VDI solutions, compare the key benefits that come from using Dev Box, Windows 365, AVD and focus on: 
+
+- Accessibility
+- Security
+- Cost
+- Flexibility
+
+
 ## Challenge Completed if
 
 Successful deployment of Windows 10 in the VDI solutions Windows 365 and AVD, understanding key benefits of cloud PC
