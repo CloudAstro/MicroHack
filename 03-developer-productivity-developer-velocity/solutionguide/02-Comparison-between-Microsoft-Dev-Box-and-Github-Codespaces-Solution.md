@@ -98,7 +98,7 @@ In the root level of the project create a Dockerfile and write the following cod
 
 Now create a `.devcontainer` folder and and add `devcontainer.json` & `Dockerfile`
 
-![image](../images/solution2/33.PNG)
+![image](../images/solution2/Capture33.PNG)
 
 - Inside the `devcontainer.json` file add the following configuration.
 
