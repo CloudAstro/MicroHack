@@ -134,7 +134,30 @@ Now open the Terminal and write `./mvnw spring-boot:run`  this should run the pr
 
 **If the Project runs, that's it! you are done!**
 
-_______________________________________________________________________________________________________________________________________________________________________
+
+### Task 5: Make a comparison between Microsoft Dev Box and Github Codespaces
+
+**Accessibility:**
+
+As you have noticed, both Microsoft Dev Box and GitHub Codespaces provide developers with accessibility to their development environments from any device with an internet connection. However, GitHub Codespaces is designed as a purely cloud-based service, which means that developers can access their development environments from anywhere in the world without the need for any local infrastructure. In contrast, Microsoft Dev Box is a cloud-based VDI solution that requires a cloud PC with needed tools to which developers can connect either through the web browser or secure RDP connection.
+
+
+**Security:**
+
+From what you saw, both services provide strong security features to protect developer code and data. Microsoft Dev Box is built on Azure Virtual Desktop technology and natively integrated into Azure AD, which provides several security features, such as network isolation and user authentication, MFA, Conditional Access Policies to ensure that the virtual desktop environment is secure. GitHub Codespaces is built on top of GitHub, which is known for its strong focus on security, and it provides several security features, such as encrypted traffic, continuous monitoring of security vulnerabilities and two-factor authentication, to ensure that developer code and data are secure.
+
+
+**Cost:**
+
+Both services have different pricing models. Microsoft Dev Box is a consumption-based solution, which means that users are charged based on the resources they use. The cost of using Microsoft Dev Box can vary depending on the amount of resources used and the length of a project but I can be significantly lower using for example Auto Shut down schedules and demoting the environment at the end of projects. GitHub Codespaces, on the other hand, is available as a monthly subscription service, which allows developers to pay for only what they need. The cost of GitHub Codespaces varies depending on the pricing tier you choose and you can set a maximum monthly cap for extra cost control.
+
+
+**Flexibility:**
+
+Both services provide a range of features to support developers in their work. Microsoft Dev Box as well as GitHub Codespaces provide developers with a high level of flexibility in terms of the programming languages and frameworks they can use. Microsoft Dev Box is optimized for development with Microsoft tools, but it can also support a wide range of other programming languages and frameworks. GitHub Codespaces provides a wide range of pre-configured 
+
+
+
 
 **Note!** We created a java version 11 project and spring boot 2 because out of the box github codespaces does not support java 17 and the setup to make it work requires github actions and other configuration which are sometimes complex and not as easy as in the dev box where we would just start the project,
 
