@@ -176,7 +176,7 @@ Microsoft Dev Box differs from the traditional VDI as its goal is to be a  ready
 
  
 
-  ![image](../images/solution3/Picture89.jpg)
+  ![image](../images/solution3/Picture9.jpg)
  
   ![image](../images/solution3/Picture10.jpg)
  
