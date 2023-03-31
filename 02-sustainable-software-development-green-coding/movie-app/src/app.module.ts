@@ -12,9 +12,9 @@ import { AppResolver } from './app.resolver';
       autoSchemaFile: true,
     }),
     AzureCosmosDbModule.forRoot({
-      dbName: 'MicroHackDB', //Database Name
-      endpoint: 'microhackdemo03.mongo.cosmos.azure.com', //Host
-      key: '9l7AzI4Pfz9IZ4emFn08qi4DNHulP5vtaaYsSACLXcBXad3QhyMcJLFkVt6JdlAVj5SyZUXhVdbiACDbpViv6g==', //Primary Password
+      dbName: process.env.AZURE_COSMOS_DB_NAME, //Database Name
+      endpoint: process.env.AZURE_COSMOS_DB_ENDPOINT, //Host
+      key: process.env.AZURE_COSMOS_DB_KEY, //Primary Password
     }),
   ],
   controllers: [AppController],
