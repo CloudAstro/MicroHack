@@ -35,7 +35,7 @@ az containerapp create `
   --name movieapp-frontend `
   --resource-group $RESOURCE_GROUP`
   --environment $CONTAINERAPPS_ENVIRONMENT`
-  --image "$ACR_NAME.azurecr.io/flightbooker-frontend:latest"`
+  --image "$ACR_NAME.azurecr.io/movie-app:v1"`
   --registry-server "$ACR_NAME.azurecr.io"`
   --registry-username $ACR_NAME `
   --registry-password $password `
