@@ -9,14 +9,13 @@ Azure Container Apps services enabled you to run microservices and containerized
 
 ## Challenge
 
-* Create a Container App for each location we have now virtual machines deployed
-* Image is pulled from the ACR
-* Setup environment variables for AZURE_COSMOS_DB_NAME, AZURE_COSMOS_DB_ENDPOINT, AZURE_COSMOS_DB_KEY
+* Adjust the Bicep and Github action to deploy the application to the Container Apps
 * Adjust Front Door service to point to new Container Apps
 
 ## Success Criteria
 
 * The application is deployed on the Container apps
+* The application can be deployed by GitHub actions
 * The application is still reachable
 
 ### Learning resources

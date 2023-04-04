@@ -2,9 +2,140 @@
 
 **[Home](../README.md)** - [Next Challenge Solution](./)
 
-## Task 1: Create Container Apps for each location we have now virtual machines deployed
+## Task 1: Adjust the Bicep and Github action to deploy the application to the Container Apps
 
-You can create a container app with the Azure portal or with the Azure CLI.
+You can create a container app with the Azure portal or with the Azure CLI. In our case we're going to adjust the Bicep code to deploy to the Container Apps.
+
+You need to create two resources per region:
+* Container Apps Environment
+
+      A Container Apps environment is a secure boundary around groups of container apps that share the same virtual network and write logs to the same logging destination.
+      Container Apps environments are fully managed where Azure handles OS upgrades, scale operations, failover procedures, and resource balancing.
+* Container App
+
+      Azure Container Apps manages the details of Kubernetes and container orchestration for you. Containers in Azure Container Apps can use any runtime, programming language, or development stack of your choice.
+
+Below you'll find one way of deploying both container apps environment and a container app associated with the environment. Note that it can be enabled/disabled via a boolean parameter.
+
+```
+//-------------------------//
+// Container Apps
+//-------------------------//
+
+resource containerAppEnvironment 'Microsoft.App/managedEnvironments@2022-10-01' = [for (location, i) in regions: if (containerAppEnabled) {
+  name: '${uniqueString(resourceGroup().id)}-containerAppEnv-${i}'
+  location: location
+  properties: {
+  }
+}]
+
+resource containerApp 'Microsoft.App/containerApps@2022-10-01' = [for (location, i) in regions: if (containerAppEnabled) {
+  name: '${uniqueString(resourceGroup().id)}-containerApp-${i}'
+  location: location
+  properties: {
+    managedEnvironmentId: containerAppEnvironment[i].id
+    configuration: {
+      secrets: [
+        {
+          name: 'containerregistrypasswordref'
+          value: registry.listCredentials().passwords[0].value
+        }
+        {
+          name: 'cosmosDbKey'
+          value: cosmosDbAccount.listKeys().primaryMasterKey
+        }
+      ]
+      ingress: {
+        external: true
+        targetPort: 80
+      }
+      registries: [
+        {
+          server: '${acrName}.azurecr.io'
+          username: acrName
+          passwordSecretRef: 'containerregistrypasswordref'
+        }
+      ]
+    }
+    template: {
+      containers: [
+        {
+          image: '${acrName}.azurecr.io/${containerName}'
+          name: 'movieDB-frontend'
+          resources: {
+            cpu: '1.0'
+            memory: '4.0Gi'
+          }
+          env: [
+            {
+              name: 'AZURE_COSMOS_DB_NAME'
+              value: cosmosDbAccount.name
+            }
+            {
+              name: 'AZURE_COSMOS_DB_ENDPOINT'
+              value: '${cosmosDbAccount.name}.mongo.cosmos.azure.com'
+            }
+            {
+              name: 'AZURE_COSMOS_DB_KEY'
+              secretRef: 'cosmosDbKey'
+            }
+          ]
+        }
+      ]
+      scale: {
+        minReplicas: 1
+        maxReplicas: 1
+      }
+    }
+  }
+}]
+```
+
+Adjust the Github action.
+```
+name: Deploy to Azure
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  RESOURCE_GROUP: microhack-demo-rg
+  ACR_NAME: acr12300
+  CONTAINER_NAME: movie-app:v1
+  FIRST_REGION: northeurope
+  SECOND_REGION: westeurope
+  DeployVMS: false
+  DeployCONTAINERAPPS: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
+
+    - name: Login to Azure
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Deploy Bicep template
+      uses: azure/arm-deploy@v1
+      id: deployment
+      with:
+        resourceGroupName: ${{ env.RESOURCE_GROUP }}
+        template: ./bicep/main.bicep
+        # Here we pass the template parameters to the deployment
+        parameters: >
+          firstRegion=${{ env.FIRST_REGION }} secondRegion=${{ env.SECOND_REGION }} acrName=${{ env.ACR_NAME }} containerName=${{ env.CONTAINER_NAME }} vmEnabled=${{ env.DeployVMS }} containerAppEnabled=${{ env.DeployCONTAINERAPPS }}
+```
+
+As you can see the code required to deploy the application to Azure Container Apps compared to virtual machines it is significantly lower, less complex and less error prone.
+
+
+Below you'll find the manual way to create those resources.
 
 Before you can deploy the movie-app you need to take some additional steps since the movie-app requires a connection to the Cosmos MongoDB database. This will be handled via environment variables. These values are needed:
 AZURE_COSMOS_DB_NAME
@@ -51,3 +182,5 @@ $url = $(az containerapp show --name api --resource-group $RESOURCE_GROUP --quer
 Remember this URL as we need it later.
 
 ## Task 2: Adjust Front Door service to point to new Container Apps
+
+To complete the environment you have t adjust the FrontDoor endpoints to the new Container apps solution.

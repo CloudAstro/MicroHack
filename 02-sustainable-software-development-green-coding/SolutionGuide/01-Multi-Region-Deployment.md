@@ -102,6 +102,8 @@ env:
   CONTAINER_NAME: movie-app:v1
   FIRST_REGION: northeurope
   SECOND_REGION: westeurope
+  DeployVMS: true
+  DeployCONTAINERAPPS: false
 
 jobs:
   deploy:
@@ -123,7 +125,7 @@ jobs:
         template: ./bicep/main.bicep
         # Here we pass the template parameters to the deployment
         parameters: >
-          firstRegion=${{ env.FIRST_REGION }} secondRegion=${{ env.SECOND_REGION }} acrName=${{ env.ACR_NAME }} containerName=${{ env.CONTAINER_NAME }}
+          firstRegion=${{ env.FIRST_REGION }} secondRegion=${{ env.SECOND_REGION }} acrName=${{ env.ACR_NAME }} containerName=${{ env.CONTAINER_NAME }} vmEnabled=${{ env.DeployVMS }} containerAppEnabled=${{ env.DeployCONTAINERAPPS }}
 ```
 
 ## Task 5: Setup Azure FrontDoor
