@@ -187,17 +187,17 @@ To complete the environment you have t adjust the FrontDoor endpoints to the new
 
 1. Create a new origin group
 
-![frontdoor-origin-group](../Images/frontdoor07.png)
-![frontdoor-origin-group-create](../Images/frontdoor08.png)
+![frontdoor-origin-group](../images/frontdoor07.png)
+![frontdoor-origin-group-create](../images/frontdoor08.png)
 
 2. Create new origins pointing to the public FQDN of the Container Apps
 
-![frontdoor-origin](../Images/frontdoor09.png)
+![frontdoor-origin](../images/frontdoor09.png)
 
 3. Got to the <b>Front Door manager</b> and edit the existing group
-![frontdoor-manager](../Images/frontdoor10.png)
+![frontdoor-manager](../images/frontdoor10.png)
 
 4. Update the origin group and point it to the previously created origin group
-![frontdoor-update-route](../Images/frontdoor11.png)
+![frontdoor-update-route](../images/frontdoor11.png)
 
 5. Now the application should be available through Front Door but running on the Container apps environment.

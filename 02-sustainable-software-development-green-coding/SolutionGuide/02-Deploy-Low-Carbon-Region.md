@@ -14,13 +14,13 @@ dotnet run
 ```
 Check for the URL in the logs and open the application in the browser. You will get a 404 error to fix that append /swagger to the URL and you should see the Swagger UI.
 
-![Carbon Aware WebApi](../Images/carbon-aware-sdk1.png)
+![Carbon Aware WebApi](../images/carbon-aware-sdk1.png)
 
 Open up the first entry and add uksouth, francecentral into the locations and click Execute
-![Carbon Aware WebApi](../Images/carbon-aware-sdk2.png)
+![Carbon Aware WebApi](../images/carbon-aware-sdk2.png)
 
 The result will show you the region with the least amount of carbon emission
-![Carbon Aware WebApi](../Images/carbon-aware-sdk3.png)
+![Carbon Aware WebApi](../images/carbon-aware-sdk3.png)
 
 
 ## Task 2: Extend the Github action to deploy the application to a low carbon region
