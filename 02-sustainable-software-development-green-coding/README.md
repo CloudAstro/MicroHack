@@ -51,7 +51,7 @@ As the last step you're going to move the application away from the traditional 
 * Challenge 1: **[Multi-region deployment for fast region switches](Challenges/01-Multi-Region-Deployment.md)**
 * Challenge 2: **[Deploy to low carbon region](Challenges/02-Deploy-Low-Carbon-Region.md)**
 * Challenge 3: **[Improve API Efficiency](Challenges/03-Improve-API-Efficiency.md)**
-* Challenge 4: **[Optimize for async access patterns](Challenges/04-Optimze-for-aync-access-patterns.md)**
+* Challenge 4: **[Optimize for async access patterns](Challenges/04-Optimze-for-async-access-patterns.md)**
 * Challenge 5: **[Move to PaaS services](Challenges/05-Move-to-PaaS-Services.md)**
 
 ## Prerequisites
