@@ -6,7 +6,7 @@ Switching from a REST API to a GraphQL API can provide significant benefits in t
 
 In this challenge, we will explore switching to a GraphQL API with ease using nestjs.
 
-[Solution for this challenge](../SolutionGuide/3.-Improve-API-Efficiency-solution.md)
+[Solution for this challenge](../SolutionGuide/03-Improve-API-Efficiency-solution.md)
 
 ## Goal 
 
