@@ -9,7 +9,7 @@ One such tool is Azure Service Bus, which provides a message queuing service tha
 In this context, integrating with Azure Service Bus can help to optimize applications and improve their overall performance and reliability.
 
 
-[Solution for this challenge](../solutionguide/3.-Improve-API-Efficiency-solution.md)
+[Solution for this challenge](../SolutionGuide/04-Optimize-for-async-access-patterns-solution.md)
 
 ## Goal 
 
