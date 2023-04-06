@@ -39,4 +39,4 @@ The emitEvent() method from the MessageQueueService is used to send events to th
 
 Make sure to replace 'item.created', 'item.updated', and 'item.deleted' with the actual event names that you are emitting in your movies service. Also, update the handling logic inside the event handler methods according to your application's requirements. The ItemCreatedEvent, ItemUpdatedEvent, and ItemDeletedEvent are custom event classes that you need to define based on your application's data model and event payload. Additionally, you'll need to configure your Azure Service Bus namespace and connection settings in your NestJS application's configuration or environment variables, and set up the appropriate connection and subscription to listen for events. The exact implementation may vary based on the Azure Service Bus library or package you are using in your application.
 
-![image](../images/solution4/img5.png)
+![image](../images/solution4/img6.png)
