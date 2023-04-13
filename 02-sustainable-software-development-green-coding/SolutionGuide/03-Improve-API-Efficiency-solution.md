@@ -25,12 +25,12 @@ Open `app.module.ts` file and add the following code:
     
  Your code should afterwards look like the image below
     
- ![image](../images/solution3/img2.png)
+ ![image](../images/solution3/img12.png)
     
     
  In order to have nestjs auto-generate the schema we need to annotate each field in our entity (in this example "Movie") with a `field()` annotation.
     
- ![image](../images/solution3/img3.png)
+ ![image](../images/solution3/img13.png)
 
 
 ### Task 3: Create resolvers
