@@ -58,7 +58,8 @@ Now you can get rid of the the items controller file and also update the `items.
 Then add the the resolver in the providers list. In the end the items module should look like below:
 
     @Module({
-    providers: [ItemsService, ItemsResolver],
+    imports: [DatabaseModule],
+    providers: [ItemsService, ...ItemsProviders, ItemsResolver],
     })
     export class ItemsModule {}
 
