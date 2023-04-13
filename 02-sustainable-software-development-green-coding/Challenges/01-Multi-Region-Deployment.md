@@ -18,12 +18,14 @@ Lastly we are using Azure Front Door as our entrypoint to the application which 
 * Create Azure Cosmos DB MongoDB with geo-replication and multi-write enabled
 * Create an Github action workflow that deploys the containerized application to Azure Virtual machines in multiple regions with bicep
 * Create Azure Front Door service to distribute incoming requests
+* Import demonstration dataset to the MongoDB
 
 ## Success Criteria
 
 * The application is running on the virtual machines
 * The Web API is accessible through the Front Door public endpoint
 * You can add additional regions via the Github action workflow
+* You can retrieve the application data on the /items/findAll REST endpoint
 
 ### Learning resources
 

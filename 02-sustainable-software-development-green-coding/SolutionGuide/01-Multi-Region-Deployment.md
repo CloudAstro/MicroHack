@@ -128,7 +128,7 @@ jobs:
           firstRegion=${{ env.FIRST_REGION }} secondRegion=${{ env.SECOND_REGION }} acrName=${{ env.ACR_NAME }} containerName=${{ env.CONTAINER_NAME }} vmEnabled=${{ env.DeployVMS }} containerAppEnabled=${{ env.DeployCONTAINERAPPS }}
 ```
 
-## Task 5: Setup Azure FrontDoor
+## Task 4: Setup Azure FrontDoor
 
 A quickstart guide for setting up Azure Front Door with Azure Portal, CLI, PowerShell or Bicep for your App Service you can find here under the "Create a Front Door for your application" section.
 
@@ -173,3 +173,8 @@ Add two origins pointing to the public IPs of the created VMs earlier:
 8. Lastly you can go on <b>Review + Create</b> and then <b>Create</b> to deploy the Azure Front Door profile.
 
 When all steps are completed and the Azure Front Door profile is deployed you can access it and will find the endpoint hostname in the overview section. If you copy and past the URL into your browser you can now access the frontend through Azure Front Door endpoint.
+
+## Task 5: Setup Azure FrontDoor
+
+The application has been prepared with a special endpoint to import some default data to the database.
+To import the data access the application via $HOST/items/create to create the demonstration entries in the database
