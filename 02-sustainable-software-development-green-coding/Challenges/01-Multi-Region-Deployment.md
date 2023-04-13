@@ -21,7 +21,7 @@ Lastly we are using Azure Front Door as our entrypoint to the application which 
 
 ## Success Criteria
 
-* The application is running in the virtual machines
+* The application is running on the virtual machines
 * The Web API is accessible through the Front Door public endpoint
 * You can add additional regions via the Github action workflow
 
