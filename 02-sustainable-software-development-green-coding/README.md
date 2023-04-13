@@ -39,7 +39,7 @@ This hack covers a first introduction to apply those rules to an existing applic
 
 ## Learning Objectives
 
-In this hack you will learn how to set up a containerized regional-available movie API application on traditional Azure Virtual machines while going through the hack you will apply two optimizations to the application and lear about different patterns.
+In this hack you will learn how to set up a containerized regional-available ToDo API application on traditional Azure Virtual machines while going through the hack you will apply two optimizations to the application and lear about different patterns.
 
 You will also use the Carbon Aware SDK to run your application in a region consuming the lowest carbon emissions this will help your applications footprint.
 

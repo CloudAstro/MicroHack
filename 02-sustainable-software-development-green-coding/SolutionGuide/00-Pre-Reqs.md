@@ -34,10 +34,10 @@ To better work with the further Challenges create a new GitHub repository in you
 
 ## Task 4: Build the Container and push it to the container registry
 
-To build the container image you can either build the container locally and push it to the Container registry or you can use the Container registry to do that for you. We're using the later solution, run the following command it the movie-app folder:
-You need to run in the movie-app application folder:
+To build the container image you can either build the container locally and push it to the Container registry or you can use the Container registry to do that for you. We're using the later solution, run the following command it the todo-app folder:
+You need to run in the todo-app application folder:
 ```
 az acr build `
 --registry $ACR_NAME `
---image movie-app:v1 .
+--image todo-app:v1 .
 ```

@@ -42,7 +42,7 @@ runcmd:
 - systemctl start docker
 - docker login ${acrName}.azurecr.io -u ${acrName} -p ${acrPassword}
 - docker pull ${acrName}.azurecr.io/${containerName}
-- docker run -d -p 80:3000 --restart=always ${acrName}.azurecr.io/${containerName} -e AZURE_COSMOS_DB_NAME='movieDb' -e AZURE_COSMOS_DB_ENDPOINT='${cosmosEndpoint}' -e AZURE_COSMOS_DB_KEY='${cosmosKey}'
+- docker run -d -p 80:3000 --restart=always ${acrName}.azurecr.io/${containerName} -e DATABASE_URL='${cosmosEndpoint}''
 ```
 
 ## Task 2: Creating a Cosmos DB and database
@@ -62,7 +62,7 @@ After the Cosmos DB is created we need to create a dedicated MongoDB database
 
 az cosmosdb mongodb database create `
   --account-name $COSMOSDB_NAME
-  --name MovieDb
+  --name test
 
 The creation of these resources is also part of the bicep deployment
 
@@ -99,7 +99,7 @@ on:
 env:
   RESOURCE_GROUP: microhack-demo-rg
   ACR_NAME: acr12300
-  CONTAINER_NAME: movie-app:v1
+  CONTAINER_NAME: todo-app:v1
   FIRST_REGION: northeurope
   SECOND_REGION: westeurope
   DeployVMS: true

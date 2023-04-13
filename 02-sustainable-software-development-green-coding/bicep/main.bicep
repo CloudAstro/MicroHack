@@ -55,16 +55,6 @@ resource cosmosDbAccount 'Microsoft.DocumentDB/databaseAccounts@2022-11-15' = {
   }
 }
 
-resource mongoDatabase 'Microsoft.DocumentDB/databaseAccounts/mongodbDatabases@2022-11-15' = {
-  parent: cosmosDbAccount
-  name: 'movieDb'
-  properties: {
-    resource: {
-      id: 'movieDb'
-    }
-  }
-}
-
 //-------------------------//
 // Virtual machines
 //-------------------------//
@@ -105,8 +95,8 @@ resource containerApp 'Microsoft.App/containerApps@2022-10-01' = [for (location,
           value: registry.listCredentials().passwords[0].value
         }
         {
-          name: 'cosmosDbKey'
-          value: cosmosDbAccount.listKeys().primaryMasterKey
+          name: 'cosmosDbUrl'
+          value: cosmosDbAccount.listConnectionStrings().connectionStrings[0].connectionString
         }
       ]
       ingress: {
@@ -125,23 +115,15 @@ resource containerApp 'Microsoft.App/containerApps@2022-10-01' = [for (location,
       containers: [
         {
           image: '${acrName}.azurecr.io/${containerName}'
-          name: 'movieDB-frontend'
+          name: 'todo-app'
           resources: {
             cpu: '1.0'
             memory: '4.0Gi'
           }
           env: [
             {
-              name: 'AZURE_COSMOS_DB_NAME'
-              value: cosmosDbAccount.name
-            }
-            {
-              name: 'AZURE_COSMOS_DB_ENDPOINT'
-              value: '${cosmosDbAccount.name}.mongo.cosmos.azure.com'
-            }
-            {
-              name: 'AZURE_COSMOS_DB_KEY'
-              secretRef: 'cosmosDbKey'
+              name: 'DATABASE_URL'
+              secretRef: 'cosmosDbUrl'
             }
           ]
         }

@@ -37,7 +37,7 @@ on: [workflow_dispatch]
 env:
   RESOURCE_GROUP: microhack-demo-rg
   ACR_NAME: acr12300
-  CONTAINER_NAME: movie-app:v1
+  CONTAINER_NAME: todo-app:v1
   FIRST_REGION: northeurope
   SECOND_REGION: westeurope
 

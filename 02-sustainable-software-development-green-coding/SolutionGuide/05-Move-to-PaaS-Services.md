@@ -41,8 +41,8 @@ resource containerApp 'Microsoft.App/containerApps@2022-10-01' = [for (location,
           value: registry.listCredentials().passwords[0].value
         }
         {
-          name: 'cosmosDbKey'
-          value: cosmosDbAccount.listKeys().primaryMasterKey
+          name: 'cosmosDbUrl'
+          value: cosmosDbAccount.listConnectionStrings().connectionStrings[0].connectionString
         }
       ]
       ingress: {
@@ -61,23 +61,15 @@ resource containerApp 'Microsoft.App/containerApps@2022-10-01' = [for (location,
       containers: [
         {
           image: '${acrName}.azurecr.io/${containerName}'
-          name: 'movieDB-frontend'
+          name: 'todo-app'
           resources: {
             cpu: '1.0'
             memory: '4.0Gi'
           }
           env: [
             {
-              name: 'AZURE_COSMOS_DB_NAME'
-              value: cosmosDbAccount.name
-            }
-            {
-              name: 'AZURE_COSMOS_DB_ENDPOINT'
-              value: '${cosmosDbAccount.name}.mongo.cosmos.azure.com'
-            }
-            {
-              name: 'AZURE_COSMOS_DB_KEY'
-              secretRef: 'cosmosDbKey'
+              name: 'DATABASE_URL'
+              secretRef: 'cosmosDbUrl'
             }
           ]
         }
@@ -103,7 +95,7 @@ on:
 env:
   RESOURCE_GROUP: microhack-demo-rg
   ACR_NAME: acr12300
-  CONTAINER_NAME: movie-app:v1
+  CONTAINER_NAME: todo-app:v1
   FIRST_REGION: northeurope
   SECOND_REGION: westeurope
   DeployVMS: false
@@ -137,10 +129,8 @@ As you can see the code required to deploy the application to Azure Container Ap
 
 Below you'll find the manual way to create those resources.
 
-Before you can deploy the movie-app you need to take some additional steps since the movie-app requires a connection to the Cosmos MongoDB database. This will be handled via environment variables. These values are needed:
-AZURE_COSMOS_DB_NAME
-AZURE_COSMOS_DB_ENDPOINT
-AZURE_COSMOS_DB_KEY
+Before you can deploy the todo-app you need to take some additional steps since the todo-app requires a connection to the Cosmos MongoDB database. This will be handled via environment variables. These values are needed:
+DATABASE_URL
 
 You can retrieve them from the Cosmos DB.
 
@@ -160,17 +150,17 @@ To be able to pull the container image from the ACR we need to provide the passw
 $password=$(az acr credential show --name $ACR_NAME --query 'passwords[0].value' -o tsv)
 ```
 
-For the movie-app your CLI code should look something like this:
+For the todo-app your CLI code should look something like this:
 ```
 az containerapp create `
-  --name movieapp-frontend `
+  --name todo-app `
   --resource-group $RESOURCE_GROUP`
   --environment $CONTAINERAPPS_ENVIRONMENT`
-  --image "$ACR_NAME.azurecr.io/movie-app:v1"`
+  --image "$ACR_NAME.azurecr.io/todo-app:v1"`
   --registry-server "$ACR_NAME.azurecr.io"`
   --registry-username $ACR_NAME `
   --registry-password $password `
-  --env-vars AZURE_COSMOS_DB_NAME= AZURE_COSMOS_DB_ENDPOINT= AZURE_COSMOS_DB_KEY=`
+  --env-vars DATABASE_URL=`
   --target-port 80`
   --ingress 'external' `
   --query properties.configuration.ingress.fqdn

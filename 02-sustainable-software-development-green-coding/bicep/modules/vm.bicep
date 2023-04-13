@@ -65,7 +65,7 @@ runcmd:
 - systemctl start docker
 - docker login ${acrName}.azurecr.io -u ${acrName} -p ${acrPassword}
 - docker pull ${acrName}.azurecr.io/${containerName}
-- docker run -d -p 80:3000 --restart=always ${acrName}.azurecr.io/${containerName} -e AZURE_COSMOS_DB_NAME='movieDb' -e AZURE_COSMOS_DB_ENDPOINT='${cosmosEndpoint}' -e AZURE_COSMOS_DB_KEY='${cosmosKey}'
+- docker run -d -p 80:3000 --restart=always ${acrName}.azurecr.io/${containerName} -e DATABASE_URL='${cosmosEndpoint}''
 '''
 resource cosmosDb 'Microsoft.DocumentDB/databaseAccounts@2022-11-15' existing = {
   name: cosmosDbName
@@ -75,9 +75,9 @@ var cloudInitParams = {
   acrName: acrName
   acrPassword: acrPassword
   containerName: containerName
-  cosmosEndpoint: '${cosmosDb.name}.mongo.cosmos.azure.com'
-  cosmosKey: cosmosDb.listKeys().primaryMasterKey
+  cosmosEndpoint: cosmosDb.listConnectionStrings().connectionStrings[0].connectionString
 }
+
 var cloudInitFormated = reduce(
   items(cloudInitParams),
   { value: cloudInit },

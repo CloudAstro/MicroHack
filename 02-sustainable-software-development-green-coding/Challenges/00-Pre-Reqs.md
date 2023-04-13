@@ -10,7 +10,7 @@ The challenges will be to setup the basic Azure resources we need to get started
 
 ## Architecture
 
-To have a reliable scenario, we will create a simple movie API application that can display articles from a CosmosDB database. The application should be available across multiple Azure regions and should include selected regions with the lowest carbon footprint.
+To have a reliable scenario, we will create a simple ToDo API application that can display articles from a CosmosDB database. The application should be available across multiple Azure regions and should include selected regions with the lowest carbon footprint.
 
 Below you can find the architecture diagrams of the different application stages we're going to build.
 We're starting with a scenario that is based on virtual machines and evolve to a solution with Container apps.
