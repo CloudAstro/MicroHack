@@ -24,21 +24,21 @@ Open the nestjs app and in your terminal on the root folder start by installing 
 
 In the `app.module` folder add the MessageQueue as a provider first so you can use it in ur app.
 
-  @Module({
-  imports: [other imports],
-  controllers: [AppController],
-  providers: [
-  AppService,
-  {
-  provide: 'MessageQueue',
-  useFactory: () => {
-  const connectionString = 'Endpoint=sb://<your-service-bus>.servicebus.windows.net/;SharedAccessKeyName=<your-access-key-name>;SharedAccessKey=<your-access-key>';
-  return new MessageQueue(connectionString);
-  },
-  },
-  ],
-  })
-  export class AppModule {}
+   @Module({
+   imports: [other imports],
+   controllers: [AppController],
+   providers: [
+   AppService,
+   {
+   provide: 'MessageQueue',
+   useFactory: () => {
+   const connectionString = 'Endpoint=sb://<your-service-bus>.servicebus.windows.net/;SharedAccessKeyName=<your-access-key-name>;SharedAccessKey=<your-access-key>';
+   return new MessageQueue(connectionString);
+   },
+   },
+   ],
+   })
+   export class AppModule {}
 
  ![image](../images/solution4/img3.png)
 
