@@ -1,6 +1,6 @@
 # Challenge 5: Move the application to a PaaS service
 
-[Previous Challenge](./03-Optimze-for-aync-access-patterns.md)(./03-Optimze-for-aync-access-patterns.md) - **[Home](../README.md)**
+[Previous Challenge](./04-Optimize-for-async-access-patterns.md) - **[Home](../README.md)**
 
 ## Introduction
 
