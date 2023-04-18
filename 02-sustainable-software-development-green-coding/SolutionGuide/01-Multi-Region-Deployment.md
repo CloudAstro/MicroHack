@@ -1,6 +1,6 @@
 # Challenge 1: Multi-regional deployment for fast region switches
 
-**[Home](../README.md)** - [Next Challenge Solution](./02-Deploy-Low-Carbon-Region.md)
+[Previous Challenge](./00-Pre-Reqs.md) - **[Home](../README.md)** - [Next Challenge Solution](./02-Deploy-Low-Carbon-Region.md)
 
 ## Task 1: Create an automated deployment for the virtual machines
 
