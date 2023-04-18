@@ -1,6 +1,6 @@
 # Challenge 1: Multi-region deployment for fast region switches
 
-[Previous Challenge] - **[Home](../README.md)** - **[Next Challenge](./02-Deploy-Low-Carbon-Region.md)
+[Previous Challenge](./00-Pre-Reqs.md) - **[Home](../README.md)** - **[Next Challenge](./02-Deploy-Low-Carbon-Region.md)
 
 ## Introduction
 
