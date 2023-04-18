@@ -51,7 +51,7 @@ As the last step you're going to move the application away from the traditional 
 * Challenge 1: **[Multi-region deployment for fast region switches](Challenges/01-Multi-Region-Deployment.md)**
 * Challenge 2: **[Deploy to low carbon region](Challenges/02-Deploy-Low-Carbon-Region.md)**
 * Challenge 3: **[Improve API Efficiency](Challenges/03-Improve-API-Efficiency.md)**
-* Challenge 4: **[Optimize for async access patterns](Challenges/04-Optimize-for-async-access-patterns.md)**
+* Challenge 4: **[Optimize for async access patterns]Challenges/04-Optimize-for-async-access-patterns.md)**
 * Challenge 5: **[Move to PaaS services](Challenges/05-Move-to-PaaS-Services.md)**
 
 ## Prerequisites
@@ -66,8 +66,8 @@ As the last step you're going to move the application away from the traditional 
 * Challenge 0: **[Setup Environment](SolutionGuide/00-Pre-Reqs.md)**
 * Challenge 1: **[Multi-region deployment for fast region switches](SolutionGuide/01-Multi-Region-Deployment.md)**
 * Challenge 2: **[Deploy to low carbon region](SolutionGuide/02-Deploy-Low-Carbon-Region.md)**
-* Challenge 3: **[Improve API Efficiency](SolutionGuide/03-Improve-API-Efficiency-solution.md)**
-* Challenge 4: **[Optimize for async access patterns](SolutionGuide/04-Optimize-for-async-access-patterns-solution.md)**
+* Challenge 3: **[Improve API Efficiency](SolutionGuide/03-Improve-API-Efficiency.md)**
+* Challenge 4: **[Optimize for async access patterns](SolutionGuide/04-Optimze-for-aync-access-patterns.md)**
 * Challenge 5: **[Move to PaaS services](SolutionGuide/05-Move-to-PaaS-Services.md)**
 
 ## Contributor
