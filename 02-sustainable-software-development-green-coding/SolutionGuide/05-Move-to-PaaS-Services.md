@@ -1,6 +1,6 @@
 # Challenge 5: Move the application to a PaaS service
 
-**[Home](../README.md)** - [Next Challenge Solution](./)
+[Previous Challenge Solution](./04-Optimize-for-async-access-patterns-solution.md) - **[Home](../README.md)**
 
 ## Task 1: Adjust the Bicep and Github action to deploy the application to the Container Apps
 
