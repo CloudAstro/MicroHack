@@ -1,6 +1,6 @@
 # Challenge 0: Getting started and setting up the environment
 
-**[Home](../README.md)** - [Challenge One](./00-Getting-started.md)
+**[Home](../README.md)** - [Challenge One](./01-Multi-Region-Deployment.md)
 
 ## Introduction
 
