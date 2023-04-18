@@ -1,6 +1,6 @@
 # Challenge 2: Deploy to low carbon region
 
-[Previous Challenge](./01-Multi-Region-Deployment.md) - **[Home](../README.md)** - **[Next Challenge](./03-Improve-API-Efficiency.md)**
+[Previous Challenge](./01-Multi-Region-Deployment.md) - **[Home](../README.md)** - [Next Challenge](./03-Improve-API-Efficiency.md)
 
 ## Introduction
 
