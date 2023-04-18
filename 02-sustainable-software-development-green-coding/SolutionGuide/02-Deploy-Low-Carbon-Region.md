@@ -1,6 +1,6 @@
 # Challenge 2: Deploy to low Carbon region
 
-[Previous Challenge Solution](./01-Multi-Region-Deployment.md) - **[Home](../README.md)** - [Next Challenge Solution](./03-Improve-API-Efficiency-solution.md)**
+[Previous Challenge Solution](./01-Multi-Region-Deployment.md) - **[Home](../README.md)** - [Next Challenge Solution](./03-Improve-API-Efficiency-solution.md)
 
 ## Task 1: Use Carbon Aware SDK to determine low carbon region
 
