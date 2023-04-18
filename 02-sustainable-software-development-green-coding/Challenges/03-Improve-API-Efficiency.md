@@ -1,5 +1,8 @@
 # Challenge 3 - Improve API efficiency
 
+[Previous Challenge](./02-Deploy-Low-Carbon-Region.md) - **[Home](../README.md)** - **[Next Challenge](./04-Optimize-for-async-access-patterns.md)**
+
+
 ## Introduction
 
 Switching from a REST API to a GraphQL API can provide significant benefits in terms of CPU and memory usage. GraphQL's query optimization and selective field retrieval can greatly reduce the amount of data retrieved from a server, resulting in faster response times and lower resource consumption. 
