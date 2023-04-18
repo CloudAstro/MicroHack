@@ -1,5 +1,7 @@
 # Challenge 3: Improve API efficiency
 
+[Previous Challenge Solution](./02-Deploy-Low-Carbon-Region.md) - **[Home](../README.md)** - [Next Challenge Solution](./04-Optimize-for-async-access-patterns-solution.md)
+
 Duration: 50-60 Min
 
 ### Task 1: Install the necessary dependencies
