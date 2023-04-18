@@ -1,4 +1,4 @@
-# Solution 3 -Improve API efficiency
+# Challenge 3: Improve API efficiency
 
 Duration: 50-60 Min
 
