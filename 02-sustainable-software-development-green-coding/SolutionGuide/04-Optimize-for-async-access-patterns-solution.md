@@ -1,5 +1,8 @@
 # Challenge 4: Optimize-for-async-access-patterns
 
+[Previous Challenge Solution](./03-Improve-API-Efficiency-solution.md) - **[Home](../README.md)** - [Next Challenge Solution](./05-Move-to-PaaS-Services.md)
+
+
 Duration: 50-60 Min
 
 ### Task 1: Configure Azure Service Bus
